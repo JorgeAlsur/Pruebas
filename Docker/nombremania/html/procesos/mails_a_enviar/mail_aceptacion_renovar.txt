@@ -1,0 +1,32 @@
+#############################################################################################
+#este es el mail que se envia al aceptar el pago de renovaciones
+#las variables son :
+#nombre  = nombre del cliente
+#dominios = listado de los dominios del cliente.
+#importe =  importe del pago a realizar
+#id_cliente = id del cliente en base de datos
+#saldo = saldo en la cuenta
+#link = enlace de la pagina donde debe realizar el pago
+#############################################################################################
+From=registros@nombremania.com
+To={email_cliente}
+Subject=Nombremania - Registro de dominios
+
+Estimado/a {first_name} {last_name}
+
+Ha sido procesada con exito tu solicitud de renovacion:
+
+{domain}
+
+La nueva fecha de vencimiento se vera reflejada en breve.
+
+Gracias por seguir confiando en NombreMania.
+
+Dpto. de registros
+NombreMania.com
+registros@nombremania.com
+
+
+
+Tildes eliminadas intencionadamente. 
+

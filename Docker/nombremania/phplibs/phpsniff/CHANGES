@@ -1,0 +1,28 @@
+2002.01.02; version 2.0.6
+rraymond : changed license from GPL to LGPL
+
+2001.12.21; version 2.0.5a
+rraymond : fixed undeclared constants in check cookie routine
+
+2001.12.20; version 2.0.5
+rraymond : added support for Windows XP
+rraymond : fixed some old Windows 98 version 9x 4.90 detection problems
+rraymond : added Windows XP HTTP_USER_AGENT to user_agent.inc
+
+2001.12.17; version 2.0.4
+rraymond : added browser_is() method
+rraymond : added language_is() method
+rraymond : added get_property() alias for property() method
+rraymond : added gecko property; reports mozilla build number (YYYYMMDD)
+rraymond : added _browser_search_regex class var
+rraymond : added _language_search_regex class var
+rraymond : updated demo to use new methods
+
+
+2001.12.13; version 2.0.3
+rraymond : initialized variables
+rraymond : fixed undeclared constants
+rraymond : added new property long_name
+         : $client->property('long_name');
+rraymond : updated demo to display new long_name property
+

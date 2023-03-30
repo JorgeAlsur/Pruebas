@@ -1,0 +1,230 @@
+<html><!-- #BeginTemplate "/Templates/nm2_demo_clientes.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Suportal.com</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/Templates/nm2_base_registro.css" type="text/css">
+<script language="JavaScript">
+<!--
+
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</script>
+</head>
+<body bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" width="627">
+  <tr> 
+    <td><img src="/images/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="611" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="4" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img name="superior" src="/images/superior.gif" width="627" height="41" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/images/izqui1.gif"><img name="izqui1" src="/images/izqui1.gif" width="12" height="5" border="0"></td>
+    <td rowspan="2" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="12" height="100%">
+        <tr>
+          <td align="center"><!-- #BeginEditable "contenido" -->
+      <form method=post action="">
+        <input type=hidden name=action value={{action}}>
+        <table border=0 cellpadding=2 cellspacing=1 width="520" bgcolor="#ffffff">
+          <tr> 
+            <td align=left colspan="2" class="titu_pags"><b><span class="titu_pags_previo">{{reg_text}} 
+              de Dominio</span></b><br>
+              VERIFICACION DEFINITIVA DE REGISTRO</td>
+          </tr>
+          <tr> 
+            <td align=left colspan="2" class="body_10"><img src="/imagenes/spacer.gif" width="4" height="5"></td>
+          </tr>
+          <tr> 
+            <td align=left colspan="2" class="body_10"> 
+              <table border=0 width=100% cellpadding="2" cellspacing="1" dwcopytype="CopyTableRow">
+                <tr> 
+                  <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Dominios 
+                    Validos:</b></td>
+                  <td align=left class="td_form_valor"><b class="matches"><font color="#000066">{{domains}}</font></b></td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150">Dominios 
+                    con errores:</td>
+                  <td align=left class="td_form_valor"><b class="body_9">{{bad_domains}}</b></td>
+                </tr>
+                <tr align="center"> 
+                  <td colspan="2"><img src="/imagenes/spacer.gif" width="6" height="6"></td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150">Servicio 
+                    contratado:</td>
+                  <td align=left class="td_form_valor"><span class="body_9">{{nm_registro_tipo_text}}</span></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150">Periodo 
+                    del registro:</td>
+                  <td align=left class="td_form_valor"> <span class="body_9">{{period_text}} 
+                    </span> </td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150" height="14">Basado 
+                    en Perfi:</td>
+                  <td align=left class="td_form_valor" height="14"> <span class="body_9">{{reg_profile}}</span> 
+                  </td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150">Tipo:</td>
+                  <td align=left class="td_form_valor"> <span class="body_9">{{reg_type_text}}</span> 
+                  </td>
+                </tr>
+                <tr align="center"> 
+                  <td colspan="2"><img src="/imagenes/spacer.gif" width="6" height="6"></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150">Importe:</td>
+                  <td align=left class="td_form_valor"><span class="body_9">{{nm_preciototal}} 
+                    (<a href="#" onClick="MM_openBrWindow('/ayuda/nif.html','ayuda','width=300,height=400')"><b>IVA 
+                    NO INCLUIDO</b></a>)</span></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150">Impuestos 
+                    - IVA<b>:</b></td>
+                  <td align=left class="td_form_valor"> <span class="body_9">{{nm_iva}}</span></td>
+                </tr>
+                <tr valign="middle"> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150" height="18"><b>TOTAL 
+                    A PAGAR:</b></td>
+                  <td align=left class="td_form_valor" height="18"><span class="body_9"><b><font color="#000066" class="body_11">{{nm_precioconiva}}</font></b> 
+                    <font color="#000066" class="body_9">({{nm_precioconiva_ptas}})</font> 
+                    </span></td>
+                </tr>
+              </table>
+              <font face="Verdana, Arial, Helvetica, sans-serif" size="1"></font></td>
+          </tr>
+          <tr align="left"> 
+            <td colspan=2 bgcolor="#FFCC00" class="titu_secciones"><b>Datos del 
+              titular</b></td>
+          </tr>
+          <tr> 
+            <td valign=top class="body_10"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              {{owner_first_name}} {{owner_last_name}}<br>
+              {{owner_org_name}}<br>
+              {{owner_address1}}<br>
+              {{owner_address2}} {{owner_address3}} {{owner_city}}, {{owner_state}} 
+              {{owner_postal_code}}<br>
+              {{owner_country}} <br>
+              </font></td>
+            <td valign=top class="body_10"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              Tel&eacute;fono:{{owner_phone}}<br>
+              Fax:{{owner_fax}}<br>
+              E-mail:{{owner_email}}<br>
+              </font></td>
+          </tr>
+          <tr> 
+            <td valign=top height="4">&nbsp;</td>
+            <td valign=top height="4">&nbsp;</td>
+          </tr>
+          <tr align="left"> 
+            <td colspan=2 bgcolor="#FFCC00" class="titu_secciones"><b>Datos de 
+              facturaci&oacute;n</b></td>
+          </tr>
+          <tr> 
+            <td valign=top class="body_10"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              {{billing_first_name}} {{billing_last_name}}<br>
+              {{billing_org_name}}<br>
+              {{billing_address1}}<br>
+              {{billing_address2}} {{billing_address3}} {{billing_city}}, {{billing_state}} 
+              {{billing_postal_code}}<br>
+              {{billing_country}} <br>
+              <br>
+              </font></td>
+            <td valign=top class="body_10"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+              Tel&eacute;fono:{{billing_phone}}<br>
+              Fax:{{billing_fax}}<br>
+              E-mail:{{billing_email}}<br>
+              </font></td>
+          </tr>
+          <tr> 
+            <td valign=top class="body_10" colspan="2">{{nm_nif}} </td>
+          </tr>
+          <!--Info adicional de tr a tr-->
+          {{TECH_INFO}} {{NAMESERVER_INFO}} 
+          <tr> 
+            <td colspan="2" class="body_10"> 
+              <hr size="1" noshade>
+              <b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="darkred"><span class="body_11">CONDICIONES 
+              DE CONTRATACI&Oacute;N</span></font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><br>
+              </font></b> <font face="Verdana, Arial, Helvetica, sans-serif" size="1">El 
+              env&iacute;o de este formulario supone la aceptaci&oacute;n de todas 
+              las <a href="#" target="#" onClick="MM_openBrWindow('http://www.nombremania.com/condiciones_registro.html','cualquierotraventana','scrollbars=yes,width=390,height=300')">condiciones 
+              de registro</a> de NombreMania.com y NO supone en ning&uacute;n 
+              caso garant&iacute;a de que el mismo quede registrado en favor del 
+              titular.</font> 
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><font color="darkred">El 
+                registro NO ser&aacute; formalmente validado hasta que NombreMania.com 
+                tenga constancia del pago correcto realizado por el cliente por 
+                cualquiera de las v&iacute;as que se ponen a su disposici&oacute;n.</font> 
+                </b></font></p>
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Una 
+                vez abonadas, las solicitudes NO podr&aacute;n ser canceladas 
+                o reembolsadas de forma alguna, salvo en aquellos casos especificamente 
+                contemplados por NombreMania.</font></p>
+              <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">El 
+                solicitante manifiesta que todos los datos que aporta son v&aacute;lidos 
+                y ciertos en el momento de la solicitud, eximiendo a NombreMania 
+                de cualquier perjuicio o responsabilidad por la falta de veracidad 
+                de los mismos. <br>
+                </font></p>
+              <p align="center"> <a href="/error.php?error=Esta+demo+no+permite+grabar+los+datos.+Disculpe+las+Molestias."> 
+                <img src="/imagenes/registrar.gif" alt="terminar la demo de registrador" border=0 width="85" height="26"> 
+                </a> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><br>
+                </font> </p>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td background="/images/dere1.gif"><img name="dere1" src="/images/dere1.gif" width="4" height="5" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="5" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/images/izqui1.gif"><img name="izqui2" src="/images/izqui2.gif" width="12" height="497" border="0"></td>
+    <td background="/images/dere2.gif"><img name="dere2" src="/images/dere2.gif" width="4" height="497" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="497" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img name="inferior" src="/images/inferior.gif" width="627" height="30" border="0" usemap="#inferiorMap"></td>
+    <td><img src="/images/spacer.gif" width="1" height="30" border="0"></td>
+  </tr>
+</table>
+<map name="inferiorMap"> 
+  <area shape="rect" coords="37,6,228,21" href="http://www.nombremania.com/home.php" target="new">
+</map>
+</body>
+<!-- #EndTemplate --></html>

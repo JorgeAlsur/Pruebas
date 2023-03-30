@@ -1,0 +1,118 @@
+<BR>
+<CENTER>
+
+<B><FONT face="verdana, arial" size=3>
+- Edit {{contact_type}} Contact -
+<font></b><BR><BR>{{revoke_registrant_changes}}
+
+<form method=post action="{{CGI}}" name="modify_contact">
+<input type=hidden name=action value="do_modify_contact">
+<input type=hidden name=type value="{{type}}">
+
+<TABLE BORDER=1 width=550 cellpadding=3 cellspacing=0>
+<TR>
+<TD COLSPAN=2 bgcolor="#d0d0d0" align=center>
+<B><FONT face="verdana, arial" size=2>
+{{contact_type}} Contact Information</FONT></B>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>First Name:</B></font></TD>
+<TD><input name="first_name" size=15 value="{{first_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Last Name:</B></font></TD>
+<TD><input name="last_name" size=15 value="{{last_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Organization Name:</B></font></TD>
+<TD><input name="org_name" size=39 value="{{org_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Street Address:</B></font></TD>
+<TD><input name="address1" size=39 value="{{address1}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Address 2:</B></font></TD>
+<TD><input name="address2" size=39 value="{{address2}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Address 3:</B></font></TD>
+<TD><input name="address3" size=39 value="{{address3}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>City:</B></font></TD>
+<TD><input name="city" size=15 value="{{city}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>State:</B></font></TD>
+<TD><input name="state" size=15 value="{{state}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Country:</B></font></TD>
+<TD>
+<select name=country>
+{{COUNTRY_LIST}}
+</select>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Postal Code:</B></font></TD>
+<TD><input name="postal_code" size=15 value="{{postal_code}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Phone Number:</B></font></TD>
+<TD><input name="phone" size=40 value="{{phone}}">
+    <font size=-1><br>(eg. +1.4165551211)</font>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0"><font color=red size=-1>
+*optional*</font> <font face="verdana, arial" size=2><B>Fax Number:</B></font>
+</TD>
+<TD><input name="fax" size=40 value="{{fax}}">
+    <font size=-1><br>(eg. +1.4165551212)</font>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Email:</B></font></TD>
+<TD><input name="email" size=39 value="{{email}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font color=red size=-1>*optional*</font> 
+<font face="verdana, arial" size=2><B>VAT Registration Number:</B></font></TD>
+<TD><input name="vat" size=39 value="{{vat}}"></TD>
+</TR>
+
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Language of Correspondence:</B></font></TD>
+<TD>
+<select name=lang>
+ {{LANGUAGE_LIST}} 
+</select>
+</TD>
+</TR>
+
+</table>
+{{GLOBAL_CHANGE_MENU}}
+
+<BR>
+<input type=submit name=submit value="Save Configuration" 
+onClick="javascript:if (eval('document.modify_contact.affect_domains[0].checked') == true){ return confirm('Are you sure you wish to apply the changes to all domains?\nThese changes cannot be reversed.')}">
+<input type=submit name=submit value="Cancel Changes">
+
+<BR><BR><BR>

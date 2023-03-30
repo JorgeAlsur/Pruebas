@@ -1,0 +1,44 @@
+<TABLE BORDER="1" WIDTH=550 CELLPADDING="3" CELLSPACING="0">
+<TR>
+  <TD COLSPAN="2" bgcolor="#93D5BE" align=center>
+    <B><FONT face="verdana, arial" size=2>Nexus Information</FONT></B>
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Domain Name Application Purpose</B></font>
+  </TD>
+  <TD>
+    <SELECT NAME="app_purpose">
+      {{app_purpose_menu}}
+    </SELECT>
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Nexus Category of Applicant</B></font>
+    <FONT SIZE="-1">
+      (please choose one)
+    </FONT>
+  </TD>
+  <TD>
+    <B>Category 1 - A natural person:</B>
+    <BR><INPUT TYPE="radio" NAME="nexus_category" VALUE="C11" {{category_C11}}>Who is a United States citizen
+    <BR><INPUT TYPE="radio" NAME="nexus_category" VALUE="C12" {{category_C12}}>Who is a permanent resident of the United States of America or any of its possessions or territories
+    <BR><HR WIDTH="100%"><B>Category 2 - U.S. Corporation</B>
+    <BR><INPUT TYPE="radio" NAME="nexus_category" VALUE="C21" {{category_C21}}>U.S. organization incorporated within one of the 50 states of a U.S. territory
+    <BR><HR WIDTH="100%"><B>Category 3 - Bona Fide U.S. Presence</B>
+    <BR><INPUT TYPE="radio" NAME="nexus_category" VALUE="C31" {{category_C31}}>Regularly engages in lawful activities (sales of good or services or other business, commercial or non-commercial, including not-for-profit relations in the United States).
+    <BR><INPUT TYPE="radio" NAME="nexus_category" VALUE="C32" {{category_C32}}>Entity has an office or other facility in the U.S.
+    <BR><B>Country of Citizenship:</B>&nbsp;&nbsp;
+        <SELECT NAME="nexus_validator">
+          <OPTION VALUE="">---- Select Country ----
+            {{citizen_country_list}}
+        </SELECT>
+  </TD>
+</TR>
+<input type=hidden name="old_app_purpose" value="{{old_app_purpose}}">
+<input type=hidden name="old_nexus_category" value="{{old_nexus_category}}">
+<input type=hidden name="old_nexus_validator" value="{{old_nexus_validator}}">
+</TABLE>
+<BR>

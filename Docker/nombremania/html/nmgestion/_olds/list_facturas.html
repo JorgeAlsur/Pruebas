@@ -1,0 +1,59 @@
+
+<table align=Center cellpadding="2" cellspacing="1" bgcolor="#FFFFFF">
+  <TR align="left"> 
+    <TD colspan="8"> <b><font size="3">Listado de Facturas</font></b><br>
+      <font size="1">{{titulo}} </font> </TD>
+  
+  <TR> 
+    <TD align="right" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">codigo</font></b></TD>
+    <TD align="left" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">cliente</font></b></TD>
+    <TD align="left" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">concepto</font></b></TD>
+    <TD align="right" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">fecha</font></b></TD>
+    <TD align="left" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">nif</font></b></TD>
+    <TD align="right" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">precio</font></b></TD>
+    <!-- BEGIN TAREAS_TIT -->
+    <TD align="right" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">tarea</font></b></TD>
+    <TD align="right" bgcolor="#CCCCCC"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#000000">factura</font></b></TD>
+    <!-- END TAREAS_TIT -->
+    <!-- BEGIN FACTURAS -->
+  <TR> 
+    <TD align="right" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{codigo}}</font></TD>
+    <TD align="left" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{nombre}}</font></TD>
+    <TD align="left" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{concepto}}</font></TD>
+    <TD align="right" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{fecha}}</font></TD>
+    <TD align="left" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{nif}}</font></TD>
+    <TD align="right" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{precio}}</font></TD>
+    <!-- BEGIN TAREAS -->
+    <TD align="right" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{tarea}}</font></TD>
+    <TD align="right" bgcolor="#FFFFFF"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{factura}}</font></TD>
+    <!-- END TAREAS -->
+  </TR>
+  <TR> 
+    <TD colspan="8" height="1"><img src="../imagenes/base2/spacer_naranja.gif" widTD="100%" height="1" width="100%"></TD>
+  </TR>
+  <!-- END FACTURAS -->
+  <TR valign="top"> 
+    <TD align=left COLSPAN=8 height="8"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"></font><img src="../imagenes/base2/spacer_naranja.gif" widtd="100%" height="1" width="100%"></TD>
+  </TR>
+  <!-- SALDOS FACTURAS -->
+  <TR> 
+    <TD align=right height="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <b>{{cantidad}}</b></font></TD>
+    <TD align=left COLSPAN=2 height="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">registros</font></TD>
+    <TD align=right COLSPAN=2 height="20" bgcolor="#CCCCCC"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#990000">TOTAL 
+      BRUTO:</font></TD>
+    <TD align=right height="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>{{total_bruto}}</b></font></TD>
+    <TD align=right colspan="2" height="20">&nbsp;</TD>
+  </TR>
+  <TR> 
+    <TD align=right height="20">&nbsp;</TD>
+    <TD COLSPAN=2 align=right height="20">&nbsp;</TD>
+    <TD COLSPAN=2 align=right height="20" bgcolor="#CCCCCC"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#990000">TOTAL 
+      IVA:</font></TD>
+    <TD align=right height="20"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><b>{{total_iva}}</b></font></TD>
+    <TD align=right colspan="2" height="20">&nbsp;</TD>
+  </TR>
+</TABLE>
+
+
+

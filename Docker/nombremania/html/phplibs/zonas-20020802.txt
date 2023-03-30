@@ -1,0 +1,2482 @@
+<!--  inicio -->
+id:	1  zona:	montes2.com 
+<ze><response></response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	2  zona:	sunlap.com 
+<ze><response><record id="584489" type="MA" zone="sunlap.com" dnsto="info" forward="luisbl@arrakis.es" rank=""/>
+
+<record id="584487" type="MX" zone="sunlap.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="584477" type="WP" zone="sunlap.com" dnsfrom="" dnsto="Under Construction" rank="0"/>
+
+<record id="584478" type="WP" zone="sunlap.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	3  zona:	contrasena.net 
+<ze><response><record id="613672" type="MA" zone="contrasena.net" dnsto="" forward="grupo@interbook.net" rank=""/>
+
+<record id="613674" type="MA" zone="contrasena.net" dnsto="info" forward="grupo@interbook.net" rank=""/>
+
+<record id="613670" type="MX" zone="contrasena.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="662089" type="WF" zone="contrasena.net" dnsfrom="www" forward="http://www.disbumad.es/empresas/publicinet" rank="0"/>
+
+<record id="613668" type="WP" zone="contrasena.net" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	4  zona:	eoitorrevieja.com 
+<ze><response><record id="624990" type="MA" zone="eoitorrevieja.com" dnsto="" forward="registros@nombremania.com" rank=""/>
+
+<record id="624992" type="MA" zone="eoitorrevieja.com" dnsto="info" forward="eoitorrevieja@terra.es" rank=""/>
+
+<record id="624988" type="MX" zone="eoitorrevieja.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="711081" type="WF" zone="eoitorrevieja.com" dnsfrom="www" forward="http://usuario.tiscalinet.es/eoitorrevieja" rank="0"/>
+
+<record id="711082" type="WF" zone="eoitorrevieja.com" dnsfrom="" forward="http://usuario.tiscalinet.es/eoitorrevieja" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	5  zona:	tsi-es.org 
+<ze><response><record id="1993877" type="WF" zone="tsi-es.org" dnsfrom="" forward="http://www.tsi-es.org/index.htm" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	6  zona:	electrodavid.com 
+<ze><response><record id="640644" type="MA" zone="electrodavid.com" dnsto="" rank=""/>
+
+<record id="4853124" type="MA" zone="electrodavid.com" dnsto="info" forward="electrodavid@arrakis.es" rank=""/>
+
+<record id="640641" type="MX" zone="electrodavid.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="640640" type="WP" zone="electrodavid.com" dnsfrom="www" rank="0"/>
+
+<record id="640639" type="WP" zone="electrodavid.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	7  zona:	todopc.com 
+<ze><response><record id="5775222" type="A" zone="todopc.com" dnsfrom="www" dnsto="213.96.190.180" rank="0"/>
+
+<record id="5863605" type="A" zone="todopc.com" dnsfrom="cartero" dnsto="213.96.190.189" rank="0"/>
+
+<record id="5865515" type="A" zone="todopc.com" dnsfrom="" dnsto="213.96.190.189" rank="0"/>
+
+<record id="5865570" type="A" zone="todopc.com" dnsfrom="mail" dnsto="123.123.123.33" rank="0"/>
+
+<record id="5866469" type="A" zone="todopc.com" dnsfrom="" dnsto="10.20.20.2" rank="0"/>
+
+<record id="5865921" type="CNAME" zone="todopc.com" dnsfrom="hey" dnsto="linux.alsur.es" rank="0"/>
+
+<record id="5866222" type="MX" zone="todopc.com" dnsfrom="" dnsto="linux.alsur.es" rank="5"/>
+
+<record id="5301625" type="WF" zone="todopc.com" dnsfrom="prueba" forward="http://193.127.102.139/webapp/arteInv/servlet/SPainterMain?idpintor" rank="0" cloaked="true"/>
+
+<record id="5473766" type="WF" zone="todopc.com" dnsfrom="test" forward="http://www.codigophp.com" rank="0" cloaked="true"/>
+
+<record id="4337050" type="WP" zone="todopc.com" dnsfrom="bosco" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	8  zona:	eksit.net 
+<ze><response><record id="679802" type="MA" zone="eksit.net" dnsto="" forward="eksit@arrakis.es" rank=""/>
+
+<record id="716575" type="MA" zone="eksit.net" dnsto="marcos" forward="dem74@arrakis.es" rank=""/>
+
+<record id="716582" type="MA" zone="eksit.net" dnsto="david" forward="dvfernandez@arrakis.es" rank=""/>
+
+<record id="716584" type="MA" zone="eksit.net" dnsto="info" forward="eksit@arrakis.es" rank=""/>
+
+<record id="679799" type="MX" zone="eksit.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="681585" type="WF" zone="eksit.net" dnsfrom="www" forward="http://www.arrakis.es/~eksit" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	9  zona:	aqueligas.com 
+<ze><response><record id="688336" type="MA" zone="aqueligas.com" dnsto="" forward="clafmmc@terra.es" rank=""/>
+
+<record id="688333" type="MX" zone="aqueligas.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="688331" type="WP" zone="aqueligas.com" dnsfrom="" rank="0"/>
+
+<record id="688338" type="WP" zone="aqueligas.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	10  zona:	ez3net.com 
+<ze><response></response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	11  zona:	ingenierosquimicos.net 
+<ze><response><record id="707648" type="MA" zone="ingenierosquimicos.net" dnsto="" forward="luisj.claros@wanadoo.es" rank=""/>
+
+<record id="707645" type="MX" zone="ingenierosquimicos.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="707649" type="WF" zone="ingenierosquimicos.net" dnsfrom="www" forward="http://www.geocities.com/aiqma" rank="0"/>
+
+<record id="707643" type="WP" zone="ingenierosquimicos.net" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	12  zona:	rinconvictoria.com 
+<ze><response><record id="725726" type="MA" zone="rinconvictoria.com" dnsto="" rank=""/>
+
+<record id="725723" type="MX" zone="rinconvictoria.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="725721" type="WP" zone="rinconvictoria.com" dnsfrom="" rank="0"/>
+
+<record id="725722" type="WP" zone="rinconvictoria.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	13  zona:	somnhi.com 
+<ze><response><record id="1859346" type="WP" zone="somnhi.com" dnsfrom="" rank="0"/>
+
+<record id="1859347" type="WP" zone="somnhi.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	14  zona:	mer99.org 
+<ze><response><record id="743845" type="MA" zone="mer99.org" dnsto="" forward="  registros@nombremania.com" rank=""/>
+
+<record id="743846" type="MA" zone="mer99.org" dnsto="" forward=" garcia@ar.infonegocio.com" rank=""/>
+
+<record id="743843" type="MX" zone="mer99.org" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="734564" type="WP" zone="mer99.org" dnsfrom="" rank="0"/>
+
+<record id="734570" type="WP" zone="mer99.org" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	15  zona:	ibccc.com 
+<ze><response><record id="857382" type="MA" zone="ibccc.com" dnsto="" forward="ivi@vnet.es" rank=""/>
+
+<record id="857380" type="MX" zone="ibccc.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="768595" type="WP" zone="ibccc.com" dnsfrom="" rank="0"/>
+
+<record id="768601" type="WP" zone="ibccc.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	16  zona:	javierdemendieta.com 
+<ze><response><record id="1056685" type="MA" zone="javierdemendieta.com" dnsto="mail" forward="ivi@vnet.es" rank=""/>
+
+<record id="1056683" type="MX" zone="javierdemendieta.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="768644" type="WP" zone="javierdemendieta.com" dnsfrom="" rank="0"/>
+
+<record id="768650" type="WP" zone="javierdemendieta.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	17  zona:	ivanaborgna.com 
+<ze><response><record id="768656" type="MA" zone="ivanaborgna.com" dnsto="" forward="ivi@vnet.es" rank=""/>
+
+<record id="768653" type="MX" zone="ivanaborgna.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="768651" type="WP" zone="ivanaborgna.com" dnsfrom="" rank="0"/>
+
+<record id="768657" type="WP" zone="ivanaborgna.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	18  zona:	activaidiomas.com 
+<ze><response><record id="4974467" type="MA" zone="activaidiomas.com" dnsto="info" forward="juliopulido@airtel.net" rank=""/>
+
+<record id="9590501" type="MA" zone="activaidiomas.com" dnsto="julio" forward="juliopuli@airtel.net" rank=""/>
+
+<record id="10669714" type="MA" zone="activaidiomas.com" dnsto="secretaria" forward="actidiomas@arquired.es" rank=""/>
+
+<record id="10669822" type="MA" zone="activaidiomas.com" dnsto="director" forward="actidiomas@arquired.es" rank=""/>
+
+<record id="10669848" type="MA" zone="activaidiomas.com" dnsto="maribel" forward="actidiomas@arquired.es" rank=""/>
+
+<record id="10669912" type="MA" zone="activaidiomas.com" dnsto="cv" forward="actidiomas@arquired.es" rank=""/>
+
+<record id="10669946" type="MA" zone="activaidiomas.com" dnsto="alumnos" forward="actidiomas@arquired.es" rank=""/>
+
+<record id="781602" type="MX" zone="activaidiomas.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1466082" type="WF" zone="activaidiomas.com" dnsfrom="www" forward="http://empresas.iddeo.es/activaidiomas/index2.html" rank="0" cloaked="true"/>
+
+<record id="772225" type="WP" zone="activaidiomas.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	19  zona:	rocadenia.com 
+<ze><response></response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	20  zona:	tenemosquepensarlo.com 
+<ze><response><record id="2067176" type="WF" zone="tenemosquepensarlo.com" dnsfrom="Pruebas" forward="http://213.98.91.126:8080/portada.htm" rank="0"/>
+
+<record id="12190974" type="WF" zone="tenemosquepensarlo.com" dnsfrom="www" forward="http://213.98.91.126/portada.html" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	21  zona:	picotas.com 
+<ze><response><record id="921280" type="MA" zone="picotas.com" dnsto="correo" forward="casas@iespana.es" rank=""/>
+
+<record id="921278" type="MX" zone="picotas.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1335303" type="WF" zone="picotas.com" dnsfrom="" forward="http://picotas.iespana.es" rank="0" cloaked="true"/>
+
+<record id="1335309" type="WF" zone="picotas.com" dnsfrom="www" forward="http://picotas.iespana.es" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	22  zona:	buscadorturistico.com 
+<ze><response><record id="910829" type="MA" zone="buscadorturistico.com" dnsto="correo" forward="caminos@iespana.es" rank=""/>
+
+<record id="910827" type="MX" zone="buscadorturistico.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="857472" type="WF" zone="buscadorturistico.com" dnsfrom="" forward="http://buscadorturistico.iespana.es" rank="0" cloaked="true"/>
+
+<record id="857450" type="WF" zone="buscadorturistico.com" dnsfrom="www" forward="http://buscadorturistico.iespana.es" rank="0" cloaked="true"/>
+
+<record id="921291" type="WF" zone="buscadorturistico.com" dnsfrom="jerte" forward="http://www.iespana.es/alojamientorural" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	23  zona:	renovisco.com 
+<ze><response><record id="890571" type="WF" zone="renovisco.com" dnsfrom="www" forward="http://www.ib3.net/sanmedel/renovisco/index.html" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	24  zona:	agroturismojerte.com 
+<ze><response><record id="862381" type="MA" zone="agroturismojerte.com" dnsto="" forward="huracas@arrakis.es" rank=""/>
+
+<record id="862379" type="MX" zone="agroturismojerte.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="862392" type="WF" zone="agroturismojerte.com" dnsfrom="www" forward="http://www.arrakis.es/~huracas" rank="0"/>
+
+<record id="862393" type="WF" zone="agroturismojerte.com" dnsfrom="" forward="http://www.arrakis.es/~huracas" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	25  zona:	clinicaludor.com 
+<ze><response><record id="1021446" type="MA" zone="clinicaludor.com" dnsto="ludor" forward="clinicaludor@terra.es" rank=""/>
+
+<record id="1021449" type="MA" zone="clinicaludor.com" dnsto="joseluis.dominguez" forward="jl.dominguezs@terra.es" rank=""/>
+
+<record id="1021454" type="MA" zone="clinicaludor.com" dnsto="luis.dominguez" forward="l.dominguezo@terra.es" rank=""/>
+
+<record id="1021458" type="MA" zone="clinicaludor.com" dnsto="jaime.diaz" forward="j.diaz1@terra.es" rank=""/>
+
+<record id="1052467" type="MA" zone="clinicaludor.com" dnsto="elena.diaz" forward="e.diaz1@terra.es" rank=""/>
+
+<record id="1021444" type="MX" zone="clinicaludor.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="862548" type="WP" zone="clinicaludor.com" dnsfrom="" rank="0"/>
+
+<record id="862550" type="WP" zone="clinicaludor.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	26  zona:	anastasialetal.com 
+<ze><response><record id="924599" type="WF" zone="anastasialetal.com" dnsfrom="www" forward="http://anastasialetal.iespana.es" rank="0"/>
+
+<record id="924597" type="WP" zone="anastasialetal.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	27  zona:	alojamientorural.com 
+<ze><response><record id="979780" type="MA" zone="alojamientorural.com" dnsto="correo" forward="casas@iespana.es" rank=""/>
+
+<record id="979778" type="MX" zone="alojamientorural.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="979736" type="WF" zone="alojamientorural.com" dnsfrom="" forward="http://alojamientorural.iespana.es" rank="0" cloaked="true"/>
+
+<record id="979737" type="WF" zone="alojamientorural.com" dnsfrom="www" forward="http://alojamientorural.iespana.es" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	28  zona:	biorrajo.com 
+<ze><response><record id="965977" type="WP" zone="biorrajo.com" dnsfrom="" rank="0"/>
+
+<record id="965978" type="WP" zone="biorrajo.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	29  zona:	pckomputer.com 
+<ze><response><record id="989995" type="MA" zone="pckomputer.com" dnsto="info" forward="pccomputer@senecaweb.net" rank=""/>
+
+<record id="993736" type="MA" zone="pckomputer.com" dnsto="contacto" forward="pccomputer@senecaweb.net" rank=""/>
+
+<record id="1310184" type="MA" zone="pckomputer.com" dnsto="pedro" forward="pccomputer@senecaweb.net" rank=""/>
+
+<record id="989993" type="MX" zone="pckomputer.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1311917" type="WF" zone="pckomputer.com" dnsfrom="" forward="http://www.senecaweb.net/pckomputer2/index.asp" rank="0" cloaked="true"/>
+
+<record id="1310411" type="WF" zone="pckomputer.com" dnsfrom="www" forward="http://www.senecaweb.net/pckomputer2/index.asp" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	30  zona:	concejaliajuventudcr.com 
+<ze><response><record id="2118811" type="MA" zone="concejaliajuventudcr.com" dnsto="pgc" forward="pgcalle@infonegocio.com" rank=""/>
+
+<record id="2119308" type="MA" zone="concejaliajuventudcr.com" dnsto="informaticacr" forward="informatica@concejaliajuventudcr.com" rank=""/>
+
+<record id="2119482" type="MA" zone="concejaliajuventudcr.com" dnsto="elena" forward="elenanotario@infonegocio.com" rank=""/>
+
+<record id="2119502" type="MA" zone="concejaliajuventudcr.com" dnsto="marg" forward="marg@infonegocio.com" rank=""/>
+
+<record id="2119513" type="MA" zone="concejaliajuventudcr.com" dnsto="info" forward="926251741@infonegocio.com" rank=""/>
+
+<record id="1046611" type="MX" zone="concejaliajuventudcr.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2119823" type="WF" zone="concejaliajuventudcr.com" dnsfrom="www" forward="http://www.infonegocio.com/concejaliajuventudcr" rank="0" cloaked="true"/>
+
+<record id="980446" type="WP" zone="concejaliajuventudcr.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	31  zona:	transcerealescruz.com 
+<ze><response><record id="999555" type="MA" zone="transcerealescruz.com" dnsto="info" forward="transcerealcruz@terra.es" rank=""/>
+
+<record id="999557" type="MA" zone="transcerealescruz.com" dnsto="mcosme" forward="transcerealcruz@terra.es" rank=""/>
+
+<record id="999571" type="MA" zone="transcerealescruz.com" dnsto="bcosme" forward="belencosme@terra.es" rank=""/>
+
+<record id="6350643" type="MA" zone="transcerealescruz.com" dnsto="agcosme" forward="agustin_cosme@hotmail.com" rank=""/>
+
+<record id="6350697" type="MA" zone="transcerealescruz.com" dnsto="augustoc" forward="augustocosme@amena.com" rank=""/>
+
+<record id="997408" type="MX" zone="transcerealescruz.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="6350912" type="WF" zone="transcerealescruz.com" dnsfrom="pablo" forward="http://www.terra.es/personal6/igarmen" rank="0" cloaked="true"/>
+
+<record id="6938937" type="WF" zone="transcerealescruz.com" dnsfrom="www" forward="http://www.geocities.com/transcerealescruz/" rank="0" cloaked="true"/>
+
+<record id="997406" type="WP" zone="transcerealescruz.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	32  zona:	realcolor.org 
+<ze><response><record id="1484883" type="WP" zone="realcolor.org" dnsfrom="" rank="0"/>
+
+<record id="1484884" type="WP" zone="realcolor.org" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	33  zona:	indusoft.net 
+<ze><response><record id="1431454" type="MA" zone="indusoft.net" dnsto="mgomez" forward="indusoftsc@wanadoo.es" rank=""/>
+
+<record id="1784433" type="MA" zone="indusoft.net" dnsto="info" forward="indusoft@eresmas.com" rank=""/>
+
+<record id="2032527" type="MA" zone="indusoft.net" dnsto="aespejo" forward="indusoft@eresmas.com" rank=""/>
+
+<record id="2032535" type="MA" zone="indusoft.net" dnsto="rjimenez" forward="indusoft@eresmas.com" rank=""/>
+
+<record id="1431452" type="MX" zone="indusoft.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="3347444" type="WF" zone="indusoft.net" dnsfrom="www" forward="http://www.senecaweb.net/induso/index.htm" rank="0" cloaked="true"/>
+
+<record id="3347475" type="WF" zone="indusoft.net" dnsfrom="" forward="http://www.senecaweb.net/induso/index.htm" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	34  zona:	creacionesgarciamartinez.com 
+<ze><response><record id="1090043" type="MA" zone="creacionesgarciamartinez.com" dnsto="" forward="viatec@viatecsl.com" rank=""/>
+
+<record id="1090041" type="MX" zone="creacionesgarciamartinez.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1115038" type="WF" zone="creacionesgarciamartinez.com" dnsfrom="www" forward="http://www.mundofree.com/cregarmar/lepis.html" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	35  zona:	gayvigo.com 
+<ze><response><record id="1087429" type="MA" zone="gayvigo.com" dnsto="markuss" forward="gayvigo@hotmail.com" rank=""/>
+
+<record id="1087427" type="MX" zone="gayvigo.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5200080" type="WF" zone="gayvigo.com" dnsfrom="www" forward="http://www.galeon.com/gayvigo" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	36  zona:	softw-er.com 
+<ze><response><record id="1087384" type="WP" zone="softw-er.com" dnsfrom="" rank="0"/>
+
+<record id="1087386" type="WP" zone="softw-er.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	37  zona:	ciacarwash.com 
+<ze><response><record id="1124033" type="WP" zone="ciacarwash.com" dnsfrom="" rank="0"/>
+
+<record id="1124035" type="WP" zone="ciacarwash.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	38  zona:	compatiblesinkjet.com 
+<ze><response><record id="1233402" type="MA" zone="compatiblesinkjet.com" dnsto="" forward="comprask@infonegocio.com" rank=""/>
+
+<record id="1233400" type="MX" zone="compatiblesinkjet.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1339476" type="WF" zone="compatiblesinkjet.com" dnsfrom="" forward="http://www.granpyme.com/web/karolada" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	39  zona:	rankajos.com 
+<ze><response><record id="1269957" type="MA" zone="rankajos.com" dnsto="samu" forward="nkt78@hotmail.com" rank=""/>
+
+<record id="1257953" type="MA" zone="rankajos.com" dnsto="pibe" forward="rankajos@ctv.es" rank=""/>
+
+<record id="1288099" type="MA" zone="rankajos.com" dnsto="rankajos" forward="rankajos@ctv.es" rank=""/>
+
+<record id="1256560" type="MX" zone="rankajos.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1257958" type="WF" zone="rankajos.com" dnsfrom="www" forward="http://www.ctv.es/USERS/pibe/rankajos.htm" rank="0" cloaked="true"/>
+
+<record id="1256558" type="WP" zone="rankajos.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	40  zona:	edonostia.org 
+<ze><response><record id="1790103" type="WF" zone="edonostia.org" dnsfrom="www" forward="http://131.103.246.223/default.htm" rank="0" cloaked="true"/>
+
+<record id="10849154" type="WF" zone="edonostia.org" dnsfrom="teleformacion" forward="http://195.55.141.229/sitea" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	41  zona:	edonostia.net 
+<ze><response><record id="1491793" type="MA" zone="edonostia.net" dnsto="callcenter" forward="nyesoporte@hotmail.com" rank=""/>
+
+<record id="1491795" type="MA" zone="edonostia.net" dnsto="ayuda" forward="nyesoporte@hotmail.com" rank=""/>
+
+<record id="1491797" type="MA" zone="edonostia.net" dnsto="soporte" forward="nyesoporte@hotmail.com" rank=""/>
+
+<record id="1491800" type="MA" zone="edonostia.net" dnsto="ayuda_usuarios" forward="nyesoporte@hotmail.com" rank=""/>
+
+<record id="1491791" type="MX" zone="edonostia.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1790173" type="WF" zone="edonostia.net" dnsfrom="www" forward="http://131.103.246.223/default.htm" rank="0"/>
+
+<record id="1261705" type="WP" zone="edonostia.net" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	42  zona:	edonostia.com 
+<ze><response></response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	43  zona:	picasoca.com 
+<ze><response><record id="1311429" type="MA" zone="picasoca.com" dnsto="gerard" forward="g_termes@hotmail.com" rank=""/>
+
+<record id="1300110" type="MA" zone="picasoca.com" dnsto="info" forward="picasoca@eresmas.com" rank=""/>
+
+<record id="1300112" type="MA" zone="picasoca.com" dnsto="raconet" forward="picasoca@eresmas.com" rank=""/>
+
+<record id="1276437" type="MX" zone="picasoca.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1276440" type="WF" zone="picasoca.com" dnsfrom="www" forward="http://www.hispagate.com/~picasoca" rank="0"/>
+
+<record id="1276435" type="WP" zone="picasoca.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	44  zona:	sandaraka.com 
+<ze><response><record id="1422003" type="MA" zone="sandaraka.com" dnsto="info" forward="ymanjarres@usuarios.retecal.es" rank=""/>
+
+<record id="3191352" type="MA" zone="sandaraka.com" dnsto="webmaster" forward="mab@usuarios.retecal.es" rank=""/>
+
+<record id="1422001" type="MX" zone="sandaraka.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1421986" type="WF" zone="sandaraka.com" dnsfrom="www" forward="http://users.servicios.retecal.es/ymanjarres" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	45  zona:	servi4sl.com 
+<ze><response><record id="1285314" type="MA" zone="servi4sl.com" dnsto="" forward="servi4sl@yahoo.es" rank=""/>
+
+<record id="1285312" type="MX" zone="servi4sl.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1285315" type="WF" zone="servi4sl.com" dnsfrom="www" forward="http://es.geocities.com/servi4sl" rank="0"/>
+
+<record id="1285310" type="WP" zone="servi4sl.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	46  zona:	esclafit.com 
+<ze><response><record id="1302925" type="MA" zone="esclafit.com" dnsto="manzanaro" forward="sparus@teleline.es" rank=""/>
+
+<record id="1302937" type="MA" zone="esclafit.com" dnsto="webmaster" forward="beach@inicia.es" rank=""/>
+
+<record id="1887964" type="MA" zone="esclafit.com" dnsto="jm" forward="sparus@teleline.es" rank=""/>
+
+<record id="1955951" type="MA" zone="esclafit.com" dnsto="mariha" forward="mariha@eresmas.com" rank=""/>
+
+<record id="1300354" type="MX" zone="esclafit.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1891465" type="WF" zone="esclafit.com" dnsfrom="www" forward="http://www.inicia.es/de/nature/index.htm" rank="0" cloaked="true"/>
+
+<record id="1891468" type="WF" zone="esclafit.com" dnsfrom="www2" forward="http://www.inicia.es/de/nature/index.htm" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	47  zona:	lacasitadechocolate.com 
+<ze><response><record id="1366775" type="MA" zone="lacasitadechocolate.com" dnsto="Informacion" forward="caicobisasl@terra.es" rank=""/>
+
+<record id="1338048" type="MX" zone="lacasitadechocolate.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1367652" type="WF" zone="lacasitadechocolate.com" dnsfrom="" forward="http://www.terra.es/personal5/caicobisasl" rank="0" cloaked="true"/>
+
+<record id="1367653" type="WF" zone="lacasitadechocolate.com" dnsfrom="www" forward="http://www.terra.es/personal5/caicobisasl" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	48  zona:	agriculturayensayo.com 
+<ze><response><record id="1348306" type="MA" zone="agriculturayensayo.com" dnsto="" forward="agriensayo@airtel.net" rank=""/>
+
+<record id="1348304" type="MX" zone="agriculturayensayo.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1387738" type="WF" zone="agriculturayensayo.com" dnsfrom="www" forward="http://www.airtel.net/personal/agriensayo" rank="0"/>
+
+<record id="1378784" type="WF" zone="agriculturayensayo.com" dnsfrom="" forward="http://www.airtel.net/personal/agriensayo" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	49  zona:	Jagdgeschwader52.com 
+<ze><response><record id="2115548" type="MA" zone="jagdgeschwader52.com" dnsto="orka" forward="orka@telepolis.com" rank=""/>
+
+<record id="5001942" type="MA" zone="jagdgeschwader52.com" dnsto="supongo" forward="felix@redyman.com" rank=""/>
+
+<record id="5002139" type="MA" zone="jagdgeschwader52.com" dnsto="tuck" forward="tuckiejg52@hotmail.com" rank=""/>
+
+<record id="5002210" type="MA" zone="jagdgeschwader52.com" dnsto="tabano" forward="tabano109@hotmail.com" rank=""/>
+
+<record id="5002262" type="MA" zone="jagdgeschwader52.com" dnsto="Kharn" forward="fitijander@hotmail.com" rank=""/>
+
+<record id="2115546" type="MX" zone="jagdgeschwader52.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2108930" type="WF" zone="jagdgeschwader52.com" dnsfrom="www" forward="http://www.terra.es/personal8/anbuma" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	50  zona:	lamusicacontada.com 
+<ze><response><record id="1361247" type="WF" zone="lamusicacontada.com" dnsfrom="www" forward="http://www.elpezdoble.com/" rank="0"/>
+
+<record id="1361248" type="WF" zone="lamusicacontada.com" dnsfrom="" forward="http://www.elpezdoble.com/" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	51  zona:	zonavr.com 
+<ze><response></response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	52  zona:	oficinadeimaginacion.com 
+<ze><response><record id="1758892" type="MA" zone="oficinadeimaginacion.com" dnsto="jorge" forward="sedanmega2@telefonica.net" rank=""/>
+
+<record id="1759069" type="MA" zone="oficinadeimaginacion.com" dnsto="sedan.adolfo" forward="sedanmega3@telefonica.net" rank=""/>
+
+<record id="1759098" type="MA" zone="oficinadeimaginacion.com" dnsto="sedan.jmvalle" forward="sedanmega@telefonica.net" rank=""/>
+
+<record id="1759151" type="MA" zone="oficinadeimaginacion.com" dnsto="sedan.laura" forward="sedanmega@telefonica.net" rank=""/>
+
+<record id="1854157" type="MA" zone="oficinadeimaginacion.com" dnsto="sedan.lucia" forward="sedanmega@telefonica.net" rank=""/>
+
+<record id="1380263" type="MX" zone="oficinadeimaginacion.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1380266" type="WP" zone="oficinadeimaginacion.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+<record id="1380261" type="WP" zone="oficinadeimaginacion.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	53  zona:	curial.net 
+<ze><response><record id="1399833" type="MA" zone="curial.net" dnsto="jordi" forward="j.vila@airtel.net" rank=""/>
+
+<record id="1385441" type="MX" zone="curial.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1438001" type="WF" zone="curial.net" dnsfrom="diwa" forward="http://www.airtel.net/personal/diwa" rank="0" cloaked="true"/>
+
+<record id="1399824" type="WF" zone="curial.net" dnsfrom="escola" forward="http://www.airtel.net/personal/j.vila" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	54  zona:	moonfriends.net 
+<ze><response><record id="1390115" type="MA" zone="moonfriends.net" dnsto="" forward="oscar.calvo@wanadoo.es" rank=""/>
+
+<record id="1391565" type="MA" zone="moonfriends.net" dnsto="" forward="moonfriends@wanadoo.es" rank=""/>
+
+<record id="1390113" type="MX" zone="moonfriends.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1390110" type="WP" zone="moonfriends.net" dnsfrom="" rank="0"/>
+
+<record id="1391566" type="WP" zone="moonfriends.net" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	55  zona:	todoceuta.com 
+<ze><response><record id="1555665" type="WF" zone="todoceuta.com" dnsfrom="" forward="http://www.humano.ya.com/doctor40" rank="0"/>
+
+<record id="1555636" type="WF" zone="todoceuta.com" dnsfrom="www" forward="http://www.humano.ya.com/doctor40" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	56  zona:	embutidoscoman.com 
+<ze><response><record id="1439865" type="MA" zone="embutidoscoman.com" dnsto="embutidoscoman" forward="ecoman@wanadoo.es" rank=""/>
+
+<record id="1452724" type="MA" zone="embutidoscoman.com" dnsto="webmaster" forward="ecomanweb@wanadoo.es" rank=""/>
+
+<record id="1439863" type="MX" zone="embutidoscoman.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1947024" type="WF" zone="embutidoscoman.com" dnsfrom="www" forward="http://personales.ya.com/ecoman" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	57  zona:	imprezaclub.com 
+<ze><response><record id="3985968" type="MA" zone="imprezaclub.com" dnsto="productos" forward="spainbiznt@gsmbox.es" rank=""/>
+
+<record id="8846162" type="MA" zone="imprezaclub.com" dnsto="info" forward="imprezaclub2002@yahoo.es" rank=""/>
+
+<record id="8846218" type="MA" zone="imprezaclub.com" dnsto="webmaster" forward="imprezaclub2002@yahoo.es" rank=""/>
+
+<record id="1443390" type="MX" zone="imprezaclub.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="10991173" type="WF" zone="imprezaclub.com" dnsfrom="www" forward="http://www.geocities.com/clubimpreza2002" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	58  zona:	euro-fashion.tv 
+<ze><response><record id="1513603" type="MA" zone="euro-fashion.tv" dnsto="josesuarez" forward="josesuarez9@hotmail.com" rank=""/>
+
+<record id="1499234" type="MA" zone="euro-fashion.tv" dnsto="juansuarez" forward="josesuarez9@hotmail.com" rank=""/>
+
+<record id="1499228" type="MX" zone="euro-fashion.tv" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1499271" type="WF" zone="euro-fashion.tv" dnsfrom="www" forward="http://www.emef.nl" rank="0" cloaked="true"/>
+
+<record id="1467992" type="WP" zone="euro-fashion.tv" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	59  zona:	euro-fashion.info 
+<ze><response><record id="1519547" type="MA" zone="euro-fashion.info" dnsto="josesuarez" forward="josesuarez9@hotmail.com" rank=""/>
+
+<record id="1519552" type="MA" zone="euro-fashion.info" dnsto="juansuarez" forward="josesuarez9@hotmail.com" rank=""/>
+
+<record id="1519545" type="MX" zone="euro-fashion.info" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1519541" type="WF" zone="euro-fashion.info" dnsfrom="www." forward="http://www.emef.nl" rank="0" cloaked="true"/>
+
+<record id="1468246" type="WP" zone="euro-fashion.info" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+<record id="1467989" type="WP" zone="euro-fashion.info" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	60  zona:	ortoinfo.com 
+<ze><response><record id="1797866" type="MA" zone="ortoinfo.com" dnsto="disenio" forward="zerjio79@hotmail.com" rank=""/>
+
+<record id="1798084" type="MA" zone="ortoinfo.com" dnsto="articulos" forward="rzambudio@hotmail.com" rank=""/>
+
+<record id="1797864" type="MX" zone="ortoinfo.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1493918" type="WP" zone="ortoinfo.com" dnsfrom="" rank="0"/>
+
+<record id="1493920" type="WP" zone="ortoinfo.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	61  zona:	internet.tv 
+<ze><response><record id="1503339" type="MA" zone="internet.tv" dnsto="internet" forward="webmaster@senecaweb.net" rank=""/>
+
+<record id="1503337" type="MX" zone="internet.tv" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1503340" type="WF" zone="internet.tv" dnsfrom="" forward="http://www.senecaweb.net/internet" rank="0"/>
+
+<record id="1503336" type="WP" zone="internet.tv" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	62  zona:	nunezdeprado.com 
+<ze><response><record id="1504783" type="WP" zone="nunezdeprado.com" dnsfrom="" rank="0"/>
+
+<record id="1504785" type="WP" zone="nunezdeprado.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	63  zona:	hostalbellido.net 
+<ze><response><record id="1540368" type="MA" zone="hostalbellido.net" dnsto="info" forward="hostalbellido@hotmail.com" rank=""/>
+
+<record id="1540371" type="MA" zone="hostalbellido.net" dnsto="reservas" forward="hostalbellido@hotmail.com" rank=""/>
+
+<record id="1540385" type="MA" zone="hostalbellido.net" dnsto="webmaster" forward="hostalbellido@hotmail.com" rank=""/>
+
+<record id="1540387" type="MA" zone="hostalbellido.net" dnsto="descargas" forward="hostalbellido@hotmail.com" rank=""/>
+
+<record id="1540364" type="MX" zone="hostalbellido.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1534969" type="WF" zone="hostalbellido.net" dnsfrom="descargas" forward="http://www.terra.es/personal6/descargabellido/" rank="0" cloaked="true"/>
+
+<record id="1534726" type="WF" zone="hostalbellido.net" dnsfrom="" forward="http://www.terra.es/personal6/hbellido" rank="0" cloaked="true"/>
+
+<record id="1534746" type="WF" zone="hostalbellido.net" dnsfrom="info" forward="http://www.terra.es/personal6/hbellido" rank="0" cloaked="true"/>
+
+<record id="1539931" type="WF" zone="hostalbellido.net" dnsfrom="www" forward="http://www.terra.es/personal6/hbellido" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	64  zona:	arconytec.com 
+<ze><response><record id="1568248" type="MA" zone="arconytec.com" dnsto="arquitectura" forward="fernandomijas@yahoo.com" rank=""/>
+
+<record id="4124173" type="MA" zone="arconytec.com" dnsto="arconytec" forward="fernandomijas@yahoo.com" rank=""/>
+
+<record id="4588315" type="MA" zone="arconytec.com" dnsto="arconytec" forward="arcon@telefonica.net" rank=""/>
+
+<record id="4588358" type="MA" zone="arconytec.com" dnsto="arquitectura" forward="arcon@telefonica.net" rank=""/>
+
+<record id="1533663" type="MX" zone="arconytec.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1546319" type="WF" zone="arconytec.com" dnsfrom="" forward="http://es.geocities.com/arconytec" rank="0" cloaked="true"/>
+
+<record id="1546321" type="WF" zone="arconytec.com" dnsfrom="www" forward="http://es.geocities.com/arconytec" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	65  zona:	notejode.com 
+<ze><response><record id="1682761" type="A" zone="notejode.com" dnsfrom="www" dnsto="213.97.177.229" rank="0"/>
+
+<record id="5874987" type="A" zone="notejode.com" dnsfrom="" dnsto="213.97.177.229" rank="0"/>
+
+<record id="5875984" type="A" zone="notejode.com" dnsfrom="ftp" dnsto="213.97.177.229" rank="0"/>
+
+<record id="9514448" type="A" zone="notejode.com" dnsfrom="cartero" dnsto="213.97.177.229" rank="0"/>
+
+<record id="1687351" type="MA" zone="notejode.com" dnsto="chic" forward="jbarreda@usuarios.retecal.es" rank=""/>
+
+<record id="1687495" type="MA" zone="notejode.com" dnsto="bilbur" forward="947276934@telefonica.net" rank=""/>
+
+<record id="1687515" type="MA" zone="notejode.com" dnsto="tek" forward="tekhell@yahoo.es" rank=""/>
+
+<record id="1703376" type="MA" zone="notejode.com" dnsto="cra" forward="cra@satec.es" rank=""/>
+
+<record id="1708894" type="MA" zone="notejode.com" dnsto="ferr" forward="ferr@terra.com" rank=""/>
+
+<record id="1717985" type="MA" zone="notejode.com" dnsto="basilio" forward="yarritu@jazzfree.com" rank=""/>
+
+<record id="1726880" type="MA" zone="notejode.com" dnsto="cabaret" forward="pruebascabaret@hotmail.com" rank=""/>
+
+<record id="1761605" type="MA" zone="notejode.com" dnsto="karole" forward="karoleking@hotmail.com" rank=""/>
+
+<record id="1778827" type="MA" zone="notejode.com" dnsto="jlp" forward="joblanpa@wanadoo.es" rank=""/>
+
+<record id="1868957" type="MA" zone="notejode.com" dnsto="nieves" forward="nievesbebi@eresmas.com" rank=""/>
+
+<record id="1868980" type="MA" zone="notejode.com" dnsto="bebi" forward="nievesbebi@eresmas.com" rank=""/>
+
+<record id="2369765" type="MA" zone="notejode.com" dnsto="bandido" forward="albertocasado@guipuzcoana.com" rank=""/>
+
+<record id="5128112" type="MA" zone="notejode.com" dnsto="joan" forward="jcasamiquela@iespana.es" rank=""/>
+
+<record id="9280596" type="MX" zone="notejode.com" dnsfrom="" dnsto="cartero.hmg.org" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	66  zona:	lagosdelcastillo.com 
+<ze><response><record id="1819715" type="WF" zone="lagosdelcastillo.com" dnsfrom="www" forward="http://www.gavin.dial.pipex.com/ldc/home.html" rank="0"/>
+
+<record id="1579817" type="WP" zone="lagosdelcastillo.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	67  zona:	tiroarco.net 
+<ze><response><record id="2195802" type="MA" zone="tiroarco.net" dnsto="webmaster" forward="tiroarco@hotmail.com" rank=""/>
+
+<record id="6610739" type="MA" zone="tiroarco.net" dnsto="adata" forward="adata@eresmas.net" rank=""/>
+
+<record id="2195800" type="MX" zone="tiroarco.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2195769" type="WF" zone="tiroarco.net" dnsfrom="" forward="http://usuarios.lycos.es/tiroarco/" rank="0" cloaked="true"/>
+
+<record id="2200354" type="WF" zone="tiroarco.net" dnsfrom="www" forward="http://usuarios.lycos.es/tiroarco" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	68  zona:	doctorfm.net 
+<ze><response><record id="1785021" type="MA" zone="doctorfm.net" dnsto="admin" forward="belzebuth@wanadoo.es" rank=""/>
+
+<record id="1791300" type="MA" zone="doctorfm.net" dnsto="divx" forward="fernandojavier.ballestero@wanadoo.es" rank=""/>
+
+<record id="1785019" type="MX" zone="doctorfm.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1784244" type="WF" zone="doctorfm.net" dnsfrom="www" forward="http://perso.wanadoo.es/belzebuth" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	69  zona:	am-medios.com 
+<ze><response><record id="1630890" type="MA" zone="am-medios.com" dnsto="jmboti" forward="jmboti@infonegocio.com" rank=""/>
+
+<record id="1607382" type="MA" zone="am-medios.com" dnsto="am-medios" forward="am-medios@infonegocio.com" rank=""/>
+
+<record id="2965124" type="MA" zone="am-medios.com" dnsto="producciones" forward="producciones@infonegocio.com" rank=""/>
+
+<record id="2967627" type="MA" zone="am-medios.com" dnsto="administracion" forward="am-administracion@infonegocio.com" rank=""/>
+
+<record id="1607380" type="MX" zone="am-medios.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1634653" type="WF" zone="am-medios.com" dnsfrom="inicio" forward="http://www.infonegocio.com/am-medios/index.htm" rank="0" cloaked="true"/>
+
+<record id="1649812" type="WF" zone="am-medios.com" dnsfrom="" forward="http://www.infonegocio.com/am-medios/index.htm" rank="0" cloaked="true"/>
+
+<record id="1649858" type="WF" zone="am-medios.com" dnsfrom="www" forward="http://www.infonegocio.com/am-medios/index.htm" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	70  zona:	pecci.org 
+<ze><response><record id="1622275" type="MA" zone="pecci.org" dnsto="info" forward="peccicg@telefonica.net" rank=""/>
+
+<record id="1622273" type="MX" zone="pecci.org" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1608667" type="WP" zone="pecci.org" dnsfrom="" rank="0"/>
+
+<record id="1608672" type="WP" zone="pecci.org" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	71  zona:	hostalitalia.com 
+<ze><response><record id="1619411" type="WP" zone="hostalitalia.com" dnsfrom="" rank="0"/>
+
+<record id="1619413" type="WP" zone="hostalitalia.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	72  zona:	astudillo.info 
+<ze><response><record id="1649959" type="MA" zone="astudillo.info" dnsto="" forward="contacto@astudillo.net" rank=""/>
+
+<record id="1649957" type="MX" zone="astudillo.info" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1649960" type="WF" zone="astudillo.info" dnsfrom="" forward="http://www.infopyme.es/astudillo/cabecera/cabecera.asp" rank="0"/>
+
+<record id="1656394" type="WF" zone="astudillo.info" dnsfrom="fiestas" forward="http://www.infopyme.es/astudillo/fiestas2001/index.htm" rank="0" cloaked="true"/>
+
+<record id="1903900" type="WF" zone="astudillo.info" dnsfrom="www" forward="http://www.infopyme.es/astudillo/cabecera/astuinfo.asp" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	73  zona:	minasithil.net 
+<ze><response><record id="1999674" type="MA" zone="minasithil.net" dnsto="adnd" forward="argos_red@yahoo.es" rank=""/>
+
+<record id="6748285" type="MA" zone="minasithil.net" dnsto="tnan" forward="fredericdemartin@hotmail.com" rank=""/>
+
+<record id="1723881" type="MX" zone="minasithil.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2013145" type="WF" zone="minasithil.net" dnsfrom="adnd" forward="http://www27.brinkster.com/tzrha/" rank="0"/>
+
+<record id="1656376" type="WP" zone="minasithil.net" dnsfrom="" rank="0"/>
+
+<record id="1656378" type="WP" zone="minasithil.net" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	74  zona:	surcos.org 
+<ze><response><record id="1676957" type="WP" zone="surcos.org" dnsfrom="" rank="0"/>
+
+<record id="1676959" type="WP" zone="surcos.org" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	75  zona:	cash-club.net 
+<ze><response><record id="11642235" type="MA" zone="cash-club.net" dnsto="biot" forward="ecobiot2002@yahoo.es" rank=""/>
+
+<record id="11642232" type="MX" zone="cash-club.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1681260" type="WF" zone="cash-club.net" dnsfrom="www" forward="http://es.geocities.com/ecobiot2001/index.html" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	76  zona:	arpaweb.net 
+<ze><response><record id="2748153" type="WF" zone="arpaweb.net" dnsfrom="www" forward="http://usuarios.lycos.es/arpawebnet/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	77  zona:	ressaca.net 
+<ze><response><record id="1687990" type="MA" zone="ressaca.net" dnsto="info" forward="info@ressaca-quediunoi.zzn.com" rank=""/>
+
+<record id="1690402" type="MA" zone="ressaca.net" dnsto="webmaster" forward="webmaster@ressaca-quediunoi.zzn.com" rank=""/>
+
+<record id="1687988" type="MX" zone="ressaca.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1690407" type="WF" zone="ressaca.net" dnsfrom="www" forward="http://es.geocities.com/lluisviladevall/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	78  zona:	jordipsx.com 
+<ze><response><record id="1738603" type="MA" zone="jordipsx.com" dnsto="webmaster" forward="psx2_1@hotmail.com" rank=""/>
+
+<record id="8124072" type="MA" zone="jordipsx.com" dnsto="obsesion" forward="obsesion_web@hotmail.com" rank=""/>
+
+<record id="1704553" type="MX" zone="jordipsx.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="8127440" type="WF" zone="jordipsx.com" dnsfrom="www.obsesion" forward="http://usuarios.lycos.es/obsesionweb/" rank="0" cloaked="true"/>
+
+<record id="12228415" type="WF" zone="jordipsx.com" dnsfrom="www" forward="http://usuarios.lycos.es/jordipsx/index.htm" rank="0" cloaked="true"/>
+
+<record id="1704551" type="WP" zone="jordipsx.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	79  zona:	mojatierra.com 
+<ze><response><record id="1713955" type="MA" zone="mojatierra.com" dnsto="mojatierra" forward="mojatierra@mundofree.com" rank=""/>
+
+<record id="1713953" type="MX" zone="mojatierra.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1713945" type="WF" zone="mojatierra.com" dnsfrom="www" forward="http://www.mundofree.com/mojatierra" rank="0" cloaked="true"/>
+
+<record id="1707922" type="WP" zone="mojatierra.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	80  zona:	mar-regueras.com 
+<ze><response><record id="1715239" type="MA" zone="mar-regueras.com" dnsto="" forward="bimarkit@wanadoo.es" rank=""/>
+
+<record id="1715237" type="MX" zone="mar-regueras.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1715233" type="WP" zone="mar-regueras.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	81  zona:	deli-mon.com 
+<ze><response><record id="1725744" type="WP" zone="deli-mon.com" dnsfrom="" rank="0"/>
+
+<record id="1725746" type="WP" zone="deli-mon.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	82  zona:	alikornauta.com 
+<ze><response><record id="8406434" type="A" zone="alikornauta.com" dnsfrom="www" dnsto="213.97.177.229" rank="0"/>
+
+<record id="1748106" type="MA" zone="alikornauta.com" dnsto="ruben" forward="rubenfc@terra.es" rank=""/>
+
+<record id="1748140" type="MA" zone="alikornauta.com" dnsto="chic" forward="jbarreda@usuarios.retecal.es" rank=""/>
+
+<record id="1748181" type="MA" zone="alikornauta.com" dnsto="abs" forward="antonio-bravo@usa.net" rank=""/>
+
+<record id="8402144" type="MA" zone="alikornauta.com" dnsto="bbass" forward="bbass@infonegocio.com" rank=""/>
+
+<record id="1739244" type="MX" zone="alikornauta.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1739247" type="WF" zone="alikornauta.com" dnsfrom="" forward="http://212.22.57.205:8080" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	83  zona:	megafilm.biz 
+<ze><response><record id="1753067" type="MA" zone="megafilm.biz" dnsto="joseluis" forward="megasedan1@telefonica.net" rank=""/>
+
+<record id="1753069" type="MA" zone="megafilm.biz" dnsto="carlos" forward="megasedan2@telefonica.net" rank=""/>
+
+<record id="1753074" type="MA" zone="megafilm.biz" dnsto="estudio" forward="megasedan2@telefonica.net" rank=""/>
+
+<record id="1753080" type="MA" zone="megafilm.biz" dnsto="comercial" forward="megasedan1@telefonica.net" rank=""/>
+
+<record id="1753092" type="MA" zone="megafilm.biz" dnsto="administracion" forward="sedanmega@telefonica.net" rank=""/>
+
+<record id="1753065" type="MX" zone="megafilm.biz" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1742301" type="WP" zone="megafilm.biz" dnsfrom="" rank="0"/>
+
+<record id="1742302" type="WP" zone="megafilm.biz" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	84  zona:	proyectoselectronicos.com 
+<ze><response><record id="1750151" type="WP" zone="proyectoselectronicos.com" dnsfrom="" rank="0"/>
+
+<record id="1750153" type="WP" zone="proyectoselectronicos.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	85  zona:	campoycaza.com 
+<ze><response><record id="1784132" type="WP" zone="campoycaza.com" dnsfrom="" rank="0"/>
+
+<record id="1784133" type="WP" zone="campoycaza.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	86  zona:	alcabon.com 
+<ze><response><record id="1790171" type="MA" zone="alcabon.com" dnsto="isabel" forward="isarobu@hotmail.com" rank=""/>
+
+<record id="1790169" type="MX" zone="alcabon.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1797208" type="WF" zone="alcabon.com" dnsfrom="www" forward="http://galeon.com/alcabon2001/index.html" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	87  zona:	jamonweb.com 
+<ze><response><record id="1847232" type="MA" zone="jamonweb.com" dnsto="webmaster" forward="gbarrado@arrakis.es" rank=""/>
+
+<record id="1847230" type="MX" zone="jamonweb.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1847202" type="WF" zone="jamonweb.com" dnsfrom="www" forward="http://www.eureka.ya.com/gaspib" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	88  zona:	textilandaluz.net 
+<ze><response><record id="1835774" type="WP" zone="textilandaluz.net" dnsfrom="" rank="0"/>
+
+<record id="1835776" type="WP" zone="textilandaluz.net" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	89  zona:	textilandaluz.com 
+<ze><response><record id="1835777" type="WP" zone="textilandaluz.com" dnsfrom="" rank="0"/>
+
+<record id="1835779" type="WP" zone="textilandaluz.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	90  zona:	codigolegal.com 
+<ze><response><record id="1838031" type="MA" zone="codigolegal.com" dnsto="mauroalonso" forward="mauro_alonso@hotmail.com" rank=""/>
+
+<record id="1838029" type="MX" zone="codigolegal.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1838032" type="WF" zone="codigolegal.com" dnsfrom="" forward="http://www.regaleundominio.com/regalo/index.php?ID=bm0tNTA4" rank="0"/>
+
+<record id="1838028" type="WP" zone="codigolegal.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	91  zona:	josechispas.com 
+<ze><response><record id="1867554" type="MA" zone="josechispas.com" dnsto="piornal" forward="jesusjose.escudero@wanadoo.es" rank=""/>
+
+<record id="1867403" type="MX" zone="josechispas.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1915196" type="WF" zone="josechispas.com" dnsfrom="www" forward="http://perso.wanadoo.es/jesusjose.escudero/principal.htm" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	92  zona:	shotwell59.com 
+<ze><response><record id="1879655" type="MA" zone="shotwell59.com" dnsto="webmaster" forward="javi.pascual@menta.net" rank=""/>
+
+<record id="1879821" type="MA" zone="shotwell59.com" dnsto="ingrid" forward="ingrid_tena@campus.uab.es" rank=""/>
+
+<record id="1905210" type="MA" zone="shotwell59.com" dnsto="frank" forward="ftena2000@hotmail.com" rank=""/>
+
+<record id="2154769" type="MA" zone="shotwell59.com" dnsto="countrylinedance" forward="robert_quintana@menta.net" rank=""/>
+
+<record id="1879653" type="MX" zone="shotwell59.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1938117" type="WF" zone="shotwell59.com" dnsfrom="www" forward="http://personal.menta.net/shotwell59" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	93  zona:	losmonsters.com 
+<ze><response><record id="1911420" type="MA" zone="losmonsters.com" dnsto="julio" forward="juliopuli@airtel.net" rank=""/>
+
+<record id="1915449" type="MA" zone="losmonsters.com" dnsto="juanjo" forward="jurueda@terra.es" rank=""/>
+
+<record id="1915454" type="MA" zone="losmonsters.com" dnsto="jose" forward="carroceriasdelsur@airtel.net" rank=""/>
+
+<record id="1915467" type="MA" zone="losmonsters.com" dnsto="sergio" forward="sergiopas@eresmas.com" rank=""/>
+
+<record id="1901508" type="MX" zone="losmonsters.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1921930" type="WF" zone="losmonsters.com" dnsfrom="www" forward="http://www.terra.es/personal4/losmonsters" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	94  zona:	lalunarosa.com 
+<ze><response><record id="2044639" type="MA" zone="lalunarosa.com" dnsto="melytta" forward="melytta@hotmail.com" rank=""/>
+
+<record id="2053934" type="MA" zone="lalunarosa.com" dnsto="hormigo" forward="hormigo55@ono.com" rank=""/>
+
+<record id="1906115" type="MX" zone="lalunarosa.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2044627" type="WF" zone="lalunarosa.com" dnsfrom="" forward="http://inicia.es/de/hormigo55/" rank="0" cloaked="true"/>
+
+<record id="2045236" type="WF" zone="lalunarosa.com" dnsfrom="intro" forward="http://inicia.es/de/hormigo55/LaLunaRosa.htm" rank="0"/>
+
+<record id="2067561" type="WF" zone="lalunarosa.com" dnsfrom="www" forward="http://inicia.es/de/hormigo55/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	95  zona:	hmg.org 
+<ze><response><record id="1972219" type="A" zone="hmg.org" dnsfrom="www" dnsto="213.97.177.229" rank="0"/>
+
+<record id="5312758" type="A" zone="hmg.org" dnsfrom="ftp" dnsto="213.97.177.229" rank="0"/>
+
+<record id="5382281" type="A" zone="hmg.org" dnsfrom="cartero" dnsto="213.97.177.229" rank="0"/>
+
+<record id="5382415" type="A" zone="hmg.org" dnsfrom="" dnsto="213.97.177.229" rank="0"/>
+
+<record id="5874295" type="MX" zone="hmg.org" dnsfrom="" dnsto="cartero.hmg.org" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	96  zona:	fuentescarrionas.com 
+<ze><response><record id="1993690" type="MA" zone="fuentescarrionas.com" dnsto="aletel" forward="alejandronicolas.perezgarcia@telefonica.es" rank=""/>
+
+<record id="1993720" type="MA" zone="fuentescarrionas.com" dnsto="aletel" forward="alejandro.p@telefonica.net" rank=""/>
+
+<record id="1993763" type="MA" zone="fuentescarrionas.com" dnsto="trabajo" forward="alejandronicolas.perezgarcia@telefonica.es" rank=""/>
+
+<record id="2115160" type="MA" zone="fuentescarrionas.com" dnsto="" forward="alejandro-p@terra.es" rank=""/>
+
+<record id="2115296" type="MA" zone="fuentescarrionas.com" dnsto="administrador" forward="alejandro-p@terra.es" rank=""/>
+
+<record id="2115305" type="MA" zone="fuentescarrionas.com" dnsto="alvaro" forward="buzonmio@terra.es" rank=""/>
+
+<record id="2115308" type="MA" zone="fuentescarrionas.com" dnsto="griselda" forward="buzonmio@terra.es" rank=""/>
+
+<record id="5727119" type="MA" zone="fuentescarrionas.com" dnsto="informacion" forward="alejandro-p@terra.es" rank=""/>
+
+<record id="1993676" type="MX" zone="fuentescarrionas.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2150045" type="WF" zone="fuentescarrionas.com" dnsfrom="www" forward="http://www.telefonica.net/web/alejandro" rank="0" cloaked="true"/>
+
+<record id="2150359" type="WF" zone="fuentescarrionas.com" dnsfrom="www.palencia" forward="http://geocities.com/hogardealejandro/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	97  zona:	ivanesto.com 
+<ze><response><record id="1979862" type="MA" zone="ivanesto.com" dnsto="" forward="the@arrakis.es" rank=""/>
+
+<record id="1979860" type="MX" zone="ivanesto.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="1979858" type="WP" zone="ivanesto.com" dnsfrom="" rank="0"/>
+
+<record id="1979863" type="WP" zone="ivanesto.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	98  zona:	moxtoles.com 
+<ze><response><record id="2004424" type="MA" zone="moxtoles.com" dnsto="" forward="EARREGUI@DIPISA.ES" rank=""/>
+
+<record id="2004422" type="MX" zone="moxtoles.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2004425" type="WP" zone="moxtoles.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	99  zona:	distrigal.com 
+<ze><response><record id="2081657" type="MA" zone="distrigal.com" dnsto="wedmaster" forward="susocastro@ya.com" rank=""/>
+
+<record id="2149286" type="MA" zone="distrigal.com" dnsto="jesus" forward="distrigal@ya.com" rank=""/>
+
+<record id="2081655" type="MX" zone="distrigal.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2009329" type="WP" zone="distrigal.com" dnsfrom="" rank="0"/>
+
+<record id="2009331" type="WP" zone="distrigal.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	100  zona:	marc-vina.com 
+<ze><response><record id="2025371" type="MA" zone="marc-vina.com" dnsto="" forward="avhsoftware@telefonica.net" rank=""/>
+
+<record id="2025369" type="MX" zone="marc-vina.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2034352" type="WF" zone="marc-vina.com" dnsfrom="www" forward="http://www.efrance.fr/buscagps/marc" rank="0" cloaked="true"/>
+
+<record id="2094027" type="WF" zone="marc-vina.com" dnsfrom="movilmania" forward="http://www.efrance.fr/buscagps/tienda" rank="0" cloaked="true"/>
+
+<record id="2025367" type="WP" zone="marc-vina.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	101  zona:	taosaludnatural.com 
+<ze><response><record id="2025373" type="WP" zone="taosaludnatural.com" dnsfrom="" rank="0"/>
+
+<record id="2025375" type="WP" zone="taosaludnatural.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	102  zona:	lesvivo.com 
+<ze><response><record id="2047399" type="MA" zone="lesvivo.com" dnsto="lesvivo" forward="grupo_vivo@wanadoo.es" rank=""/>
+
+<record id="2047481" type="MA" zone="lesvivo.com" dnsto="pablo" forward="ptoharia@wanadoo.es" rank=""/>
+
+<record id="2047483" type="MA" zone="lesvivo.com" dnsto="dani" forward="dekka36@hotmail.com" rank=""/>
+
+<record id="2047490" type="MA" zone="lesvivo.com" dnsto="hector" forward="hectorlaina@hotmail.com" rank=""/>
+
+<record id="2047397" type="MX" zone="lesvivo.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="3351234" type="WF" zone="lesvivo.com" dnsfrom="" forward="http://terra.es/personal8/lesvivo" rank="0"/>
+
+<record id="3389650" type="WF" zone="lesvivo.com" dnsfrom="web" forward="http://terra.es/personal8/lesvivo/index.html" rank="0"/>
+
+<record id="3432060" type="WF" zone="lesvivo.com" dnsfrom="www" forward="http://terra.es/personal8/lesvivo" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	103  zona:	pixela2.com 
+<ze><response><record id="2092968" type="MA" zone="pixela2.com" dnsto="clientes" forward="chemarguez@yahoo.es" rank=""/>
+
+<record id="4055318" type="MA" zone="pixela2.com" dnsto="chema" forward="chemarguez@yahoo.es" rank=""/>
+
+<record id="4055394" type="MA" zone="pixela2.com" dnsto="miguelangel" forward="miguelacb@ole.com" rank=""/>
+
+<record id="4055423" type="MA" zone="pixela2.com" dnsto="josecervera" forward="josecervera@supercable.es" rank=""/>
+
+<record id="4055444" type="MA" zone="pixela2.com" dnsto="pixela2" forward="chemarguez@yahoo.es" rank=""/>
+
+<record id="4055453" type="MA" zone="pixela2.com" dnsto="pixela2" forward="miguelacb@ole.com" rank=""/>
+
+<record id="4055471" type="MA" zone="pixela2.com" dnsto="pixela2" forward="josecervera@supercable.es" rank=""/>
+
+<record id="4055689" type="MA" zone="pixela2.com" dnsto="dionisio" forward="josecervera@supercable.es" rank=""/>
+
+<record id="2092966" type="MX" zone="pixela2.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4055037" type="WF" zone="pixela2.com" dnsfrom="www" forward="http://usuarios.lycos.es/pixela2/web/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	104  zona:	gmonroy.com 
+<ze><response><record id="2092974" type="MA" zone="gmonroy.com" dnsto="" forward="gmarti@ono.com" rank=""/>
+
+<record id="2092972" type="MX" zone="gmonroy.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2111158" type="WF" zone="gmonroy.com" dnsfrom="www" forward="http://webs.ono.com/gmarti" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	105  zona:	labarcelonesa.net 
+<ze><response><record id="2106217" type="MA" zone="labarcelonesa.net" dnsto="" forward="ALBATAM@msn.com" rank=""/>
+
+<record id="2106215" type="MX" zone="labarcelonesa.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2249206" type="WF" zone="labarcelonesa.net" dnsfrom="www" forward="http://www.iespana.es/labarcelonesa" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	106  zona:	la-ira.com 
+<ze><response><record id="2110005" type="MA" zone="la-ira.com" dnsto="" forward="rcarballo@mdm.es" rank=""/>
+
+<record id="2110003" type="MX" zone="la-ira.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2111152" type="WF" zone="la-ira.com" dnsfrom="www" forward="http://www.geocities.com/todoloquesubebaja" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	107  zona:	MASTUYO.com 
+<ze><response><record id="3081406" type="MA" zone="MASTUYO.com" dnsto="ES" forward="fcosuna@airtel.net" rank=""/>
+
+<record id="2665678" type="MX" zone="MASTUYO.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2209539" type="WF" zone="MASTUYO.com" dnsfrom="" forward="http://www.escaparates.com/localia" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	108  zona:	hostalaresol.com 
+<ze><response><record id="2100600" type="MA" zone="hostalaresol.com" dnsto="" forward="h-aresol@teleline.es" rank=""/>
+
+<record id="2125930" type="MA" zone="hostalaresol.com" dnsto="info" forward="h-aresol@teleline.es" rank=""/>
+
+<record id="3642289" type="MA" zone="hostalaresol.com" dnsto="jmc" forward="h-aresol@teleline.es" rank=""/>
+
+<record id="2100598" type="MX" zone="hostalaresol.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2100601" type="WF" zone="hostalaresol.com" dnsfrom="" forward="http://empresas.arrakis.es/telisa/aresol" rank="0" cloaked="true"/>
+
+<record id="2126393" type="WF" zone="hostalaresol.com" dnsfrom="www" forward="http://empresas.arrakis.es/telisa/aresol" rank="0" cloaked="true"/>
+
+<record id="2138808" type="WF" zone="hostalaresol.com" dnsfrom="web" forward="http://empresas.arrakis.es/telisa/aresol" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	109  zona:	marbellavalley.com 
+<ze><response><record id="2125798" type="WP" zone="marbellavalley.com" dnsfrom="" rank="0"/>
+
+<record id="2125800" type="WP" zone="marbellavalley.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	110  zona:	chrisvanmerk.com 
+<ze><response><record id="2125801" type="WP" zone="chrisvanmerk.com" dnsfrom="" rank="0"/>
+
+<record id="2125803" type="WP" zone="chrisvanmerk.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	111  zona:	xirico.com 
+<ze><response><record id="2149281" type="WP" zone="xirico.com" dnsfrom="" rank="0"/>
+
+<record id="2149283" type="WP" zone="xirico.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	112  zona:	lavanderiacervantes.com 
+<ze><response><record id="2184918" type="WP" zone="lavanderiacervantes.com" dnsfrom="" rank="0"/>
+
+<record id="2184920" type="WP" zone="lavanderiacervantes.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	113  zona:	pixelwords.com 
+<ze><response><record id="2192541" type="MA" zone="pixelwords.com" dnsto="" forward="j.m.m.b@teleline.es" rank=""/>
+
+<record id="2192539" type="MX" zone="pixelwords.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2192537" type="WP" zone="pixelwords.com" dnsfrom="" rank="0"/>
+
+<record id="2192542" type="WP" zone="pixelwords.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	114  zona:	menorcatel.com 
+<ze><response><record id="5302389" type="MA" zone="menorcatel.com" dnsto="menorcatel" forward="menorcatel@hotmail.com" rank=""/>
+
+<record id="5302436" type="MA" zone="menorcatel.com" dnsto="serviciotecnico" forward="menorcatel@hotmail.com" rank=""/>
+
+<record id="5302387" type="MX" zone="menorcatel.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5301908" type="WF" zone="menorcatel.com" dnsfrom="" forward="http://menorcatel07.iespana.es" rank="0" cloaked="true"/>
+
+<record id="5302783" type="WF" zone="menorcatel.com" dnsfrom="www" forward="http://menorcatel07.iespana.es" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	115  zona:	abaxco.com 
+<ze><response><record id="2289868" type="A" zone="abaxco.com" dnsfrom="www" dnsto="213.96.102.178" rank="0"/>
+
+<record id="2289930" type="A" zone="abaxco.com" dnsfrom="efacturex" dnsto="213.96.102.178" rank="0"/>
+
+<record id="8451250" type="A" zone="abaxco.com" dnsfrom="mail" dnsto="213.96.102.178" rank="0"/>
+
+<record id="8451288" type="A" zone="abaxco.com" dnsfrom="" dnsto="213.96.102.178" rank="0"/>
+
+<record id="2289984" type="MX" zone="abaxco.com" dnsfrom="mail" dnsto="abaxco.com" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	116  zona:	hotel-ripa.com 
+<ze><response><record id="3084271" type="MA" zone="hotel-ripa.com" dnsto="info" forward="hotelripa@teleline.es" rank=""/>
+
+<record id="3084349" type="MA" zone="hotel-ripa.com" dnsto="felix" forward="hotelripa@teleline.es" rank=""/>
+
+<record id="3436683" type="MA" zone="hotel-ripa.com" dnsto="webmaster" forward="decasa@jet.es" rank=""/>
+
+<record id="3084269" type="MX" zone="hotel-ripa.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="3414713" type="WF" zone="hotel-ripa.com" dnsfrom="www" forward="http://web.jet.es/decasa/ripa/" rank="0" cloaked="true"/>
+
+<record id="2465630" type="WP" zone="hotel-ripa.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	117  zona:	hjaen.com 
+<ze><response><record id="3283747" type="MA" zone="hjaen.com" dnsto="info" forward="hjaen@iespana.es" rank=""/>
+
+<record id="3079808" type="MX" zone="hjaen.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="2636713" type="WF" zone="hjaen.com" dnsfrom="" forward="http://empresas.arrakis.es/telisa/hjaen" rank="0"/>
+
+<record id="3183706" type="WF" zone="hjaen.com" dnsfrom="www" forward="http://empresas.arrakis.es/telisa/hjaen" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	118  zona:	grupoalca.net 
+<ze><response><record id="3388704" type="A" zone="grupoalca.net" dnsfrom="www" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3388840" type="A" zone="grupoalca.net" dnsfrom="ftp" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3443236" type="A" zone="grupoalca.net" dnsfrom="berfor" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3454587" type="A" zone="grupoalca.net" dnsfrom="asesoria" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3454604" type="A" zone="grupoalca.net" dnsfrom="formaweb" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3454634" type="A" zone="grupoalca.net" dnsfrom="acadweb" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3454647" type="A" zone="grupoalca.net" dnsfrom="alcaweb" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3454667" type="A" zone="grupoalca.net" dnsfrom="berforweb" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3772994" type="A" zone="grupoalca.net" dnsfrom="mail" dnsto="217.127.83.25" rank="0"/>
+
+<record id="4051424" type="A" zone="grupoalca.net" dnsfrom="*" dnsto="217.127.83.25" rank="0"/>
+
+<record id="4528515" type="A" zone="grupoalca.net" dnsfrom="correo" dnsto="217.127.83.25" rank="0"/>
+
+<record id="6033028" type="A" zone="grupoalca.net" dnsfrom="disgar" dnsto="80.59.89.153" rank="0"/>
+
+<record id="6033191" type="A" zone="grupoalca.net" dnsfrom="" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3773034" type="CNAME" zone="grupoalca.net" dnsfrom="pop3" dnsto="mail.grupoalca.net" rank="0"/>
+
+<record id="3390346" type="MA" zone="grupoalca.net" dnsto="administrador" forward="desarrollo@alcainformobil.com" rank=""/>
+
+<record id="3390309" type="MFX" zone="grupoalca.net" dnsfrom="" dnsto="jesus" forward="alias-3390309" rank=""/>
+
+<record id="4527228" type="MX" zone="grupoalca.net" dnsfrom="correo" dnsto="correo.grupoalca.net" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	119  zona:	avparquesdeceuta.com 
+<ze><response><record id="3375767" type="WF" zone="avparquesdeceuta.com" dnsfrom="www" forward="http://geo.ya.com/parquesdeceuta" rank="0" cloaked="true"/>
+
+<record id="3783929" type="WF" zone="avparquesdeceuta.com" dnsfrom="" forward="http://geo.ya.com/parquesdeceuta" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	120  zona:	ados.cc 
+<ze><response><record id="3390463" type="MA" zone="ados.cc" dnsto="alberto" forward="albertosanz@telefonica.net" rank=""/>
+
+<record id="9390339" type="MA" zone="ados.cc" dnsto="mk" forward="georginamaestre@telefonica.net" rank=""/>
+
+<record id="9390390" type="MA" zone="ados.cc" dnsto="info" forward="alvarosanz@telefonica.net" rank=""/>
+
+<record id="10457116" type="MA" zone="ados.cc" dnsto="redaccion" forward="ados.redaccion@telefonica.net" rank=""/>
+
+<record id="12191033" type="MA" zone="ados.cc" dnsto="rrhh" forward="hectormaestre@telefonica.net" rank=""/>
+
+<record id="3363302" type="MX" zone="ados.cc" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="10457307" type="WF" zone="ados.cc" dnsfrom="" forward="http://personal.telefonica.terra.es/web/ados/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	121  zona:	universoradio.com 
+<ze><response><record id="3573761" type="MA" zone="universoradio.com" dnsto="universoradio" forward="universoradio@terra.es" rank=""/>
+
+<record id="3573800" type="MA" zone="universoradio.com" dnsto="comercial" forward="universoradio@terra.es" rank=""/>
+
+<record id="3635005" type="MA" zone="universoradio.com" dnsto="informativos" forward="universoradio@terra.es" rank=""/>
+
+<record id="3635102" type="MA" zone="universoradio.com" dnsto="programas" forward="universoradio@terra.es" rank=""/>
+
+<record id="3573759" type="MX" zone="universoradio.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4600177" type="WF" zone="universoradio.com" dnsfrom="www" forward="http://www.terra.es/personal3/onda2000/uni/1.htm" rank="0" cloaked="true"/>
+
+<record id="4600181" type="WF" zone="universoradio.com" dnsfrom="" forward="http://www.terra.es/personal3/onda2000/uni/1.htm" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	122  zona:	faraones.net 
+<ze><response><record id="3585684" type="MA" zone="faraones.net" dnsto="" forward="pmmancebo@telepolis.com" rank=""/>
+
+<record id="6605802" type="MA" zone="faraones.net" dnsto="webmaster" forward="pmmancebo@telepolis.com" rank=""/>
+
+<record id="3585682" type="MX" zone="faraones.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5190226" type="WF" zone="faraones.net" dnsfrom="www" forward="http://club.telepolis.com/pmmancebo" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	123  zona:	lamorada.info 
+<ze><response><record id="3629507" type="MA" zone="lamorada.info" dnsto="mail" forward="lamorada@km0.com" rank=""/>
+
+<record id="3629505" type="MX" zone="lamorada.info" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4834528" type="WF" zone="lamorada.info" dnsfrom="www" forward="http://www.alsur.es/lamorada/" rank="0" cloaked="true"/>
+
+<record id="4834529" type="WF" zone="lamorada.info" dnsfrom="" forward="http://www.alsur.es/lamorada/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	124  zona:	papanoes.com 
+<ze><response><record id="3640006" type="MA" zone="papanoes.com" dnsto="" forward="jonasmajo@hotmail.com" rank=""/>
+
+<record id="3640004" type="MX" zone="papanoes.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4358783" type="WF" zone="PAPANOES.com" dnsfrom="www" forward="http://papanoes.iespana.es" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	125  zona:	papanoe.net 
+<ze><response><record id="3640012" type="MA" zone="papanoe.net" dnsto="" forward="jonasmajo@hotmail.com" rank=""/>
+
+<record id="3640010" type="MX" zone="papanoe.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="3640008" type="WP" zone="papanoe.net" dnsfrom="" rank="0"/>
+
+<record id="3640013" type="WP" zone="papanoe.net" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	126  zona:	mueblesbalmaseda.com 
+<ze><response><record id="3663461" type="WP" zone="mueblesbalmaseda.com" dnsfrom="" rank="0"/>
+
+<record id="3663464" type="WP" zone="mueblesbalmaseda.com" dnsfrom="www" dnsto="Under Construction" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	127  zona:	hostalsplendid.com 
+<ze><response><record id="3708235" type="MA" zone="hostalsplendid.com" dnsto="webmaster" forward="decasa@jet.es" rank=""/>
+
+<record id="3708233" type="MX" zone="hostalsplendid.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4174636" type="WF" zone="hostalsplendid.com" dnsfrom="www" forward="http://empresas.arrakis.es/telisa/splendid" rank="0" cloaked="true"/>
+
+<record id="3667966" type="WP" zone="hostalsplendid.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	128  zona:	ditecdi.com 
+<ze><response><record id="7172237" type="WF" zone="ditecdi.com" dnsfrom="www" forward="http://ditecdi.servicad.org" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	129  zona:	servicad.org 
+<ze><response><record id="3674289" type="A" zone="servicad.org" dnsfrom="www" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3674428" type="A" zone="servicad.org" dnsfrom="ditecdi" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3676670" type="A" zone="servicad.org" dnsfrom="ftp" dnsto="217.127.83.25" rank="0"/>
+
+<record id="3672491" type="WP" zone="servicad.org" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	130  zona:	delmaformacion.net 
+<ze><response><record id="3706746" type="MA" zone="delmaformacion.net" dnsto="" forward="registro@nombremania.com" rank=""/>
+
+<record id="3706744" type="MX" zone="delmaformacion.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="3724199" type="WF" zone="delmaformacion.net" dnsfrom="" forward="http://usuarios.lycos.es/delmaformacion/index.htm" rank="0" cloaked="true"/>
+
+<record id="3724244" type="WF" zone="delmaformacion.net" dnsfrom="www" forward="http://usuarios.lycos.es/delmaformacion/index.htm" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	131  zona:	distorsiones.com 
+<ze><response><record id="3733327" type="MA" zone="distorsiones.com" dnsto="fede" forward="sulaco@planet.nl" rank=""/>
+
+<record id="6600768" type="MA" zone="distorsiones.com" dnsto="rvu" forward="rvu@idecnet.com" rank=""/>
+
+<record id="3731944" type="MX" zone="distorsiones.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="10588900" type="WF" zone="distorsiones.com" dnsfrom="www" forward="http://www.planet.nl/~dosil000" rank="0" cloaked="true"/>
+
+<record id="10588936" type="WF" zone="distorsiones.com" dnsfrom="" forward="http://www.planet.nl/~dosil000/" rank="0" cloaked="true"/>
+
+<record id="11355894" type="WF" zone="distorsiones.com" dnsfrom="www2" forward="http://www.iespana.es/fdosil/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	132  zona:	duchement.com 
+<ze><response><record id="3873460" type="MA" zone="duchement.com" dnsto="antonio" forward="duche@telefonica.net" rank=""/>
+
+<record id="3873789" type="MA" zone="duchement.com" dnsto="sandra" forward="ssgarcia@telefonica.net" rank=""/>
+
+<record id="7823513" type="MA" zone="duchement.com" dnsto="manuel" forward="mduchementt@telefonica.net" rank=""/>
+
+<record id="3871055" type="MX" zone="duchement.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="7747496" type="WF" zone="duchement.com" dnsfrom="www" forward="http://www.telefonica.net/web/duche/duchement" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	133  zona:	tqpworld.com 
+<ze><response></response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	134  zona:	pobladura.com 
+<ze><response><record id="4346463" type="MA" zone="pobladura.com" dnsto="info" forward="rfdez@grupobbva.net" rank=""/>
+
+<record id="4346455" type="MX" zone="pobladura.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5810912" type="WF" zone="pobladura.com" dnsfrom="www" forward="http://pobladura.aliste.info/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	135  zona:	redtelevacaciones.com 
+<ze><response><record id="4182933" type="WF" zone="redtelevacaciones.com" dnsfrom="" forward="http://televacaciones.es" rank="0"/>
+
+<record id="4387950" type="WF" zone="redtelevacaciones.com" dnsfrom="viajeslaura" forward="http://www.televacaciones.es/agencias/viajeslaura" rank="0" cloaked="true"/>
+
+<record id="5229389" type="WF" zone="redtelevacaciones.com" dnsfrom="exoticos" forward="http://www.televacaciones.es/agencias/exoticos" rank="0" cloaked="true"/>
+
+<record id="5230954" type="WF" zone="redtelevacaciones.com" dnsfrom="veleroazul" forward="http://www.televacaciones.es/agencias/veleroazul" rank="0" cloaked="true"/>
+
+<record id="6500506" type="WF" zone="redtelevacaciones.com" dnsfrom="helice" forward="http://www.televacaciones.es/agencias/helice" rank="0" cloaked="true"/>
+
+<record id="6502217" type="WF" zone="redtelevacaciones.com" dnsfrom="avolar" forward="http://www.televacaciones.es/agencias/avolar" rank="0" cloaked="true"/>
+
+<record id="6502247" type="WF" zone="redtelevacaciones.com" dnsfrom="aruba" forward="http://www.televacaciones.es/agencias/aruba" rank="0" cloaked="true"/>
+
+<record id="6502272" type="WF" zone="redtelevacaciones.com" dnsfrom="asvintur" forward="http://www.televacaciones.es/agencias/asvintur" rank="0" cloaked="true"/>
+
+<record id="6502587" type="WF" zone="redtelevacaciones.com" dnsfrom="crucemar" forward="http://www.televacaciones.es/agencias/crucemar" rank="0" cloaked="true"/>
+
+<record id="6502756" type="WF" zone="redtelevacaciones.com" dnsfrom="mundoexpress" forward="http://www.televacaciones.es/agencias/mundoexpress" rank="0" cloaked="true"/>
+
+<record id="6502836" type="WF" zone="redtelevacaciones.com" dnsfrom="enruta" forward="http://www.televacaciones.es/agencias/enruta" rank="0" cloaked="true"/>
+
+<record id="6502910" type="WF" zone="redtelevacaciones.com" dnsfrom="caminsdelmon" forward="http://www.televacaciones.es/agencias/caminsdelmon" rank="0" cloaked="true"/>
+
+<record id="6503161" type="WF" zone="redtelevacaciones.com" dnsfrom="playadeoro" forward="http://www.televacaciones.es/agencias/playadeoro" rank="0" cloaked="true"/>
+
+<record id="6503255" type="WF" zone="redtelevacaciones.com" dnsfrom="viajeoteca" forward="http://www.televacaciones.es/agencias/viajeoteca" rank="0" cloaked="true"/>
+
+<record id="6503398" type="WF" zone="redtelevacaciones.com" dnsfrom="turviajes" forward="http://www.televacaciones.es/agencias/turviajes" rank="0" cloaked="true"/>
+
+<record id="6503739" type="WF" zone="redtelevacaciones.com" dnsfrom="travelpol" forward="http://www.televacaciones.es/agencias/travelpol" rank="0" cloaked="true"/>
+
+<record id="6504253" type="WF" zone="redtelevacaciones.com" dnsfrom="transtur" forward="http://www.televacaciones.es/agencias/transtur" rank="0" cloaked="true"/>
+
+<record id="6504568" type="WF" zone="redtelevacaciones.com" dnsfrom="mundilaquente" forward="http://www.televacaciones.es/agencias/mundilaquente" rank="0" cloaked="true"/>
+
+<record id="6504629" type="WF" zone="redtelevacaciones.com" dnsfrom="mondel" forward="http://www.televacaciones.es/agencias/mondel" rank="0" cloaked="true"/>
+
+<record id="6504720" type="WF" zone="redtelevacaciones.com" dnsfrom="jesan" forward="http://www.televacaciones.es/agencias/jesan" rank="0" cloaked="true"/>
+
+<record id="6504888" type="WF" zone="redtelevacaciones.com" dnsfrom="frangel" forward="http://www.televacaciones.es/agencias/frangel" rank="0" cloaked="true"/>
+
+<record id="6505567" type="WF" zone="redtelevacaciones.com" dnsfrom="entertravel" forward="http://www.televacaciones.es/agencias/entertravel" rank="0" cloaked="true"/>
+
+<record id="6505877" type="WF" zone="redtelevacaciones.com" dnsfrom="bonsai" forward="http://www.televacaciones.es/agencias/bonsai" rank="0" cloaked="true"/>
+
+<record id="6506256" type="WF" zone="redtelevacaciones.com" dnsfrom="costastyl" forward="http://www.televacaciones.es/agencias/costastyl" rank="0" cloaked="true"/>
+
+<record id="6507073" type="WF" zone="redtelevacaciones.com" dnsfrom="sakkara2" forward="http://www.televacaciones.es/agencias/sakkara2" rank="0" cloaked="true"/>
+
+<record id="6507101" type="WF" zone="redtelevacaciones.com" dnsfrom="sakkara1" forward="http://www.televacaciones.es/agencias/sakkara1" rank="0" cloaked="true"/>
+
+<record id="6581503" type="WF" zone="redtelevacaciones.com" dnsfrom="businessholidays" forward="http://www.televacaciones.es/agencias/businessholidays" rank="0" cloaked="true"/>
+
+<record id="6649285" type="WF" zone="redtelevacaciones.com" dnsfrom="guadiana" forward="http://www.televacaciones.es/agencias/guadiana" rank="0" cloaked="true"/>
+
+<record id="6650160" type="WF" zone="redtelevacaciones.com" dnsfrom="track" forward="http://www.televacaciones.es/agencias/track" rank="0" cloaked="true"/>
+
+<record id="6656976" type="WF" zone="redtelevacaciones.com" dnsfrom="sandras" forward="http://www.televacaciones.es/agencias/sandras" rank="0" cloaked="true"/>
+
+<record id="6908308" type="WF" zone="redtelevacaciones.com" dnsfrom="selectur" forward="http://www.televacaciones.es/agencias/selectur" rank="0" cloaked="true"/>
+
+<record id="7794084" type="WF" zone="redtelevacaciones.com" dnsfrom="imaginatravel" forward="http://www.televacaciones.es/agencias/imaginatravel" rank="0" cloaked="true"/>
+
+<record id="8540510" type="WF" zone="redtelevacaciones.com" dnsfrom="irazuviajes" forward="http://www.televacaciones.es/agencias/irazuviajes" rank="0" cloaked="true"/>
+
+<record id="8900339" type="WF" zone="redtelevacaciones.com" dnsfrom="alea" forward="http://www.televacaciones.es/agencias/alea" rank="0" cloaked="true"/>
+
+<record id="11651985" type="WF" zone="redtelevacaciones.com" dnsfrom="flytravelling" forward="http://www.televacaciones.es/agencias/flytravelling" rank="0" cloaked="true"/>
+
+<record id="4182930" type="WP" zone="redtelevacaciones.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	136  zona:	grupotelevacaciones.com 
+<ze><response><record id="4182936" type="WF" zone="grupotelevacaciones.com" dnsfrom="" forward="http://televacaciones.es" rank="0"/>
+
+<record id="4182935" type="WP" zone="grupotelevacaciones.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	137  zona:	chiki-cool.com 
+<ze><response><record id="4185262" type="MA" zone="chiki-cool.com" dnsto="" forward="en_ma_ro@wanadoo.es" rank=""/>
+
+<record id="4185260" type="MX" zone="chiki-cool.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4190085" type="WF" zone="chiki-cool.com" dnsfrom="www" forward="http://perso.wanadoo.es/marrents/index.htm" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	138  zona:	boscomartin.com 
+<ze><response><record id="4335684" type="WP" zone="boscomartin.com" dnsfrom="" rank="0"/>
+
+<record id="4335695" type="WP" zone="boscomartin.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	139  zona:	arcomedievo.net 
+<ze><response><record id="4923947" type="MA" zone="arcomedievo.net" dnsto="camara" forward="arcomedievo@eresmas.net" rank=""/>
+
+<record id="4923988" type="MA" zone="arcomedievo.net" dnsto="webmaster" forward="arcomedievo@eresmas.net" rank=""/>
+
+<record id="4923945" type="MX" zone="arcomedievo.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="4614569" type="WF" zone="arcomedievo.net" dnsfrom="" forward="http://jlcastilloe.eresmas.net" rank="0"/>
+
+<record id="4725131" type="WF" zone="arcomedievo.net" dnsfrom="www" forward="http://jlcastilloe.eresmas.net" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	140  zona:	sissoria.com 
+<ze><response><record id="4838351" type="A" zone="sissoria.com" dnsfrom="www" dnsto="217.127.105.243" rank="0"/>
+
+<record id="4839595" type="A" zone="sissoria.com" dnsfrom="tienda" dnsto="217.127.105.243" rank="0"/>
+
+<record id="6590959" type="A" zone="sissoria.com" dnsfrom="mail" dnsto="217.127.105.243" rank="0"/>
+
+<record id="6591014" type="MX" zone="sissoria.com" dnsfrom="" dnsto="mail.sissoria.com" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	141  zona:	todoapc.com 
+<ze><response><record id="8922720" type="A" zone="todoapc.com" dnsfrom="www" dnsto="80.32.215.23" rank="0"/>
+
+<record id="10974933" type="A" zone="todoapc.com" dnsfrom="" dnsto="80.32.215.23" rank="0"/>
+
+<record id="4969758" type="MA" zone="todoapc.com" dnsto="" forward="todoapc@hotmail.com" rank=""/>
+
+<record id="4980293" type="WF" zone="todoapc.com" dnsfrom="" forward="http://80.32.215.23" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	142  zona:	palmexo.net 
+<ze><response><record id="12196938" type="WF" zone="palmexo.net" dnsfrom="www" forward="http://213.139.5.46/webapp/arteInv/servlet/SPainterMain?idpintor=409" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	143  zona:	museosdeandalucia.com 
+<ze><response><record id="5026752" type="MA" zone="museosdeandalucia.com" dnsto="demuseos" forward="demuseos@telepolis.com" rank=""/>
+
+<record id="5026748" type="MX" zone="museosdeandalucia.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5321764" type="WF" zone="museosdeandalucia.com" dnsfrom="" forward="http://club.telepolis.com/demuseos" rank="0" cloaked="true"/>
+
+<record id="5421145" type="WF" zone="museosdeandalucia.com" dnsfrom="www" forward="http://club.telepolis.com/demuseos" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	144  zona:	iegsl.com 
+<ze><response><record id="5213296" type="A" zone="iegsl.com" dnsfrom="www" dnsto="212.97.168.98" rank="0"/>
+
+<record id="5212975" type="MA" zone="iegsl.com" dnsto="daniel.gonzalez" forward="daniel.gonzalez@able.es" rank=""/>
+
+<record id="5212973" type="MX" zone="iegsl.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5202662" type="WP" zone="iegsl.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	145  zona:	delgadoguillorme.com 
+<ze><response><record id="5923648" type="A" zone="delgadoguillorme.com" dnsfrom="www" dnsto="80.24.126.12" rank="0"/>
+
+<record id="5474096" type="WP" zone="delgadoguillorme.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	146  zona:	jovenesartistasbuscan.com 
+<ze><response><record id="7035951" type="WF" zone="jovenesartistasbuscan.com" dnsfrom="" forward="http://perso.wanadoo.es/adurradarizu" rank="0" cloaked="true"/>
+
+<record id="7037330" type="WF" zone="jovenesartistasbuscan.com" dnsfrom="www" forward="http://perso.wanadoo.es/adurradarizu" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	147  zona:	neuronscarmen.com 
+<ze><response><record id="9923314" type="A" zone="neuronscarmen.com" dnsfrom="www" dnsto="80.35.41.44" rank="0"/>
+
+<record id="9923569" type="A" zone="neuronscarmen.com" dnsfrom="correo" dnsto="80.35.41.44" rank="0"/>
+
+<record id="9923597" type="MX" zone="neuronscarmen.com" dnsfrom="" dnsto="correo.neuronscarmen.com" rank="0"/>
+
+<record id="5619738" type="WP" zone="neuronscarmen.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	148  zona:	alsur.es 
+<ze><response><record id="1411582" type="A" zone="alsur.es" dnsfrom="ftp" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1411594" type="A" zone="alsur.es" dnsfrom="local" dnsto="213.96.190.180" rank="0"/>
+
+<record id="1411595" type="A" zone="alsur.es" dnsfrom="linux" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1411598" type="A" zone="alsur.es" dnsfrom="pruebas" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1411599" type="A" zone="alsur.es" dnsfrom="" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1411600" type="A" zone="alsur.es" dnsfrom="www" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1411613" type="A" zone="alsur.es" dnsfrom="ssl" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1411614" type="A" zone="alsur.es" dnsfrom="mail" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1440289" type="A" zone="alsur.es" dnsfrom="golf" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1685131" type="A" zone="alsur.es" dnsfrom="aparcados" dnsto="195.76.145.58" rank="0"/>
+
+<record id="1853777" type="A" zone="alsur.es" dnsfrom="listas" dnsto="213.96.190.180" rank="0"/>
+
+<record id="2568410" type="A" zone="alsur.es" dnsfrom="nuke" dnsto="195.76.145.58" rank="0"/>
+
+<record id="3189943" type="A" zone="alsur.es" dnsfrom="home" dnsto="213.96.190.180" rank="0"/>
+
+<record id="1411611" type="CNAME" zone="alsur.es" dnsfrom="pop" dnsto="alsur.es" rank="0"/>
+
+<record id="1411612" type="CNAME" zone="alsur.es" dnsfrom="smtp" dnsto="alsur.es" rank="0"/>
+
+<record id="1411615" type="MX" zone="alsur.es" dnsfrom="" dnsto="mail.alsur.es" rank="0"/>
+
+<record id="1853769" type="MX" zone="alsur.es" dnsfrom="listas" dnsto="listas.alsur.es" rank="0"/>
+
+<record id="1947661" type="MX" zone="alsur.es" dnsfrom="listas" dnsto="mail.alsur.es" rank="5"/>
+
+<record id="1947905" type="PTR" zone="alsur.es" dnsfrom="" dnsto="58.145.76.195.in-addr.arpa" rank="0"/>
+
+<record id="2678732" type="WF" zone="alsur.es" dnsfrom="cgae" forward="http://linux.alsur.es/clientes/cgae" rank="0" cloaked="true"/>
+
+<record id="5543012" type="WF" zone="alsur.es" dnsfrom="timegold" forward="http://linux.alsur.es/clientes/timegold" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	149  zona:	inscripciones.net 
+<ze><response><record id="5953260" type="A" zone="inscripciones.net" dnsfrom="www" dnsto="213.96.195.202" rank="0"/>
+
+<record id="6118786" type="MA" zone="inscripciones.net" dnsto="webmaster" forward="loli.sanchez@telefonica.net" rank=""/>
+
+<record id="6118784" type="MX" zone="inscripciones.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="5800390" type="WP" zone="inscripciones.net" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	150  zona:	efacturex.com 
+<ze><response><record id="8496383" type="A" zone="efacturex.com" dnsfrom="ns" dnsto="200.32.3.97" rank="0"/>
+
+<record id="8375893" type="MX" zone="efacturex.com" dnsfrom="" dnsto="mail.abaxco.com" rank="0"/>
+
+<record id="8496430" type="MX" zone="efacturex.com" dnsfrom="" dnsto="ns.efacturex.com" rank="5"/>
+
+<record id="9099541" type="WF" zone="efacturex.com" dnsfrom="www" forward="http://www.abaxsys.com" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	151  zona:	elreajo.com 
+<ze><response><record id="6083901" type="MA" zone="elreajo.com" dnsto="" forward="el_reajo@hotmail.com" rank=""/>
+
+<record id="6083899" type="MX" zone="elreajo.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="7002822" type="WF" zone="elreajo.com" dnsfrom="www" forward="http://gratisweb.com/elreajo" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	152  zona:	spanisholiveoil.com 
+<ze><response><record id="6101582" type="MA" zone="spanisholiveoil.com" dnsto="info" forward="asibt@wanadoo.es" rank=""/>
+
+<record id="6101580" type="MX" zone="spanisholiveoil.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="6101583" type="WF" zone="spanisholiveoil.com" dnsfrom="" forward="http://www.parafarmaciatallon.com" rank="0"/>
+
+<record id="6101579" type="WP" zone="spanisholiveoil.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	153  zona:	telecom-digital.com 
+<ze><response><record id="11835508" type="A" zone="telecom-digital.com" dnsfrom="correo" dnsto="213.227.2.156" rank="0"/>
+
+<record id="11835558" type="A" zone="telecom-digital.com" dnsfrom="isis" dnsto="213.227.2.156" rank="0"/>
+
+<record id="11840144" type="A" zone="telecom-digital.com" dnsfrom="bbs" dnsto="213.98.76.210" rank="0"/>
+
+<record id="11840209" type="A" zone="telecom-digital.com" dnsfrom="andromeda" dnsto="213.98.76.210" rank="0"/>
+
+<record id="6321366" type="MA" zone="telecom-digital.com" dnsto="" forward="systemtelecom@supercable.es" rank=""/>
+
+<record id="6337812" type="MA" zone="telecom-digital.com" dnsto="jmerino" forward="systemtelecom@supercable.es" rank=""/>
+
+<record id="6337840" type="MA" zone="telecom-digital.com" dnsto="jmorillas" forward="jmorillas@iliberis-bbs.com" rank=""/>
+
+<record id="6337913" type="MA" zone="telecom-digital.com" dnsto="jgonzalez" forward="iliberis_net@airtel.net" rank=""/>
+
+<record id="6349436" type="MA" zone="telecom-digital.com" dnsto="webmaster" forward="jmorillas@iliberis-bbs.com" rank=""/>
+
+<record id="7730646" type="MA" zone="telecom-digital.com" dnsto="sfabro" forward="fabro@wanadoo.es" rank=""/>
+
+<record id="7798329" type="MA" zone="telecom-digital.com" dnsto="administracion" forward="admsystelecom@iespana.es" rank=""/>
+
+<record id="11835590" type="MX" zone="telecom-digital.com" dnsfrom="" dnsto="correo.telecom-digital.com" rank="0"/>
+
+<record id="11835642" type="MX" zone="telecom-digital.com" dnsfrom="" dnsto="iliberis.dsland.org" rank="5"/>
+
+<record id="6440816" type="WF" zone="telecom-digital.com" dnsfrom="www" forward="http://www.iliberis-bbs.com/telecom/index.html" rank="0" cloaked="true"/>
+
+<record id="6862009" type="WF" zone="telecom-digital.com" dnsfrom="valencia" forward="http://www.iliberis-bbs.com/telecom/valencia/index.html" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	154  zona:	kiroga.net 
+<ze><response><record id="6659505" type="A" zone="kiroga.net" dnsfrom="www" dnsto="213.97.115.12" rank="0"/>
+
+<record id="7217222" type="A" zone="kiroga.net" dnsfrom="pop3" dnsto="213.97.115.12" rank="0"/>
+
+<record id="7305442" type="A" zone="kiroga.net" dnsfrom="mailhost" dnsto="213.97.115.12" rank="0"/>
+
+<record id="7305503" type="MX" zone="kiroga.net" dnsfrom="" dnsto="mailhost.kiroga.net" rank="0"/>
+
+<record id="6483119" type="WP" zone="kiroga.net" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	155  zona:	felezbielsa.com 
+<ze><response><record id="6648426" type="A" zone="felezbielsa.com" dnsfrom="www" dnsto="80.24.126.12" rank="0"/>
+
+<record id="6562633" type="WP" zone="felezbielsa.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	156  zona:	innato.net 
+<ze><response><record id="7043855" type="A" zone="innato.net" dnsfrom="www" dnsto="80.59.111.240" rank="0"/>
+
+<record id="7043946" type="A" zone="innato.net" dnsfrom="" dnsto="80.59.111.240" rank="0"/>
+
+<record id="7550583" type="A" zone="innato.net" dnsfrom="ftp" dnsto="80.59.111.240" rank="0"/>
+
+<record id="11140949" type="A" zone="innato.net" dnsfrom="loultimo" dnsto="217.126.206.68" rank="0"/>
+
+<record id="8019897" type="MX" zone="innato.net" dnsfrom="" dnsto="innato.net" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	157  zona:	disgar.com 
+<ze><response><record id="10499916" type="MA" zone="disgar.com" dnsto="almacen" forward="disgar_ponferrada@hotmail.com" rank=""/>
+
+<record id="10499998" type="MA" zone="disgar.com" dnsto="comercial" forward="disgar_astorga@hotmail.com" rank=""/>
+
+<record id="10499914" type="MX" zone="disgar.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="8382629" type="WF" zone="disgar.com" dnsfrom="www" forward="http://disgarweb.grupoalca.net" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	158  zona:	colsa.org 
+<ze><response><record id="7723515" type="A" zone="colsa.org" dnsfrom="www" dnsto="206.151.49.82" rank="0"/>
+
+<record id="8416563" type="A" zone="colsa.org" dnsfrom="mail" dnsto="206.151.49.83" rank="0"/>
+
+<record id="11551087" type="MX" zone="colsa.org" dnsfrom="mail" dnsto="mail.colsa.org" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	159  zona:	guadaljaire.net 
+<ze><response><record id="7724918" type="A" zone="guadaljaire.net" dnsfrom="www" dnsto="80.34.119.220" rank="0"/>
+
+<record id="7724964" type="A" zone="guadaljaire.net" dnsfrom="" dnsto="80.34.119.220" rank="0"/>
+
+<record id="7798769" type="A" zone="guadaljaire.net" dnsfrom="mail" dnsto="80.34.119.220" rank="0"/>
+
+<record id="7799033" type="A" zone="guadaljaire.net" dnsfrom="ftp" dnsto="80.34.119.220" rank="0"/>
+
+<record id="7798887" type="MX" zone="guadaljaire.net" dnsfrom="" dnsto="mail.guadaljaire.net" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	160  zona:	danicastro.com 
+<ze><response><record id="7543567" type="MA" zone="danicastro.com" dnsto="dani" forward="dani@dvs.de" rank=""/>
+
+<record id="7543565" type="MX" zone="danicastro.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="7545174" type="WF" zone="danicastro.com" dnsfrom="www" forward="http://home.htp-tel.de/lugo/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	161  zona:	dzero.com 
+<ze><response><record id="7544649" type="MA" zone="dzero.com" dnsto="info" forward="dzero@telefonica.net" rank=""/>
+
+<record id="7706910" type="MA" zone="dzero.com" dnsto="alvaro" forward="dzero@telefonica.net" rank=""/>
+
+<record id="7751980" type="MA" zone="dzero.com" dnsto="dani" forward="danidzero@telefonica.net" rank=""/>
+
+<record id="7752108" type="MA" zone="dzero.com" dnsto="nuri" forward="nuridzero@telefonica.net" rank=""/>
+
+<record id="7752156" type="MA" zone="dzero.com" dnsto="luis" forward="luisdzero@telefonica.net" rank=""/>
+
+<record id="7544646" type="MX" zone="dzero.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="7706863" type="WF" zone="dzero.com" dnsfrom="www" forward="http://personal.telefonica.terra.es/web/dzero/" rank="0" cloaked="true"/>
+
+<record id="7707040" type="WF" zone="dzero.com" dnsfrom="" forward="http://personal.telefonica.terra.es/web/dzero/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	162  zona:	IESFUENGIROLA1.net 
+<ze><response><record id="7708482" type="A" zone="iesfuengirola1.net" dnsfrom="www" dnsto="80.59.249.162" rank="0"/>
+
+<record id="7708778" type="A" zone="iesfuengirola1.net" dnsfrom="" dnsto="80.59.249.162" rank="0"/>
+
+<record id="7736609" type="A" zone="iesfuengirola1.net" dnsfrom="mail" dnsto="80.59.249.162" rank="0"/>
+
+<record id="7736921" type="A" zone="iesfuengirola1.net" dnsfrom="ftp" dnsto="80.59.249.162" rank="0"/>
+
+<record id="7834636" type="A" zone="iesfuengirola1.net" dnsfrom="asi" dnsto="80.59.249.162" rank="0"/>
+
+<record id="7708721" type="MX" zone="iesfuengirola1.net" dnsfrom="" dnsto="mail.iesfuengirola1.net" rank="0"/>
+
+<record id="8082944" type="WF" zone="iesfuengirola1.net" dnsfrom="correo" forward="http://www.iesfuengirola1.net:8080" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	163  zona:	tefersa.com 
+<ze><response><record id="7716931" type="MA" zone="tefersa.com" dnsto="tefersa" forward="tefersa@ecaweb.net" rank=""/>
+
+<record id="7716928" type="MX" zone="tefersa.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="7719814" type="WF" zone="tefersa.com" dnsfrom="" forward="http://www.ecaweb.net/webclientes/tefersa/" rank="0" cloaked="true"/>
+
+<record id="8266734" type="WF" zone="tefersa.com" dnsfrom="www" forward="http://www.ecaweb.net/webclientes/tefersa/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	164  zona:	puerto-lumbreras.com 
+<ze><response><record id="8196749" type="A" zone="puerto-lumbreras.com" dnsfrom="www" dnsto="217.125.91.142" rank="0"/>
+
+<record id="8196789" type="A" zone="puerto-lumbreras.com" dnsfrom="" dnsto="217.125.91.142" rank="0"/>
+
+<record id="8199810" type="MX" zone="puerto-lumbreras.com" dnsfrom="" dnsto="puerto-lumbreras.com" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	165  zona:	gimnasioironsalfer.com 
+<ze><response><record id="8292703" type="A" zone="gimnasioironsalfer.com" dnsfrom="www" dnsto="80.24.126.12" rank="0"/>
+
+<record id="8269313" type="WP" zone="gimnasioironsalfer.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	166  zona:	elpilarmaristas.com 
+<ze><response><record id="8292461" type="A" zone="elpilarmaristas.com" dnsfrom="www" dnsto="80.24.126.12" rank="0"/>
+
+<record id="8269139" type="WP" zone="elpilarmaristas.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	167  zona:	cepmalaga.org 
+<ze><response><record id="8891469" type="A" zone="cepmalaga.org" dnsfrom="www" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8891570" type="A" zone="cepmalaga.org" dnsfrom="ftp" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8897801" type="A" zone="cepmalaga.org" dnsfrom="mail" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8897923" type="A" zone="cepmalaga.org" dnsfrom="cursos" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8940710" type="A" zone="cepmalaga.org" dnsfrom="" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8985390" type="A" zone="cepmalaga.org" dnsfrom="aula" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8985531" type="A" zone="cepmalaga.org" dnsfrom="gt" dnsto="213.98.78.123" rank="0"/>
+
+<record id="9005827" type="A" zone="cepmalaga.org" dnsfrom="foros" dnsto="213.98.78.123" rank="0"/>
+
+<record id="8897892" type="MX" zone="cepmalaga.org" dnsfrom="" dnsto="mail.cepmalaga.org" rank="0"/>
+
+<record id="8985256" type="WF" zone="cepmalaga.org" dnsfrom="correo" forward="http://www.cepmalaga.org:81/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	168  zona:	museoweb.org 
+<ze><response><record id="8307379" type="WF" zone="museoweb.org" dnsfrom="" forward="http://www.greatfreehost.com/www/ccc/" rank="0"/>
+
+<record id="8307365" type="WP" zone="museoweb.org" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	169  zona:	mudanzaslabarcelonesa.net 
+<ze><response><record id="8573775" type="MA" zone="mudanzaslabarcelonesa.net" dnsto="" forward="ALBATAM@msn.com" rank=""/>
+
+<record id="8644222" type="MA" zone="mudanzaslabarcelonesa.net" dnsto="labarcelonesa" forward="ALBATAM@MSN.COM" rank=""/>
+
+<record id="8573773" type="MX" zone="mudanzaslabarcelonesa.net" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="8577880" type="WF" zone="mudanzaslabarcelonesa.net" dnsfrom="www" forward="http://www.iespana.es/labarcelonesa" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	170  zona:	recuerdobaloncesto.com 
+<ze><response><record id="8769218" type="A" zone="recuerdobaloncesto.com" dnsfrom="pablo" dnsto="213.4.13.190" rank="0"/>
+
+<record id="8808796" type="A" zone="recuerdobaloncesto.com" dnsfrom="ftp" dnsto="213.4.13.190" rank="0"/>
+
+<record id="8769106" type="MA" zone="recuerdobaloncesto.com" dnsto="pablo" forward="eptorres@yahoo.com" rank=""/>
+
+<record id="8769336" type="MA" zone="recuerdobaloncesto.com" dnsto="miki" forward="mikiaparicio@yahoo.es" rank=""/>
+
+<record id="8769362" type="MA" zone="recuerdobaloncesto.com" dnsto="diego" forward="dieguicht@hotmail.com" rank=""/>
+
+<record id="8769404" type="MA" zone="recuerdobaloncesto.com" dnsto="alberto" forward="aloguz2001@yahoo.es" rank=""/>
+
+<record id="8769451" type="MA" zone="recuerdobaloncesto.com" dnsto="luis" forward="luisdelrio99@hotmail.com" rank=""/>
+
+<record id="8810874" type="MA" zone="recuerdobaloncesto.com" dnsto="webmaster" forward="eptorres@yahoo.com" rank=""/>
+
+<record id="8912888" type="MA" zone="recuerdobaloncesto.com" dnsto="javay" forward="javay_@terra.es" rank=""/>
+
+<record id="9335734" type="MA" zone="recuerdobaloncesto.com" dnsto="juansuarez" forward="juansuarezromero@hotmail.com" rank=""/>
+
+<record id="9336019" type="MA" zone="recuerdobaloncesto.com" dnsto="javicuesta" forward="andrescroto@hotmail.com" rank=""/>
+
+<record id="10853714" type="MA" zone="recuerdobaloncesto.com" dnsto="javiercaravantes" forward="javicaravan@hotmail.com" rank=""/>
+
+<record id="8769104" type="MX" zone="recuerdobaloncesto.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="8769048" type="WF" zone="recuerdobaloncesto.com" dnsfrom="www" forward="http://www26.brinkster.com/recuerdo" rank="0" cloaked="true"/>
+
+<record id="8765889" type="WP" zone="recuerdobaloncesto.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	171  zona:	escalera-europea.com 
+<ze><response><record id="11124741" type="MA" zone="escalera-europea.com" dnsto="alhama" forward="ieg@able.es" rank=""/>
+
+<record id="11124738" type="MX" zone="escalera-europea.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="8813137" type="WP" zone="escalera-europea.com" dnsfrom="" rank="0"/>
+
+<record id="8813139" type="WP" zone="escalera-europea.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	172  zona:	panoramica.tv 
+<ze><response><record id="9642478" type="MA" zone="panoramica.tv" dnsto="margarita" forward="margarita@panoramica.e.telefonica.net" rank=""/>
+
+<record id="9642502" type="MA" zone="panoramica.tv" dnsto="info" forward="info@panoramica.e.telefonica.net" rank=""/>
+
+<record id="9642544" type="MA" zone="panoramica.tv" dnsto="gallego" forward="direccion@panoramica.e.telefonica.net" rank=""/>
+
+<record id="10197932" type="MA" zone="panoramica.tv" dnsto="marketing" forward="albertosanz@telefonica.net" rank=""/>
+
+<record id="10198792" type="MA" zone="panoramica.tv" dnsto="franciscogallego" forward="direccion@panoramica.e.telefonica.net" rank=""/>
+
+<record id="9642500" type="MX" zone="panoramica.tv" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="9165867" type="WF" zone="panoramica.tv" dnsfrom="" forward="http://www.telefonica.net/web/panoramicamultimedia" rank="0"/>
+
+<record id="9165863" type="WP" zone="panoramica.tv" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	173  zona:	puigjoier.com 
+<ze><response><record id="9242611" type="MA" zone="puigjoier.com" dnsto="puigjoier" forward="miapuig@terra.es" rank=""/>
+
+<record id="9242609" type="MX" zone="puigjoier.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="9242607" type="WP" zone="puigjoier.com" dnsfrom="" rank="0"/>
+
+<record id="9242613" type="WP" zone="puigjoier.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	174  zona:	kikito.com 
+<ze><response><record id="9404306" type="MA" zone="kikito.com" dnsto="dvillarejo" forward="dvillarejo@hotmail.com" rank=""/>
+
+<record id="9404304" type="MX" zone="kikito.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="9404268" type="WP" zone="kikito.com" dnsfrom="" rank="0"/>
+
+<record id="9404310" type="WP" zone="kikito.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	175  zona:	frutaskikito.com 
+<ze><response><record id="9404328" type="MA" zone="frutaskikito.com" dnsto="dvillarejo" forward="dvillarejo@hotmail.com" rank=""/>
+
+<record id="9404326" type="MX" zone="frutaskikito.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="9404321" type="WP" zone="frutaskikito.com" dnsfrom="" rank="0"/>
+
+<record id="9404329" type="WP" zone="frutaskikito.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	176  zona:	evolmedia.net 
+<ze><response><record id="9588842" type="A" zone="evolmedia.net" dnsfrom="www" dnsto="80.24.53.24" rank="0"/>
+
+<record id="9669919" type="A" zone="evolmedia.net" dnsfrom="" dnsto="80.24.53.24" rank="0"/>
+
+<record id="11439615" type="A" zone="evolmedia.net" dnsfrom="radio" dnsto="80.24.53.24" rank="0"/>
+
+<record id="9582149" type="MA" zone="evolmedia.net" dnsto="jruiz" forward="jruiz@evolmedia.com" rank=""/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	177  zona:	cerveceria-eltemplo.com 
+<ze><response><record id="9643574" type="A" zone="cerveceria-eltemplo.com" dnsfrom="www" dnsto="217.127.105.243" rank="0"/>
+
+<record id="9585745" type="WP" zone="cerveceria-eltemplo.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	178  zona:	comerside.com 
+<ze><response><record id="9652575" type="WP" zone="comerside.com" dnsfrom="" rank="0"/>
+
+<record id="9652580" type="WP" zone="comerside.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	179  zona:	safeinformatica.com 
+<ze><response><record id="9657771" type="A" zone="safeinformatica.com" dnsfrom="www" dnsto="80.24.126.12" rank="0"/>
+
+<record id="9653377" type="WP" zone="safeinformatica.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	180  zona:	ibericachat.com 
+<ze><response><record id="11305092" type="A" zone="ibericachat.com" dnsfrom="irc" dnsto="213.60.144.113" rank="0"/>
+
+<record id="11536924" type="A" zone="ibericachat.com" dnsfrom="" dnsto="213.60.144.113" rank="0"/>
+
+<record id="11767111" type="A" zone="ibericachat.com" dnsfrom="ftp" dnsto="213.60.144.113" rank="0"/>
+
+<record id="11548665" type="MA" zone="ibericachat.com" dnsto="info" forward="carlosl@mundo-r.com" rank=""/>
+
+<record id="11548720" type="MA" zone="ibericachat.com" dnsto="admin" forward="carlosl@mundo-r.com" rank=""/>
+
+<record id="11822634" type="MA" zone="ibericachat.com" dnsto="suso" forward="susoinpesca@mundo-r.com" rank=""/>
+
+<record id="11869961" type="MA" zone="ibericachat.com" dnsto="publi" forward="carlosl@mundo-r.com" rank=""/>
+
+<record id="11548601" type="MX" zone="ibericachat.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="11650358" type="WF" zone="ibericachat.com" dnsfrom="www" forward="http://ibericachat.com:6060" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	181  zona:	laxorrada.com 
+<ze><response><record id="10303507" type="MA" zone="laxorrada.com" dnsto="xavic" forward="elxavic@telefonica.net" rank=""/>
+
+<record id="10303678" type="MA" zone="laxorrada.com" dnsto="tonino" forward="eltonino@telefonica.net" rank=""/>
+
+<record id="10303907" type="MA" zone="laxorrada.com" dnsto="tata" forward="latata@telefonica.net" rank=""/>
+
+<record id="11736199" type="MA" zone="laxorrada.com" dnsto="webmasters" forward="laxorrada@hotmail.com" rank=""/>
+
+<record id="10113602" type="MX" zone="laxorrada.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="10113605" type="WF" zone="laxorrada.com" dnsfrom="" forward="http://orbita.starmedia.com/laxorrada" rank="0"/>
+
+<record id="10302963" type="WF" zone="laxorrada.com" dnsfrom="www" forward="http://orbita.starmedia.com/laxorrada" rank="0" cloaked="true"/>
+
+<record id="11761228" type="WF" zone="laxorrada.com" dnsfrom="imagenes" forward="http://www3.gratisweb.com/xorrada/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	182  zona:	baobab-oiartzun.com 
+<ze><response><record id="10187446" type="WP" zone="baobab-oiartzun.com" dnsfrom="" rank="0"/>
+
+<record id="10187449" type="WP" zone="baobab-oiartzun.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	183  zona:	arborol.com 
+<ze><response><record id="10199090" type="MA" zone="arborol.com" dnsto="arborol" forward="arborol@ecaweb.net" rank=""/>
+
+<record id="10199088" type="MX" zone="arborol.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="10407052" type="WF" zone="arborol.com" dnsfrom="www" forward="http://www.ecaweb.net/webclientes/arborol/" rank="0" cloaked="true"/>
+
+<record id="10407081" type="WF" zone="arborol.com" dnsfrom="" forward="http://www.ecaweb.net/webclientes/arborol/" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	184  zona:	toronhos.com 
+<ze><response><record id="11217969" type="MA" zone="toronhos.com" dnsto="pepo" forward="jmgvpepo@hotmail.com" rank=""/>
+
+<record id="11217961" type="MX" zone="toronhos.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="11218379" type="WF" zone="toronhos.com" dnsfrom="www.toronos" forward="http://www.webcindario.com/toronhos" rank="0" cloaked="true"/>
+
+<record id="11218705" type="WF" zone="toronhos.com" dnsfrom="www.pontevedra" forward="http://www.webcindario.com/toronhos" rank="0" cloaked="true"/>
+
+<record id="11432348" type="WF" zone="toronhos.com" dnsfrom="www" forward="http://www.webcindario.com/toronhos" rank="0" cloaked="true"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	185  zona:	komemas.com 
+<ze><response><record id="11443315" type="MA" zone="komemas.com" dnsto="" forward="komemas1@terra.es" rank=""/>
+
+<record id="11443313" type="MX" zone="komemas.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="11645456" type="WF" zone="komemas.com" dnsfrom="www" forward="http://www.terra.es/personal9/komemas1" rank="0" cloaked="true"/>
+
+<record id="11443310" type="WP" zone="komemas.com" dnsfrom="" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	186  zona:	segurlan.com 
+<ze><response><record id="11730355" type="WP" zone="segurlan.com" dnsfrom="" rank="0"/>
+
+<record id="11730357" type="WP" zone="segurlan.com" dnsfrom="www" dnsto="Default" rank="0"/>
+
+</response></ze>
+<!-- final -->
+<!--  inicio -->
+id:	187  zona:	antoniojimenez.com 
+<ze><response><record id="12514262" type="MA" zone="antoniojimenez.com" dnsto="info" forward="www.antonio@terra.es" rank=""/>
+
+<record id="12514256" type="MX" zone="antoniojimenez.com" dnsfrom="" dnsto="mail.dnsvr.com" forward="&lt;FORWARDED&gt;" rank="0"/>
+
+<record id="12514269" type="WF" zone="antoniojimenez.com" dnsfrom="" forward="http://www.terra.es/personal7/www.antonio/index.htm" rank="0"/>
+
+<record id="12514202" type="WP" zone="antoniojimenez.com" dnsfrom="www" rank="0"/>
+
+</response></ze>
+<!-- final -->

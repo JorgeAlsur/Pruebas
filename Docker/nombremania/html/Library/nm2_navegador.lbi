@@ -1,0 +1,76 @@
+<table border="0" cellpadding="0" cellspacing="0" width="740" align="center">
+  <tr> 
+    <td><img src="/imagenes/base3/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="3" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="23" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="3" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="29" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="62" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="55" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="4" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="39" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="8" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="36" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="77" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="77" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="89" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="10" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="73" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="70" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="56" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="14" height="1" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" bgcolor="#ffffff"><img src="/imagenes/base3/cortearriba.gif" width="12" height="14" border="0"></td>
+    <td rowspan="5" colspan="2"><img name="simbolo" src="/imagenes/base3/simbolo.gif" width="26" height="42" border="0" alt="registro de dominios"></td>
+    <td><img name="corteb_arriba" src="/imagenes/base3/corteb_arriba.gif" width="3" height="5" border="0" alt="registro de dominios"></td>
+    <td colspan="3" bgcolor="#ffffff"><img src="/imagenes/base3/corteb_abajo.gif" width="146" height="5" border="0"></td>
+    <td rowspan="2"><img name="cortearriba" src="/imagenes/base3/cortearriba.gif" width="4" height="14" border="0" alt="registro de dominios"></td>
+    <td rowspan="2" colspan="11" bgcolor="#ffffff"><img src="/imagenes/base3/cortearriba.gif" width="549" height="14" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="5" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="3" colspan="4"><a href="/home.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('simbolo','','/imagenes/base3/simbolo_f2.gif','logo','','/imagenes/base3/logo_f2.gif',1);" ><img name="logo" src="/imagenes/base3/logo.gif" width="149" height="27" border="0" alt="NombreMania - registro de dominios"></a></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="9" border="0"></td>
+  </tr>
+  <tr> 
+    <td><img name="slice_r3_c1" src="/imagenes/base3/slice_r3_c1.gif" width="12" height="15" border="0" alt="registrar "></td>
+    <td><img name="cortemedio" src="/imagenes/base3/cortemedio.gif" width="4" height="15" border="0" alt="registro de dominios"></td>
+    <td colspan="3"><img name="slice_r3_c9" src="/imagenes/base3/cortemedio.gif" width="83" height="15" border="0" alt="registro de dominios"></td>
+    <td><a href="/registrar.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('registrar','','/imagenes/base3/registrar_f2.gif',1);" ><img name="registrar" src="/imagenes/base3/registrar.gif" width="77" height="15" border="0" alt="Registra uno o varios dominios"></a></td>
+    <td><a href="/trasladar.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('trasladar','','/imagenes/base3/trasladar_f2.gif',1);" ><img name="trasladar" src="/imagenes/base3/trasladar.gif" width="77" height="15" border="0" alt="Traslada tu dominio a NombreMania "></a></td>
+    <td><a href="http://admin.nombremania.com" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('administrar','','/imagenes/base3/administrar_f2.gif',1);" ><img name="administrar" src="/imagenes/base3/administrar.gif" width="89" height="15" border="0" alt="Gestiona tus dominios"></a></td>
+    <td><img name="slice_r3_c15" src="/imagenes/base3/cortemedio.gif" width="10" height="15" border="0" alt="registro de dominios"></td>
+    <td><a href="/comprar.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('comprar','','/imagenes/base3/comprar_f2.gif',1);" ><img name="comprar" src="/imagenes/base3/comprar.gif" width="73" height="15" border="0" alt="Dominios en venta"></a></td>
+    <td><a href="/alquilar.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('alquiler','','/imagenes/base3/alquiler_f2.gif',1);" ><img name="alquiler" src="/imagenes/base3/alquiler.gif" width="70" height="15" border="0" alt="Los dominios también se alquilan"></a></td>
+    <td><a href="/demos/" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('demo','','/imagenes/base3/demo_f2.gif',1);" ><img name="demo" src="/imagenes/base3/demo.gif" width="56" height="15" border="0" alt="Demos del sistema"></a></td>
+    <td><img name="slice_r3_c19" src="/imagenes/base3/cortemedio.gif" width="14" height="15" border="0" alt="registro de dominios"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="15" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" bgcolor="#ffffff"><img src="/imagenes/base3/corteabajo.gif" width="12" height="13" border="0" alt="dominios"></td>
+    <td rowspan="2"><img name="corteabajo" src="/imagenes/base3/corteabajo.gif" width="4" height="13" border="0" alt="registro de dominios"></td>
+    <td rowspan="2" colspan="11" bgcolor="#ffffff"><img src="/imagenes/base3/corteabajo.gif" width="549" height="13" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="3" border="0"></td>
+  </tr>
+  <tr> 
+    <td><img name="corteb_abajo" src="/imagenes/base3/corteb_abajo.gif" width="3" height="10" border="0" alt="registro de dominios"></td>
+    <td colspan="3" bgcolor="#ffffff"><img src="/imagenes/base3/corteb_abajo.gif" width="146" height="10" border="0"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="10" border="0"></td>
+  </tr>
+  <tr> 
+    <td rowspan="2" bgcolor="#FFFFFF"><img name="iz" src="/imagenes/base3/iz.gif" width="12" height="16" border="0" alt="registro de dominios"></td>
+    <td rowspan="2" colspan="4" bgcolor="#FFFFFF"><a href="/precios.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('precios','','/imagenes/base3/precios_f2.gif',1);" ><img name="precios" src="/imagenes/base3/precios.gif" width="58" height="16" border="0" alt="Precios y tarifas"></a></td>
+    <td rowspan="2" bgcolor="#FFFFFF"><a href="/afiliados.php" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('afiliados','','/imagenes/base3/afiliados_f2.gif',1);" ><img name="afiliados" src="/imagenes/base3/afiliados.gif" width="62" height="16" border="0" alt="Programa de afiliados"></a></td>
+    <td rowspan="2" bgcolor="#FFFFFF"><a href="/ayuda/" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('ayuda','','/imagenes/base3/ayuda_f2.gif',1);" ><img name="ayuda" src="/imagenes/base3/ayuda.gif" width="55" height="16" border="0" alt="Ayuda y documentación"></a></td>
+    <td rowspan="2" colspan="2" bgcolor="#FFFFFF"><a href="/whois/" onMouseOut="MM_swapImgRestore()"  onMouseOver="MM_swapImage('whois','','/imagenes/base3/whois_f2.gif',1);" ><img name="whois" src="/imagenes/base3/whois.gif" width="43" height="16" border="0" alt="Consulta nuestro Whois"></a></td>
+    <td rowspan="2" bgcolor="#FFFFFF"><img name="slice_r6_c10" src="/imagenes/base3/slice_r6_c10.gif" width="8" height="16" border="0" alt="registro de dominios"></td>
+    <td rowspan="2" colspan="8" bgcolor="#FFFFFF"><img name="Lineadeinfo" src="/imagenes/base3/spacer.gif" width="488" height="16" border="0" alt="registro de dominios"></td>
+    <td rowspan="2" bgcolor="#FFFFFF"><img name="derecho" src="/imagenes/base3/derecho.gif" width="14" height="16" border="0" alt="registro de dominios"></td>
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="12" border="0"></td>
+  </tr>
+  <tr> 
+    <td><img src="/imagenes/base3/spacer.gif" width="1" height="4" border="0"></td>
+  </tr>
+</table>

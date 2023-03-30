@@ -1,0 +1,59 @@
+<center>
+<b>Change Ownership of Domain</b>
+</center>
+
+<br><br>
+<center>
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_change_ownership">
+
+<table border=0>
+
+<tr>
+<td><b>Username:</b></td>
+<td><input type=text name=reg_username value="" size=20></td>
+</tr>
+
+<tr>
+<td><b>Password:</b></td>
+<td><input type=password name=reg_password value="" size=20></td>
+</tr>
+
+<tr>
+<td><b>Confirm:</b></td>
+<td><input type=password name=confirm_password value="" size=20></td>
+</tr>
+
+<tr>
+<td colspan=2><hr align=left width=30%></td>
+</tr>
+
+<tr>
+<td colspan=2>
+<font size=2>
+<input type=checkbox name="flag_use_profile" value="1"> Move to existing profile
+<br>
+<input type=checkbox name="flag_move_all_domains" value="1"> Move all domains associated with this profile 
+<br>
+<table>
+<TR>
+<TD>Previously registered domain: </TD>
+<TD>
+    <input type=text name=domain value="" size=20><BR>
+</TD>
+</TR>
+</table>
+</font>
+</td>
+</tr>
+
+<tr>
+<td colspan=2>
+<input type=submit value=" Change Owner ">
+</td>
+</tr>
+
+</table>
+</form>
+</center>
+

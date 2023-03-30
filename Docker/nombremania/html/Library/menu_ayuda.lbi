@@ -1,0 +1,37 @@
+ 
+<table border="0" cellspacing="1" cellpadding="4" bgcolor="#666666" background="/imagenes/dega.gif">
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/index.html" class="body_10">Preguntas frecuentes</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/pregun_dns.html" class="body_10">&iquest;Como funciona la 
+      DNS?</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/pregun_webforward.html" class="body_10">Redirecci&oacute;n 
+      (WebForward)</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/traslado_dominios.html" class="body_10">Traslado de dominios</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/consejos_propietarios.html" class="body_10">Consejos a propietarios</a></font></td>
+  </tr>
+  <tr>
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/fraude_renov.html" class="body_10"><img src="/iconweb/alert2.gif" width="16" height="16" align="right" border="0">Fraude 
+      en renovaciones</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top">&nbsp;</td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/vinculos.html" class="body_10">Vinculos de inter&eacute;s</a></font></td>
+  </tr>
+</table>

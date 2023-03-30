@@ -1,0 +1,76 @@
+<html>
+<head>
+<title>Manage Your Domain - {{DOMAIN_NAME}}</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#ffffff">
+{{AUTORENDATA}}
+<center>
+<table border=1 cellpadding=2 cellspacing=0 width=550>
+
+<tr><td align=center bgcolor=navy>
+<font face="verdana, arial" color=ffffff size=2><strong>
+<a href="{{CGI}}" STYLE='color:#FFFFFF;text-decoration:none;'>
+Manage Your Domain</a></strong></font>
+</td></tr>
+
+<tr>
+    <td align=center bgcolor=d0d0d0>
+	<table border=0 cellpadding=0 cellspacing=5>
+	    <tr><td align=center>
+		<font face="verdana, arial" size=2><strong>
+		Domain Name: {{DOMAIN_NAME}}&nbsp;{{CONVERT_LINK}}
+		</strong></font>
+<br><font color=red>{{INACCURATEWHOIS}} {{AUCTION_ESCROW}}</font>
+	    </td></tr>
+	    <tr><td align=center>
+		<font face="verdana, arial" size=2><strong>
+		Expires: {{EXPIREDATE}}
+		</strong></font>
+    	    	&nbsp;&nbsp;
+		<font face="verdana, arial" size=2><strong>
+		<a href="{{CGI}}?action=view_waiting_history">Waiting Requests</a>: {{WAITING_REQUESTS_NO}}
+		</strong></font>
+	    </td></tr>
+	</table>
+    </td>
+</tr>
+
+<tr><td align=center bgcolor=ffffff nowrap>
+<font face="verdana, arial" size=2><strong>
+{{TOP_NAVBAR}}
+</strong></font>
+</td></tr>
+
+</td></tr></table>
+
+<center>
+<font face="verdana, arial" size=2><b>{{SUB_USER}}</b></font>
+<font face="verdana, arial" size=2><b>{{LAST_ACCESS}}</b></font>
+</center>
+
+<!-- Only Show if they have additional domains -->
+{{SEARCH_BOX}}
+
+<table border=0 cellpadding=0 cellspacing=0 width=550>
+<tr><td>
+{{DNS_ERRORS}}
+</td></tr>
+</table>
+
+<table border=0 cellpadding=0 cellspacing=0 width=550>
+<tr><td>
+{{MESSAGE}}
+</td></tr>
+</table>
+</center>
+<!-- End Additional Domain Area -->
+
+{{CONTENT}}
+
+</body></html>
+
+
+
+
+

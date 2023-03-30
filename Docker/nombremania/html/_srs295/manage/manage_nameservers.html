@@ -1,0 +1,85 @@
+<font face="verdana, arial">
+
+<center>
+<font size=+2>Manage Nameserver Hosts</font>
+</center>
+
+<p>
+
+<center>
+<table border=0>
+<tr><td>
+<font face="verdana, arial">
+<font color=red><b>NOTE:</b></font> 
+If you rename the nameserver hostname to a different base domain, you will<br>
+have to manage the new domain's profile in order to make additional changes<br>
+to the nameserver.
+<br><br>
+E.g., changing <b>ns1.foo.com</b> -&gt; <b>ns1.bar.com</b> would require you to login to<br>
+bar.com's profile to manage the nameserver after you made your changes.
+<br>
+</td></tr>
+</table>
+<br><br>
+
+<table bgcolor="#e0e0e0" border=1>
+<tr bgcolor="#90c0ff">
+<th>NameServer</th>
+<th>New HostName</th>
+<th>IP Address</th>
+<th>Action</th>
+</tr>
+
+{{nameservers}}
+
+<tr bgcolor="#e0e0e0">
+<td colspan=5>&nbsp;</td>
+</tr>
+</table>
+
+<br>
+<hr size=1 width=70%>
+
+<BR>
+<table border=0 cellpadding=2 cellspacing=0 width=550>
+<tr><td bgcolor=ffffff>
+<font face="verdana, arial" size=3><strong>
+<center>- Create Name Server -
+</strong>
+<br>
+<br>
+<font color=red><b>NOTE:</b></font> If you do not have dns software running on 
+this host/ip, you probably do not want to use this feature.  
+<p><font size = -1><b>Once you have created your name servers, 
+   if you wish to use them on your domain, you must manually add them through the main "Name Servers" section.</b></font>
+
+<br>
+</font>
+<BR><BR>
+<table border=0 cellpadding=5 cellspacing=0 bgcolor="#90c0ff">
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_create_nameserver">
+<input type=hidden name=domain value="{{DOMAIN_NAME}}">
+
+<tr>
+<td align=right><font face="verdana, arial" size=2>Server Hostname</font></td>
+<td><input type=text name=hostname value="" size=10><b>.{{DOMAIN_NAME}}</b></td>
+</tr>
+
+<tr>
+<td align=right><font face="verdana, arial" size=2>Server IP Address</font></td>
+<td><input type=text name=ip value="" size=20></td>
+</tr>
+
+<tr><td colspan=2 align=center bgcolor="#ffffff">
+<input type=submit value="Create Name Server"> 
+</td>
+</tr>
+
+</form>
+</table>
+</tr>
+</table>
+
+</center>
+</font>

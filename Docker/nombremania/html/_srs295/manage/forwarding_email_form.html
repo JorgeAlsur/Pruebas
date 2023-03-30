@@ -1,0 +1,19 @@
+<TABLE BORDER=1 width=550 cellpadding=3 cellspacing=0>
+<TR>
+<TD COLSPAN=2 bgcolor="#93D5BE" align=center>
+<B><FONT face="verdana, arial" size=2>
+Forwarding Email</FONT></B>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=left bgcolor="#e0e0e0">
+<font face="verdana, arial" size=2><B>Forwarding Email Address</B></font></TD>
+<{{email_comment}}TD>
+    <input name="forwarding_email" size=30 value="{{forwarding_email}}">
+    <font color=red size=-1><br><i>must be a valid non-.name email address</i></font>
+</TD{{email_comment_close}}>
+<{{text_comment}}TD> No Forwarding Email available to be modified </TD{{text_comment_close}}>
+<input type=hidden name="old_forwarding_email" value="{{forwarding_email}}">
+</TR>
+</TABLE>
+<BR>

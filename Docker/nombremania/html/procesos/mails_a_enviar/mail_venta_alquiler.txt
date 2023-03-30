@@ -1,0 +1,30 @@
+#################################################################################email que se envia al propietario de un dominio en venta/alquiler 
+#nombre = nombre del cliente 
+#dominio = dominio en venta/alquiler
+################################################################################From=administracion@nombremania.com 
+To={email_cliente} Subject=NombreMania - Oferta sobre su dominio en venta/alquiler
+
+Estimado/a Cliente:
+
+Hemos recibido una solicitud de un cliente interesado por tu oferta de
+venta o alquiler del dominio {dominio} a traves de NombreMania. Los
+detalles del interesado son los siguientes:
+
+   {nombre}
+
+   {email} 
+
+Interesado en: {interesado}
+
+Si tu oferta sigue vigente por favor contacta con esta persona. Recuerda
+que NombreMania no interviene de modo alguno en esta operacion ni es
+reponsable de la misma.
+
+
+Gracias por usar NombreMania. 
+administracion@nombremania.com
+
+NOTA: Tildes eliminadas intencionadamente.
+
+
+

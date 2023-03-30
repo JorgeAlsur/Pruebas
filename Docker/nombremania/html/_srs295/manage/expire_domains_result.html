@@ -1,0 +1,38 @@
+
+<center>
+<font size=+1><STRONG>{{TITLE}}</STRONG></font> <br> 
+
+
+{{NAVBAR}}
+
+<form name="mainform" action="{{CGI}}" method=post>
+<input type=hidden name=action value="{{ACTION_VALUE}}">
+<input type=hidden name=type value="{{TYPE}}">
+<input type=hidden name=hpage value="{{HPAGE}}">
+<input type=hidden name=page value="{{PAGE}}">  
+<input type=hidden name=select_all_mode value="{{SELECT_ALL_MODE}}">  
+<input type=hidden name=select_all_renew_mode value="{{SELECT_ALL_RENEW_MODE}}"> 
+<input type=hidden name=submitted value="{{SUBMITTED}}">
+<input type=hidden name=not_first_time value="{{NOT_FIRST_TIME}}"> 
+<input type=hidden name=cb_auto_set value="{{CB_AUTO_SET}}">  
+<input type=hidden name=cb_renew_set value="{{CB_RENEW_SET}}">  
+ 
+<table border=1 bgcolor="fffff0">
+
+<!-- HEADER -->
+<tr bgcolor="ccccc0">
+
+   <th nowrap>Domain Name</th>
+   <th nowrap>Domain Status</th>
+
+</tr>
+<!-- END HEADER -->
+
+{{DOMAINS}}
+
+</table>
+</form>
+
+
+
+

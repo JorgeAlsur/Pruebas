@@ -1,0 +1,164 @@
+    <!-- Javascript for hiding/showing relevant boxes -->
+    <script type="text/javascript">
+        var timerId;
+
+        function showHideOther(selectBoxId,showHideId,inputBoxId) {
+            // Show or hide the specified section depending on whether the "other" type is selected...
+            var selectObj=document.getElementById(selectBoxId);
+            var showHideObj=document.getElementById(showHideId);
+            var inputBoxObj=document.getElementById(inputBoxId);
+            if(selectObj.value=='other') {
+                showHideObj.style.display='';
+            } else {
+                showHideObj.style.display='none';
+                inputBoxObj.value='';
+            }
+        }
+        function _showOptional(showHideControlId,showHideIds,clearIds) {
+                for(i=0;i<showHideIds.length;i++) {
+                    var showHideObj=document.getElementById(showHideIds[i]);
+                    showHideObj.style.display='';
+                }
+                document.getElementById(showHideControlId).innerHTML='[-]';
+        }
+        function _hideOptional(showHideControlId,showHideIds,clearIds) {
+                for(i=0;i<showHideIds.length;i++) {
+                    var showHideObj=document.getElementById(showHideIds[i]);
+                    showHideObj.style.display='none';
+                }
+                for(i=0;i<clearIds.length;i++) {
+                    var clearObj=document.getElementById(clearIds[i]);
+                    clearObj.value='';
+                }
+                document.getElementById(showHideControlId).innerHTML='[+]';
+        }
+        function toggleOptionalSections(showHideControlId,showHideIds,clearIds) {
+            // Show or hide the specified section depending on whether the "other" type is selected...
+            if(document.getElementById(showHideControlId).innerHTML=='[+]') {
+                _showOptional(showHideControlId,showHideIds,clearIds);
+            } else {
+                _hideOptional(showHideControlId,showHideIds,clearIds);
+            }
+        }
+        function initialShowHide() {
+            if((document.getElementById('locality_city').value=='')&&(document.getElementById('locality_state_prov').value=='')) {
+                _hideOptional('locality_country_expand'
+                    ,['locality_city_input','locality_state_prov_input']
+                    ,[]);
+            } else {
+                _showOptional('locality_country_expand'
+                    ,['locality_city_input','locality_state_prov_input']
+                    ,[]);
+            }
+
+            showHideOther('legal_entity_type','legal_entity_type_info_input','legal_entity_type_info');
+            showHideOther('id_type','id_type_info_input','id_type_info');
+
+            clearTimeout(timerId);
+        }
+    </script>
+
+<TABLE BORDER="1" WIDTH=550 CELLPADDING="3" CELLSPACING="0">
+<TR>
+  <TD COLSPAN="2" bgcolor="#93D5BE" align=center>
+    <B><FONT face="verdana, arial" size=2>.ASIA CED Contact Information</FONT></B>
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Contact Type</B></font>
+  </TD>
+  <TD>
+    <SELECT ID="contact_type" NAME="contact_type">
+      {{contact_type_menu}}
+    </SELECT>
+
+    <FONT SIZE="-1"><BR><BR>Charter Eligibility is the basic requirement
+    to register a .ASIA domain name, at least one of the domain contacts (admin,
+    billing, owner/registrant, tech) must be a legal entity in the DotAsia
+    Community.</FONT>
+
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Country/Locality</B></font>
+  </TD>
+  <TD>
+    <SELECT ID="locality_country" NAME="locality_country">
+      {{locality_country_menu}}
+    </SELECT>
+    </SELECT>&nbsp;<font size="1"><a id="locality_country_expand" style="cursor: pointer;" onClick="toggleOptionalSections(this.id,['locality_city_input','locality_state_prov_input'],['locality_city','locality_state_prov']);">[-]</a></font></td>
+  </TD>
+</TR>
+<TR ID="locality_city_input">
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>City</B><br><font color="red" size="-1">*optional*</font></font>
+  </TD>
+  <TD>
+    <INPUT TYPE="edit" ID="locality_city" NAME="locality_city" VALUE="{{old_locality_city}}">
+  </TD>
+</TR>
+<TR ID="locality_state_prov_input">
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>State/Province</B><br><font color="red" size="-1">*optional*</font></font>
+  </TD>
+  <TD>
+    <INPUT TYPE="edit" ID="locality_state_prov" NAME="locality_state_prov" VALUE="{{old_locality_state_prov}}">
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Legal Entity Type</B></font>
+  </TD>
+  <TD>
+    <SELECT ID="legal_entity_type" NAME="legal_entity_type" onChange="showHideOther(this.id,'legal_entity_type_info_input','legal_entity_type_info');">
+      {{legal_entity_type_menu}}
+    </SELECT>
+    <DIV ID="legal_entity_type_info_input">
+      <FONT SIZE="-1">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type: <INPUT TYPE="edit" ID="legal_entity_type_info" NAME="legal_entity_type_info" VALUE="{{old_legal_entity_type_info}}">
+      </FONT>
+    </DIV>
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Identification Type</B></font>
+  </TD>
+  <TD>
+    <SELECT ID="id_type" NAME="id_type" onChange="showHideOther(this.id,'id_type_info_input','id_type_info');">
+      {{id_type_menu}}
+    </SELECT>
+    <DIV ID="id_type_info_input">
+      <FONT SIZE="-1">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Type: <INPUT TYPE="edit" ID="id_type_info" NAME="id_type_info" VALUE="{{old_id_type_info}}">
+      </FONT>
+    </DIV>
+  </TD>
+</TR>
+<TR>
+  <TD ALIGN=left VALIGN="top" bgcolor="#e0e0e0">
+    <font face="verdana, arial" size=2><B>Identification Number</B></font>
+  </TD>
+  <TD>
+    <INPUT TYPE="edit" ID="id_number" NAME="id_number" VALUE="{{old_id_number}}">
+  </TD>
+</TR>
+<input type=hidden name="old_contact_type" value="{{old_contact_type}}">
+<input type=hidden name="old_locality_country" value="{{old_locality_country}}">
+<input type=hidden name="old_locality_city" value="{{old_locality_city}}">
+<input type=hidden name="old_locality_state_prov" value="{{old_locality_state_prov}}">
+<input type=hidden name="old_legal_entity_type" value="{{old_legal_entity_type}}">
+<input type=hidden name="old_legal_entity_type_info" value="{{old_legal_entity_type_info}}">
+<input type=hidden name="old_id_type" value="{{old_id_type}}">
+<input type=hidden name="old_id_type_info" value="{{old_id_type_info}}">
+<input type=hidden name="old_id_number" value="{{old_id_number}}">
+</TABLE>
+<BR>
+
+    <script type="text/javascript">
+        // Once the page is loaded, make sure we hide/show the appropriate fields (depending on our selection)
+        // (it's on a timer so that certain browsers have time to put the data back in the forms when clicking the "back" button)
+        timerId=setTimeout("initialShowHide()",1000);
+    </script>

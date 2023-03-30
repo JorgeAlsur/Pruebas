@@ -1,0 +1,49 @@
+<html>
+<head>
+<title>Manage Your Domain - Login</title>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+</head>
+<body bgcolor="#ffffff">
+<BR>
+<BR>
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="login">
+<center>
+{{MESSAGE}}
+<table border=1 cellpadding=4 cellspacing=0>
+<tr><td align=center bgcolor=navy>
+<font face="verdana, arial" color=fffbec>
+<strong>Manage Your Domain</strong></font></td>
+<tr><td align=center bgcolor=d0d0d0>
+
+<table border=0 cellpadding=0 cellspacing=0>
+<tr><td><font face="verdana, arial" size=2><strong>
+Domain Name: </strong></font></td>
+<td><input type=text name=reg_domain value="" size=26></td>
+</tr>
+<tr><td><font face="verdana, arial" size=2><strong>
+User Name:</strong></font></td>
+<td><input type=text name=reg_username value="" size=15></td>
+</tr>
+<tr><td><font face="verdana, arial" size=2><strong>
+Password:</strong></font></td>
+<td><input type=password name=reg_password value="" size=15></td>
+</tr>
+<tr><td colspan=2><font face="verdana, arial" size=2 color=red><strong>
+* User Name and Password are case sensitive</td></tr>
+<tr><td colspan=2><font face="verdana, arial" size=2 color=red><strong>
+* Do not put www. as part of your domain name</td></tr>
+</table>
+</td></tr></table>
+<BR>
+<input type=submit value="Manage Domain"></form>
+<BR><BR>
+Click <a href="{{XPACK_MANAGE_WEBDIR}}">here</a> to manage your CH, FR, NL, AT and IT domains
+<BR><BR>
+
+<font color="red">
+<b>* Cookies must be enabled on your browser to use this interface</b>
+</font>
+</center>
+</body>
+</html>

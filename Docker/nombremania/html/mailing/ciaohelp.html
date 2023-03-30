@@ -1,0 +1,1282 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name="Author" content="Ben Drushell">
+   <title>CIAO-ELM HELP FILE</title>
+</head>
+<body background="background.gif" text="#000000" bgcolor="#ffffff" link="#0000cc" vlink="#000099" alink="#ff0000">
+
+<center><b><font size=+1>Ciao ELM (EmailList Manager) beta version</font></b></center>
+
+<p align="center"><center><hr WIDTH="90%"></center></p>
+
+<p align="center"><center><font size="+1"><b>
+Ciao ELM (EmailList Manager) is designed to be administrator and subscriber friendly.<br>
+SENSIBLE USE OF THIS MASS E-MAIL UTILITY IS NECESSARY.
+</b></font></center></p>
+
+<p align="center">
+<center><font color="#cc0000">WARNING! Some servers prohibit the use of e-mail lists or restrict usage.</font>
+<br>GENERAL GUIDELINES imposed by many servers and government agencies:</center>
+<div align="center">
+<table align="center" border="0" width="70%"><tr><td>
+<ol>
+<li>Individuals must subscribe themselves to your list.
+<li>Lists of e-mail addresses must not be sold or purchased.
+<li>Individuals must have a way to remove themselves off your list.
+</ol>
+Some servers/government agencies have additional
+requirements.&nbsp; Sending mass mailings of UNSOLICITED e-mail can be
+classified as spamming with possible penalties, that is why individuals
+must subscribe themselves to your list.
+</td></tr></table>
+</div>
+</p>
+
+<p align="center"><center><hr WIDTH="90%"></center></p>
+
+<center><font size=+1><a NAME="TABLE-OF-CONTENTS">TABLE OF CONTENTS</a></font></center>
+
+<p align="center"><center>
+<table border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" align="center"><tr><td>
+<a href="#NOTE">NOTE FROM CREATOR</a><br><br>
+<a href="#LICENSE">CIAO EMAILLIST MANAGER - (LICENSE)</a><br><br>
+<a href="#REQUIREMENTS">CIAO EMAILLIST MANAGER - (SYSTEM REQUIREMENTS)</a><br><br>
+<a href="#STEP-BY-STEP">STEP-BY-STEP INSTRUCTIONS</a>
+<ul>
+<a href="#DATABASE">Database Setup - Admin Utility</a><br><br>
+<a href="#CONFIGURE">General Configuration - Admin Utility</a><br><br>
+<a href="#SIGN-UP">Public Sign-up Page Configuration - Admin Utility</a><br><br>
+<a href="#CATEGORY">Category Administration - Admin Utility</a><br><br>
+<a href="#USER">User Administration - Admin Utility</a><br><br>
+<a href="#BLOCK">Blocking List - Admin Utility</a><br><br>
+<a href="#IMPORT">E-mail List Import - Admin Utility</a>
+</ul>
+<a href="#FAQ">FAQ (FREQUENTLY ASKED QUESTIONS)</a>
+<ul>
+<a href="#Q1">What is the catch?</a><br><br>
+<a href="#Q16">What are the list size limitations?</a><br><br>
+<a href="#Q2">Why won't the program run?</a><br><br>
+<a href="#Q3">How do I get the sign-up form to appear on my MAIN web site page?</a><br><br>
+<a href="#Q5">What type of databases will Ciao EmailList Manager work with?</a><br><br>
+<a href="#Q6">I forgot my administrative password! How do I access the program?</a><br><br>
+<a href="#Q7">Why can't I see the field labels or error messages?</a><br><br>
+<a href="#Q8">How do I know the number of subscribers that<br>
+&nbsp; &nbsp; received a message and the number of sending errors?</a><br><br>
+<a href="#Q9">Why won't the program send email?</a><br><br>
+<a href="#Q10">Why can't I find the files "ciao_db.php", "ciao_cfg.php", and "template.ciao"?</a><br><br>
+<a href="#Q11">I made a mistake in the initial database setup... How do I start setup from the beginning?</a><br><br>
+<a href="#Q12">How do I setup multiple page templates?</a><br><br>
+<a href="#Q13">How do I link a category to a page template?</a><br><br>
+<a href="#Q14">How do I setup the template to link to my header/footer include files?</a><br><br>
+<a href="#Q15">How do I get around the import list verification?</a><br><br>
+<a href="#Q17">How do I upgrade the software to a newer version?</a><br><br>
+<a href="#Q18">How do I create HTML-email?</a><br><br>
+<a href="#Q19">How do I get Ciao-ELM to work with MySQL 3.22.xx?</a>
+</ul>
+
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><hr WIDTH="90%"></center></p>
+
+<p align="center">
+<b><a NAME="NOTE">NOTE FROM CREATOR</a></b><br>
+
+<div align="center"><table border="1" bgcolor="#ffffff" cellpadding="15" cellspacing="0" width="70%"><tr><td><i>
+The Ciao EmailList Manager is intended to assist in the sending of updates/
+notifications/ newsletters/ etc. via the web.&nbsp; It includes:
+<ul>
+<li>customizing features
+<li>registry form for your site
+<li>(Skin-like) highly customizable public sign-up interface
+<li>supports many categories
+<li>supports optional/required subscriber data
+<li>creates custom lists based on categories and subscriber data
+<li>list viewer in printer friendly format
+<li>216 web-safe color chart
+<li>list import
+<li>message composer and sender
+<li>sign-up verification
+<li>optional administrator notification
+<li>supports multiple administrators with full or limited access
+<li>supports multiple site usage
+<li>supports multiple server usage
+<li>save and edit messages/templates
+<li>list editing
+<li>optional message test send
+<li>includes security features
+<li>e-mail address/domain/IP blocker
+<li>administrator/subscriber friendly with anti-spam features
+</ul>
+A single message can be e-mailed to a large number of addresses.&nbsp; Each
+recipient has no way of knowing who else is on the mailing list.
+I hope you find this FREEWARE useful.&nbsp; If you have any questions,
+comments, or suggestions that are not covered in this help file, please contact
+me at: http://www.technobreeze.com/
+<br><br>
+(PS: Enhancements are welcome and appreciated.)
+<br><br>
+Sincerely,<br>
+B. Drushell<br>
+November 20, 2000
+</i></td></tr></table></div>
+</p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1><a NAME="LICENSE">Ciao EmailList Manager - (LICENSE)</a></font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><center>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="15" cellspacing="0" width="90%"><tr><td>
+Ciao EmailList Manager - a customizable mass e-mail program that is administrator/subscriber friendly.<br>
+Copyright (C) 2000,2001 Ben Drushell
+<br><br>
+This program is FREE software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License.
+<br><br>
+This program is distributed "AS IS".
+There is NO WARRANTY.  NO implied warranty of MERCHANTABILITY.
+NO implied warranty of FITNESS FOR A PARTICULAR PURPOSE.
+The entire risk is with you.
+See the
+<a href="gpl.txt" target="_blank">GNU General Public License</a>
+for more details.
+<br><br>
+A copy of the GNU General Public License is included with this program.
+<br><br>
+For questions regarding the Ciao EmailList Manager license,
+contact Ben Drushell: http://www.technobreeze.com/
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1><a NAME="REQUIREMENTS">Ciao EmailList Manager - (SYSTEM REQUIREMENTS)</a></font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><center>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="15" cellspacing="0" width="90%"><tr><td>
+Ciao EmailList Manager (beta version) utilizes the PHP language and an SQL database server.
+<br><br>
+SYSTEM REQUIREMENTS:
+<ul>
+<li>PHP version 3.0.9 and higher<br> OR PHP version 4.0.1 and higher
+<li>A compatible SQL server type...<br>
+ Currently this includes:<br>
+ &nbsp; MySQL 3.23.xx and higher<br>
+ &nbsp; PostgreSQL 7.0.2 and higher
+<li>Admin program requires a Javascript enabled browser
+<li>The directory containing Ciao EmailList Manager needs to have permissions
+set for PHP to read/write files in that directory.
+<li>A copy of the GNU GPL license "gpl.txt" must be included in the same directory as the program.
+<li>A copy of the credits "ciaocredits.html" must be included in the same directory as the program.
+<li>A ZIP or TAR/GZ file utility.
+</ul>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1><a NAME="STEP-BY-STEP">WELCOME to Step-by-Step Instructions!</a></font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><center>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+<b>
+The administration & setup program is accessed by: "ciaoadm.php"<br>
+The public sign-up interface is accessed by: "ciao.php" and "index.php"<br>
+The file "phpinfo.php" is a general information program about PHP on your server.
+</b>
+</td></tr></table>
+</center></p>
+
+
+<p align="center"><center>
+<br><br>
+<b><a NAME="DATABASE">Database Setup - Admin Utility</a></b>
+<br>
+
+<p align="center"><font size="2" color="#cc0000"><b>
+To use this module, PHP needs to have read/write<br>
+access in the directory Ciao EmailList Manager is installed.
+</b></font></p>
+
+<br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+<b>SQL Database Setup</b><br>
+The Beta version of Ciao EmailList Manager requires access to an SQL server.
+Compatible server names and version numbers are indicated.
+If you do not know the necessary information, your website administrator or provider should have the information.
+<font color="#cc0000">(NOTE: Your database should be secure and NOT accessible to the general public nor Internet robots.)</font>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 1.</b></td>
+<td>Select the type of SQL server.<br>
+(Click on the arrow next to the text to view a full list.)
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 2.</b></td>
+<td>Input your SQL server address.
+<br>Example Address:
+<li>localhost
+<li>localhost:0000
+<li>yourdomain.com
+<li>yourdomain.com:0000
+<li>000.000.000.000
+<li>000.000.000.000:0000
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 3.</b></td>
+<td>Input your SQL user ID.
+<br>This is the user ID that you would use to access the SQL server via telnet or other means.
+If you do not know your user ID, your website administrator or provider should have the information.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 4.</b></td>
+<td>Input your SQL password.
+<br>This is the password that you would use to access the SQL server via telnet or other means.
+If you do not know your password, your website administrator or provider should have the information.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 5.</b></td>
+<td>Input your SQL password again.
+<br>This assures that no typing errors were made.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 6.</b></td>
+<td>Input the database name on your SQL server.
+<br>Sometimes this is assigned by your website administrator or provider.
+Otherwise, pick a name of your choosing that exists.
+(If a database does not yet exist, please consult your SQL server documentation for creating a database.)
+Some SQL servers have database naming restrictions.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 7.</b></td>
+<td>Input the table prefix for database tables.
+<br>This prevents table conflicts if more than one application is using the same database name.
+The default prefix value is "elm".
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 8.</b></td>
+<td>Input the encode value.
+<br>This value is used to encode/decode database data.  "0" is default encode type. "1" turns off encode/decode.
+</td></tr></table>
+<br><b>SQL Database Setup Is Complete</b><br>
+
+<br><b>Next Steps Are For User Configuration</b><br>
+This creates an administrative user for accessing Ciao-ELM.
+Additional general or administrative users can be added later.
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 9.</b></td>
+<td>Input your personal e-mail address.
+<br>This will later be referred to as the login ID.
+<br>Recommendation: use a different e-mail address than the one setup for Ciao sending.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 10.</b></td>
+<td>Input a password you will use for accessing Ciao EmailList Manager.
+<br>***********If you forget your password***********
+<br>Since no other administrator accounts have been created on your setup yet;
+if you forget your password, you will need to delete "ciaodb.php".
+Then re-setup the program.
+<br>
+*******************************************
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 11.</b></td>
+<td>Input the password again.
+<br>This assures that no typing errors were made.
+</td></tr></table>
+<br><b>User Configuration Is Complete</b><br>
+
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 12.</b></td>
+<td>Carefully read Ciao-ELM's license agreement.
+</td></tr></table>
+
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 13.</b></td>
+<td>Click on the "SETUP/AGREE TO TERMS" button.
+<br>If error messages occur, correct the error fields and click "SETUP" again.
+If no error messages occur, "Database Setup" is complete.
+</td></tr></table>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<br><br>
+<b><a NAME="CONFIGURE">General Configuration - Admin Utility</a></b>
+<br>
+
+<p align="center"><font size="2" color="#cc0000"><b>
+To use this module, PHP needs to have read/write<br>
+access in the directory Ciao EmailList Manager is installed.
+</b></font></p>
+
+<br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+<b>Configuration</b><br>
+
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 14.</b></td>
+<td>Input the "URL To Directory"
+<br>This is the URL to the directory where Ciao is residing on your website.
+<br>Example URL:
+<li>http://www.yourdomain.com/directoryciaoisin/
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 15.</b></td>
+<td>Click on the checkbox, if you want to receive an e-mail notification whenever
+someone submits a request to join the list.
+<br>This is a good tool to use if you are being harassed by someone entering bogus e-mail addresses.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 16.</b></td>
+<td>Click on the checkbox, if you want to receive an e-mail notification whenever
+someone has verfied and is added to the list.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 17.</b></td>
+<td>Click on the checkbox, if you want to receive an e-mail notification whenever
+someone edits their subscriber information.
+<br>This is a good tool for updating alternative databases with information changes.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 18.</b></td>
+<td>Click on the checkbox, if you want to receive an e-mail notification whenever
+someone has deleted their subscription.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 19.</b></td>
+<td>Input the "From E-mail Address"
+<br>This is the e-mail address that will be used by Ciao-ELM to send e-mail from.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 20.</b></td>
+<td>Input the "From Name"
+<br>This is what people will see the the email's "FROM" field.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 21.</b></td>
+<td>Click on "Use Sendmail To Send Email" option for using Sendmail or a Sendmail interface program.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 21a.</b></td>
+<td>If you choose to utilize sendmail, enter the path to the sendmail program.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 22.</b></td>
+<td>Click on "Use SMTP To Send Email" option to utilize SMTP.
+<br>This is the suggested method for sending email on a win32 system.
+<br>Warning: Some SMTP servers need to be specially configured to permit the IP address of your webserver to send email.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 22a.</b></td>
+<td>If you choose to utilize SMTP, enter the smtp host name.
+<br>Example: smtp.example.com;mail.example.com
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 22b.</b></td>
+<td>If you choose to utilize SMTP, enter the SMTP port number.
+<br>The default SMTP port is "110".
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 22c.</b></td>
+<td>If you choose to utilize SMTP, enter the SMTP timeout.
+<br>This is how long the mail program will wait in trying to connect to an SMTP server.
+The default timelimit is 10 seconds.  This may need to be increased for slow SMTP servers.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 22d.</b></td>
+<td>If you choose to utilize SMTP, enter the Account Name.
+<br>This is name of your mail account on the smtp server.
+(It is usually the same name as your POP3 account.)
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 23.</b></td>
+<td>Click on "Use PHP Mail Function To Send Email" option to utilize PHP's mail function.
+<br>This is NOT advized as there have been bugs with certain versions of PHP regarding
+the PHP mail function.
+</td></tr></table>
+
+<br><b>Configuration Is Complete</b><br>
+
+<br><b>Next Steps Are For Optional Subscriber Data</b><br>
+Automatically, the program requests subscriber e-mail address.
+This requests additional information (such as: name, city, whatever) from subscribers.
+This information can also be used to create custom sending lists.
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 24.</b></td>
+<td>Click on the either "required", "optional", or "not used"
+<li>"required" - subscribers must provide that information to join the list
+<li>"optional" - information is requested of subscriber, but not required
+<li>"not used" - field is not displayed or used in program (this is the default).
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 25.</b></td>
+<td>Select a field type.
+<br>The options are "text", "select", "radio", "checkbox".
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 26.</b></td>
+<td>Type a label name into the blank box for fields used.
+<br>This is displayed to subscribers.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 27.</b></td>
+<td>(optional) Type a default value into the blank box.
+<br>If most of your subscribers will have similar data, use this to supply a default value.
+<br>For the multiple data selections of "select" and "radio", seperate the data items with a
+semi-colon ";".
+</td></tr></table>
+<br><b>Optional Subscriber Data Is Complete</b><br>
+
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 28.</b></td>
+<td>Click on the "SUBMIT DATA" button.
+<br>If error messages occur, correct the error fields and click "SUBMIT DATA" again.
+If no error messages occur, "General Configuration" is complete.
+</td></tr></table>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<br><br>
+<b><a NAME="SIGN-UP">Public Sign-up Page Configuration - Admin Utility</a></b>
+<br>
+
+<p align="center"><font size="2" color="#cc0000"><b>
+To use this module, PHP needs to have read/write<br>
+access in the directory Ciao EmailList Manager is installed.
+</b></font></p>
+
+<br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+This creates "template.ciao" that is used to generate the
+sign-up page the public views on your website. If you want a
+more advanced customization, you can download
+"template.ciao", add/edit html code, and re-upload the file.
+<br><br>
+<b>Page Properties</b>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 29.</b></td>
+<td>Assign a hex value background color for the public web page.
+<br>A link to a web-safe 216-color chart is provided for your convenience.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 30.</b></td>
+<td>Assign a background image URL.
+<br>If no background image is desired, leave this blank.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 31.</b></td>
+<td>Assign a hex value text color for the public web page.
+<br>A link to a web-safe 216-color chart is provided for your convenience.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 32.</b></td>
+<td>Assign a hex value link color for the public web page.
+<br>A link to a web-safe 216-color chart is provided for your convenience.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 33.</b></td>
+<td>Assign a logo image URL.
+<br>If no logo image is desired, leave this blank.
+</td></tr></table>
+<br><b>Page Properties Is Complete</b><br>
+
+<br><b>Next Steps Are For Table Properties</b><br>
+Table Properties establishes the sign-up form for public interaction.
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 34.</b></td>
+<td>Assign a hex background color for the form.
+<br>A link to a web-safe 216-color chart is provided for your convenience.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 35.</b></td>
+<td>Assign a hex text color for the form.
+<br>A link to a web-safe 216-color chart is provided for your convenience.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 36.</b></td>
+<td>(optional) Assign a font value (example: courier).
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 37.</b></td>
+<td>Check if you want to verify email addresses using the *NIX sendmail program.
+<br>If you do choose to use this, enter the location of sendmail on your *NIX server.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 38.</b></td>
+<td>Check if you want to verify email domains using the *NIX dig program.
+<br>This checks an email domain for mail servers.  (It prevents some mail forwarding
+services from being added.)  Some website service providers disable the dig program
+for security reasons.  If you choose to use the dig validation and valid email addresses
+are being rejected, dig is probably disabled on your server.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 39.</b></td>
+<td>Assign a welcome message to display at the top of the form.
+<br>A default welcome message is provided.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 40.</b></td>
+<td>Label for the subscriber's profile edit link.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 41.</b></td>
+<td>Label for the subscriber's log-out link.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 42.</b></td>
+<td>Assign an "e-mail prompt" message requesting input of an e-mail address.
+<br>A default "e-mail prompt" is provided.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 43.</b></td>
+<td>Assign an "password prompt" message requesting input of a password.
+<br>A default "password prompt" is provided.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 44.</b></td>
+<td>Assign a "category title" to display in the form (seen after subscriber verification or during editing).
+<br>A default "category title" is provided. (You might want to
+call this "lists" or "survey" or something else.)
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 45.</b></td>
+<td>Assign "instructions" to display in the form.
+<br>A default "instruction" message is provided.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 46.</b></td>
+<td>Assign a label for the "Subscribe Button".
+<br>A default label is provided, but you might want to call it something else.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 47.</b></td>
+<td>Assign a label for the "Unsubscribe Button".
+<br>A default label is provided, but you might want to call it something else.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 48.</b></td>
+<td>Assign a label for the "Log-in Button".
+<br>A default label is provided, but you might want to call it something else.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 49.</b></td>
+<td>Assign a label for the "Update Button" (seen after subscriber verification or log-in).
+<br>A default label is provided, but you might want to call it something else.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 50.</b></td>
+<td>Assign a label for the "Forgotten Password Button".
+<br>A default label is provided, but you might want to call it something else.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 51.</b></td>
+<td>Default error messages have been provided for:
+<li>Required Fields
+<li>Verification Error
+<li>Find Error
+<li>Waiting for Verification
+<li>Already in List
+<br>These can be edited to your liking.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 52.</b></td>
+<td>Default OK messages have been provided for:
+<li>OK Verified
+<li>OK Updated
+<li>OK Unsubscribe
+<li>OK Log-in
+<li>OK Subscribe
+<li>OK Log-out
+<li>OK Forgotten Password
+<br>These can be edited to your liking.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 53.</b></td>
+<td>Default email messages have been provided for:
+<li>Signup Message (for those subscribing via "ciao.php")
+<li>Import Message (for addresses being imported)
+<li>Forgotten Password Message (for those who forgot their password and clicked on the "Forgotten Password" button)
+<br>These can be edited to your liking.
+<br>Data inserts for the email messages are as follows:
+<ul>
+<br>#VERIFYURL# => Verify URL link subscriber uses to be added to list. (required)
+<br>#URL# => URL to directory Ciao EmaiList Manager resides in.
+<br>#EMAIL# => Email address being subscribed.
+<br>#REMOTE_IP# => IP address of viewer submitting request.
+<br>#REMOTE_HOST# => Remote host address of viewer submitting request.
+<br>#BROWSER# => Browser information of the viewer submitting request.
+<br>#PASSWORD# => Password for editing their subscriber info.
+</ul>
+</td></tr></table>
+<br><b>Table Properties Is Complete</b><br>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 54.</b></td>
+<td>Click on the "SUBMIT DATA" button.
+<br>This will generate the file "template.ciao" with the information you have
+specified.  If you would like to further customize the file, download it in ASCII transfer.
+Then add/edit html code, and re-upload "template.ciao" to the server in ASCII transfer.
+The file can be edited at any time, as many times as desired.
+</td></tr></table>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<br><br>
+<b><a NAME="CATEGORY">Category Administration - Admin Utility</a></b>
+<br><br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+After a subscriber has verified, they can choose to join
+one or more categories of special topic information you create.
+The number of categories you can create is large.
+<br>EXAMPLE:
+<li>Travel - Countries of the World
+<li>Sales - Inventory Products
+<li>Educational - Courses
+<li>Survey/Voting - True/False or Yes/No Questions
+<br><br><b>Adding a New Category</b><br>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 55.</b></td>
+<td>Choose "(New Category)" in the select box.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 56.</b></td>
+<td>Assign a 3 character id code for the new category.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 57.</b></td>
+<td>Assign a name for the category.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 58.</b></td>
+<td>Click on the "Add/Edit Category" button.
+</td></tr></table>
+<br><br><b>Repeat Steps 22-25 For Each Category Added</b><br>
+<br><br><b>Editing a Category</b><br>
+(If you do not want to edit any categories, skip to <a href="#S62">STEP 62</a>.)
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 59.</b></td>
+<td>Choose the category you want to edit in the select box.
+<br>The Category ID and Category Name will appear in their boxes.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 60.</b></td>
+<td>Enter the changes in category name.
+<br>(NOTE: You cannot edit a category ID.)
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 61.</b></td>
+<td>Click on the "Add/Edit Category" button.
+</td></tr></table>
+<br><br><b><a name="S62">Delete a Category</a></b><br>
+(If you do not want to delete any categories, skip to <a href="#USER">STEP 64</a>.)
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 62.</b></td>
+<td>Choose the category you want to delete in the select box.
+<br>The Category ID and Category Name will appear in their boxes.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 63.</b></td>
+<td>Click on the "Delete Category" button.
+<br>This will delete the category and remove subscribers from that category.
+The subscriber name will still remain on the "All Subscribers" list and any other
+categories.
+</td></tr></table>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<br><br>
+<b><a NAME="USER">User Administration - Admin Utility</a></b>
+<br><br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+If additional personel need access to CIAO, use this utility to
+create new user accounts and edit/delete accounts. There are
+two types of accounts:
+<ul>
+<li>Admin account
+<ul><li>gives access to Admin Utilities + Mail Utilities.</ul>
+<li>General account
+<ul><li>only gives access to Mail Utilities</ul>
+</ul>
+<br><br><b>Adding a New User</b><br>
+(If you do not want to add any new users, skip to <a href="#S70">STEP 70</a>.)
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 64.</b></td>
+<td>Choose "(New User)" in the select box.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 65.</b></td>
+<td>Enter the user's personal e-mail address.
+<br>This will be used as their login ID.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 66.</b></td>
+<td>Assign a password the user will use to access CIAO.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 67.</b></td>
+<td>Enter the password again.
+<br>This makes sure no typing errors were made.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 68.</b></td>
+<td>Select access privileges.
+<ul>
+<li>Admin account
+<ul><li>gives access to Admin Utilities + Mail Utilities.</ul>
+<li>General account
+<ul><li>only gives access to Mail Utilities</ul>
+</ul>
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 69.</b></td>
+<td>Click on the "Submit Query" button.
+</td></tr></table>
+<br><br><b>Repeat Steps 64-69 For Each User Added</b><br>
+<br><br><b><a name="S70">Editing a User</a></b><br>
+(If you do not want to edit any users, skip to <a href="#S73">STEP 73</a>.)
+<br>
+Editing a user can be used to change passwords, add/reduce administrative access, or
+change user ID/email address.
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 70.</b></td>
+<td>Choose the user you want to edit in the select box.
+<br>The User E-mail and Access Privelege will appear in their boxes.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 71.</b></td>
+<td>Make the changes desired.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 72.</b></td>
+<td>Click on the "Submit Query" button.
+</td></tr></table>
+<br><br><b><a name="S73">Delete a User</a></b><br>
+(If you do not want to delete any users, skip to <a href="#BLOCK">STEP 76</a>.)
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 73.</b></td>
+<td>Choose the user you want to delete in the select box.
+<br>The User E-mail and Access Privileges will appear in their boxes.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 74.</b></td>
+<td>Click on the "Delete Selected User" checkbox.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 75.</b></td>
+<td>Click on the "Submit Query" button.
+<br>This will delete the user and also remove (unsent) messages/templates they have.
+</td></tr></table>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<br><br>
+<b><a NAME="BLOCK">Block List - Admin Utility</a></b>
+<br><br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+At times, it is necessary for administrators to block e-mail
+addresses/domain/IP's due to pranksters, competitors, etc.
+This feature enables an e-mail address or domain to be blocked from being added to your list
+OR... a specific IP address blocked from accessing the program.
+<br><br><b>Adding a Block</b><br>
+(If you do not want to add any new blocks, skip to <a href="#S79">STEP 79</a>.)
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 76.</b></td>
+<td>Enter the e-mail address or domain or IP to be blocked.
+<br>Example:
+<li>anyemailaddress@anywebsitedomain.whatever
+<li>anywebsitedomain.whatever
+<li>xxx.xxx.xxx.xxx
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 77.</b></td>
+<td>Enter a reason for the block. (This is optional.)
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 78.</b></td>
+<td>Click on the "New Block" button.
+<br>The e-mail list & the verification list will be scanned for matches to be deleted.
+Subscribers matching a block will be prevented from joining and see a page with no joining message.
+Blocking can be bypassed via list import, which is only accessable with full admin privileges.
+A block can be removed at any time by an administrator.
+</td></tr></table>
+<br><b>Adding Block Is Complete</b><br>
+
+<br><b><a name="S79">Next Steps Are For Viewing a Block</a></b><br>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 79.</b></td>
+<td>When the Block List page displays, below the "Add New Block" area will be a list
+of present blocks in existence.  If there are more blocks than can be viewed on a
+single page, use the navagation bar at the bottom of the page.
+</td></tr></table>
+<br><b>Viewing a Block Is Complete</b><br>
+
+<br><b>Next Steps Are For Deleting a Block</b><br>
+(If you do not want to delete any blocks, skip to <a href="#IMPORT">STEP 81</a>.)
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 80.</b></td>
+<td>When viewing the Block List, find the block you want to remove.
+Then click on the "(delete)" link pertaining to that block.
+</td></tr></table>
+<br><b>Deleting a Block Is Complete</b><br>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<br><br>
+<b><a NAME="IMPORT">E-mail List Import - Admin Utility</a></b>
+<br><br>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="80%"><tr><td>
+To facilitate those with existing e-mail lists, this import utility
+enables list transfer to CIAO. Anti-spam features (that are
+subscriber friendly) have been added to deter misuse of this
+utility.
+<br><br><b>Creating The Transfer File</b><br>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 81.</b></td>
+<td>Create the transfer file to be a comma-delimitered text file with an order of fields being:
+<li>E-mail Address,
+<li>Option1, Option2, ... Option##
+<br><b>NOTE: CIAO EMAILLIST MANAGER HAS AN IMPORT LIMIT OF 10KB.  YOUR SERVER MIGHT ALSO HAVE A FILE RESTRICTION.</b>
+</td></tr></table>
+<br><br><b>Creating The Transfer File Is Completed</b><br>
+
+<br><b>Next Steps Are For File Upload And Import</b><br>
+(If you would like to use the file import only feature, skip to <a href="#IMPORT2">STEP 85</a>.)
+<br><br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 82.</b></td>
+<td>Click on the "Browse..." button.
+<br>A window will appear showing your computer's files.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 83.</b></td>
+<td>Select the file you want to upload and click on the "Open" button.
+<br>The location of the file on your computer will appear in the form box.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 84.</b></td>
+<td>Click on the "Import File" button.
+<br>The page will display a message that an import is in progress, unless errors occur.
+An additional pop-up box will appear displaying the progress of import.  When the import
+is complete, the pop-up box will display a "FINISHED" message.
+</td></tr></table>
+<br><br><b>File Upload And Import Is Completed</b><br>
+
+<br><b><a name="IMPORT2">Next Steps Are For File Import</a></b><br>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 85.</b></td>
+<td>Upload via FTP (ASCII mode) the import file to the directory in which Ciao EmailList Manager resides.
+Enter the name of the file in the text box provided.
+</td></tr></table>
+<br>
+<table border="0"><tr>
+<td valign="top" nowrap><b>STEP 86.</b></td>
+<td>Click on the "Import File" button.
+<br>The page will display a message that an import is in progress, unless errors occur.
+An additional pop-up box will appear displaying the progress of import.  When the import
+is complete, the pop-up box will display a "FINISHED" message.
+</td></tr></table>
+<br><br><b>File Import Is Completed</b><br>
+</td></tr></table>
+</center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1>End Of Step-by-Step Instructions</font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1><a NAME="FAQ">FAQ (Frequently Asked Questions)</a></font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q1">What is the catch?</a></b>
+<br>
+There is NO catch.  Ciao EmailList Manager is FREE and intended to STAY FREE.
+It is designed as OpenSource to enhance the standards of e-mail lists, assist
+Internet businesses/organizations/individuals, and be subscriber friendly.
+It is protected under the
+<a href="http://www.technobreeze.com/license/gpl.txt" target="_blank">GNU General Public License (GPL)</a>
+agreement.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q16">What are the list size limitations?</a></b>
+<br>
+Ciao EmailList Manager mixes the use of modern day web programming techniques and old COBOL techniques
+to provide the stability necessary for handling very large lists.
+I have tested the system using a list of 20,000 subscribers.
+Others have reported list sizes well over 50,000 subscribers.
+Theoretically the only limitations are that of your SQL database, server, and network.
+This gives room for VERY large list sizes.
+(If you do experience a size limitation, please <a href="http://www.technobreeze.com/contact.html" target="_blank">contact me</a> regarding the size limit and your server specs.)
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q2">Why won't the program run?</a></b>
+<br>
+<li>Make certain a copy of the files "gpl.txt" and "ciaocredits.html" is in the same directory as the program.
+<li>Make certain PHP has read/write privileges to the directory containing Ciao EmailList Manager.
+(For those that are security conscious, the settings can be changed back once setup is complete.)
+<li>This program is configured for the module version of PHP (not the CGI version).
+If you are using a CGI version of PHP, your website administrator or provider should have the
+information necessary for re-configuring this program.
+<li>Create the program "phpinfo.php".  It contains one line of code "&lt;? phpinfo() ?&gt;".
+Check to make sure that "track_vars" is on.
+If "track_vars" is not on, create a ".htaccess" file (or the appropriate configuration file
+for your server) and set it to "1".  Directions for editing PHP configurations is available
+on the PHP.net website.
+<li>If none of these solutions fix the problem, please contact me at:
+http://www.technobreeze.com
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q3">How do I get the sign-up form to appear on my MAIN web site page?</a></b>
+<br>
+Method One:<br><br>
+A customized template ability is one of the many features in Ciao.
+A highly customized interface can be made to look like a main website page
+or any other page.
+<ol>
+<li>Use the "Sign-up Page Configuration" administrative utility.
+<li>Download the file "template.ciao" in ASCII text transfer.
+<li>Add/Edit/Delete html code in the page.
+<li>Re-upload the file "template.ciao" in ASCII text transfer.
+</ol>
+Method Two:
+<ol>
+<li>Pull up the file "ciao.php" in your browser.
+<li>View the HTML source from the browser.
+<li>Copy the HTML code &lt;form...&gt;....&lt;/form&gt;
+<li>Insert that code into your main page.
+    <ul>
+        You can alter the code as to color and layout,
+        but not the names of buttons or text boxes.
+        Altering the names would make the program unable
+        to receive the information.
+    </ul>
+<li>Alter the &lt;form&gt; tag on your main page as follows:<br>
+    &lt;form method="post" action="ciao.php"&gt;
+</ol>
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q5">What type of databases will Ciao EmailList Manager work with?</a></b>
+<br>
+The alpha version of Ciao EmailList Manager only worked with MySQL 3.23.xx and higher.
+<br><br>
+The beta version of Ciao EmailList Manager supports many SQL database types.
+These are specified as options in the setup process.
+At the time of this writing, MySQL and PostgreSQL are supported.
+<br><b>Versions Used For Testing:</b>
+<ul>
+<li>MySQL 3.23.xx and higher
+<li>PostgreSQL 7.0.2 and higher
+</ul>
+Time permitting or if others volunteer, additional datbases will be supported at a later date.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q6">I forgot my administrative password! How do I access the program?</a></b>
+<br>
+<li>If you have limited admin access, a person with full admin abilities can reassign a new password for you.
+<li>If you have full admin access (and not the only one with full admin access), another with full admin access can reassign a new password for you.
+<li>If you are the ONLY person with full admin access, you will need to delete "modules/ciaodb.php".
+Then re-setup the program.
+The database information remains intact IF the new setup is linked the same as the old.
+<br>It is recommended: DO NOT FORGET YOUR PASSWORD!
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q7">Why can't I see the field labels or error messages?</a></b>
+<br>
+Check the table background color and table text color assigned
+in "Sign-up Page Configuration" administrative utility. Try
+contrasting colors.  A web-safe color chart has been provided for
+your convenience.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q8">How do I know the number of subscribers that received a message and the number of sending errors?</a></b>
+<br>
+In the "Sent Message Archive", view the message that was sent.
+The header information will include the approximate number of
+messages sent.
+<br><br>
+At the bottom of the archived message is a list of sending errors.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q9">Why won't the program send email?</a></b>
+<br>
+Some ISP's, networks, and firewalls block the sending mail ports.
+Depending on how the PHP mail function was configured for your server,
+sending may be affected by this.<br>
+<i>User tip by: Bob Hurt</i>
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q10">Why can't I find the files "modules/ciaodb.php", "modules/ciaocfg.php", and "modules/template.ciao"?</a></b>
+<br>
+These are generated files created by the setup routine.<br>
+(ciao_s00.php, ciao_s01.php, and ciao_s03.php)<br>
+If you have run the setup routine and the files are still missing,
+make certain PHP has file writing access to the directory
+Ciao EmailList Manager resides in.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b><a name="Q11">I made a mistake in the initial database setup... How do I start setup from the beginning?</a></b>
+<br>Delete the file located at "modules/ciaodb.php".
+<br>You might want to also delete generated tables in your SQL server from the previous installation attempt.
+<br>Reload the browser page for "ciaoadm.php".
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q12">How do I setup multiple page templates?</a>
+</b>
+<br>
+The file "template.ciao" is the default template used when no other template is defined.
+To create more page templates, copy the file template.ciao to another name... example "name1.ciao".
+Then link to the program "ciao.php" via the link "ciao.php?template=name1".
+(Replace "name1" with the file name of your choice.)
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q13">How do I link a category to a page template?</a>
+</b>
+<br>
+Make a copy of the file "template.ciao" and name it after a category's three letter ID.
+<br>Example: I have a category ID of "php" for the category "PHP Software".
+I would then have a template file by the name "php.ciao".
+<br><br>
+Then link to the program "ciao.php" via the link "ciao.php?category=php".
+(Replace "php" with the category ID of your choice.)
+<br><br>
+When a person subscribes to a category specific page, they will not see the other
+categories listed.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q14">How do I setup the template to link to my header/footer include files?</a>
+</b>
+<br>
+Edit the file "template.ciao" so that in between the special &lt;# and #&gt; tags the following code is included.
+<br><br>header="yourheaderfile.html"
+<br><br>footer="yourfooterfile.html"
+<br><br>(You can also include PHP files.)
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q15">How do I get around the import list verification?</a>
+</b>
+<br>
+Ciao EmailList Manager is a true opt-in email system.
+Opt-in means that all subscribers must verify their desire to be on the list.
+Even the import feature must go through this verification process.
+To remove the import verification, you either need to program the change yourself or hire a programmer to make the changes.
+<br><b>Warning:</b> Ciao EmailList Manager has a parts check that might need altering also <b>: )</b>
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q17">How do I upgrade the software to a newer version?</a>
+</b>
+<br>
+If you are upgrading from the "alpha" version of Ciao-ELM,
+install the "beta" software into a new directory.
+Setup the software so that new SQL tables are created.
+Then utilize the "DB Upgrade" utility.
+"DB Upgrade" lets you import data from "alpha" version (without user re-verification).
+<br><br>
+If you are upgrading from another "beta" version of Ciao-ELM,
+upload the files to your website (do not upload any directories).
+Then upload the files located in the "modules" directory to your website's "modules" directory.
+(Warning: If you upload the directory itself, some servers will delete the contents of that
+directory first... thereby deleting needed configuration files.)
+<br><br>
+These upgrade instructions were provided for existing users of Ciao EmailList Manager.
+The upgrade procedures allow the software and/or database to be upgraded without the loss of data and NO need for re-verification.
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q18">How do I create HTML-email?</a>
+</b>
+<br>
+
+A tutorial on HTML-email is available at "<a
+href="http://www.technobreeze.net/synopsis/htmlemail/" target="_blank"
+>http://www.technobreeze.net/synopsis/htmlemail/</a>".
+</td></tr></table></p>
+
+<p align="center"><table align="center" border="1" bgcolor="#ffffff" cellpadding="5" cellspacing="0" width="90%"><tr><td>
+<b>
+<a name="Q19">How do I get Ciao-ELM to work with MySQL 3.22.xx?</a>
+</b>
+<br>
+
+Ciao-ELM uses the MySQL 3.23.xx feature of calling "DISTINCT" inside of a sql function.
+This statement causes the program to ignore duplications when utilizing custom categories in Ciao-ELM.
+To make Ciao-ELM MySQL 3.22.xx compatible, you will need to remove the code phrase "DISTINCT" from all of Ciao-ELM's program files.
+WARNING: By doing this, duplicate sends can occur when sending to a custom category.
+
+</td></tr></table></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1><a NAME="FAQ">End Of FAQ (Frequently Asked Questions)</a></font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><center><a href="#TABLE-OF-CONTENTS">(Back to Table of Contents)</a></center></p>
+
+<p align="center">
+<table bgcolor="#ffffff" align="center" cellpadding="15" cellspacing="0" border="1"><tr><td>
+<small><i>
+Last update to ciaohelp.html was on September 03, 2001
+<br>Ciao EmailList Manager (C) 2000,2001 Ben Drushell - http://www.technobreeze.com/
+<br>PHP (C) 1998 PHP Development Team - http://www.php.net/
+<br>MySQL is a registered trademark of MySQL AB - http://www.mysql.com/
+<br>PostgreSQL portion-(C) by PostgreSQL, Inc. and
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; portion-(C) by Regents of the University of California
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; http://www.postgresql.org/
+<br>GNU is a registered trademark of the Free Software Foundation - http://www.gnu.org/
+</i></small>
+</td></tr></table>
+</p>
+
+</body>
+</html>

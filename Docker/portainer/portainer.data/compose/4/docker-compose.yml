@@ -1,0 +1,59 @@
+version: "3.3"
+
+networks:
+  proxy:
+    external: true
+
+services:
+  webserver:
+    image: "php:${PHP_VERSION}"
+    container_name: "${PROJECT_NAME}_webserver"
+    volumes: 
+      - ${PROJECT_PATH}/html:/var/www/html
+      - ${PROJECT_PATH}/phplibs:/var/www/phplibs
+      - ${PROJECT_PATH}/apache2:/etc/apache2/sites-available
+    ports:
+      - 80
+    networks:
+      - proxy
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nombremania.rule=Host(`nombremania.localhost`)"
+      - "traefik.http.routers.nombremania.entrypoints=web"
+      - "traefik.docker.network=proxy"
+      
+  webserver2:
+    image: "php:${PHP_VERSION2}"
+    container_name: "${PROJECT_NAME}_webserver2"
+    volumes: 
+      - ${PROJECT_PATH}/html:/var/www/html
+      - ${PROJECT_PATH}/phplibs:/var/www/phplibs
+    networks:
+      - proxy
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.http.routers.nombremania2.rule=Host(`nombremania2.localhost`)"
+      - "traefik.http.routers.nombremania2.entrypoints=web"
+      - "traefik.docker.network=proxy"
+      
+  mysql:
+    image: "mysql:${MYSQL_VERSION}"
+    container_name: "${PROJECT_NAME}_mysql"
+    environment:
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
+      MYSQL_RANDOM_ROOT_PASSWORD: yes
+    volumes: 
+      - ${PROJECT_PATH}/mysql:/var/lib/mysql
+      - ${PROJECT_PATH}/docker-entrypoint-initdb.d:/docker-entrypoint-initdb.d
+      
+  adminer:
+    image: adminer    
+    container_name: "${PROJECT_NAME}_adminer"
+    ports:
+      - 8080
+
+    

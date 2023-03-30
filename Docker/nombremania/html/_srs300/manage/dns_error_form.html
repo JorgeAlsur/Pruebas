@@ -1,0 +1,23 @@
+<TABLE BORDER=1 width=550 cellpadding=3 cellspacing=0>
+<TR>
+<TD COLSPAN=2 bgcolor="#93D5BE" align=center>
+<B><FONT face="verdana, arial" size=2>
+DNS Errors</FONT></B>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=left bgcolor="#e0e0e0"> <font face="verdana, arial" size=2><B>DNS Error</B></font></TD>
+<TD ALIGN=center><TEXTAREA READONLY name="fde" cols=60 rows=6 >{{full_dns_error}}</TEXTAREA></TD>
+</TR>
+<TR>
+<TD colspan=2>
+<center><input type="checkbox" name="flag_do_validate_domain" value="1">Validate domain</center>
+<BR>
+<FONT COLOR="red" SIZE="-1">NOTE: </FONT>After changing the nameservers, if the
+domain still reports DNS errors, check the 'Validate domain' box above to have
+the registry re-validate the new nameserver, and clear the error.  This can
+take up to 24-48 hours to complete.
+</TD>
+</TR>
+</TABLE>
+<BR>

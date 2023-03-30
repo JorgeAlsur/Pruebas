@@ -1,0 +1,55 @@
+
+<center>
+<font size=+1><STRONG>{{TITLE}}</STRONG></font> <br> 
+
+{{NAVBAR}}
+Number of selected domains: {{DOMAIN_COUNT}}
+<form name="mainform" action="{{CGI}}" method=post>
+<input type=hidden name=action value="{{ACTION_VALUE}}">
+<input type=hidden name=type value="{{TYPE}}">
+<input type=hidden name=sort_by value="{{sort}}">
+<input type=hidden name=hpage value="{{HPAGE}}">
+<input type=hidden name=page value="{{PAGE}}">  
+<input type=hidden name=select_all_mode value="{{SELECT_ALL_MODE}}">  
+<input type=hidden name=select_all_renew_mode value="{{SELECT_ALL_RENEW_MODE}}"> 
+<input type=hidden name=submitted value="{{SUBMITTED}}">
+<input type=hidden name=not_first_time value="{{NOT_FIRST_TIME}}"> 
+<input type=hidden name=cb_auto_set value="{{CB_AUTO_SET}}">  
+<input type=hidden name=cb_renew_set value="{{CB_RENEW_SET}}">  
+ 
+<table border=1 bgcolor="fffff0">
+
+<!-- WARNING -->
+<tr>
+
+<TD align=center colspan={{rows}} bgcolor="#e0e0e0">
+<font color=red><B>
+********ATTENTION********<BR>
+A payment system must be implemented before<BR>
+giving your customers access to turn on auto renew<BR>
+or to renew their active domains.
+</B></font>
+</TD>
+
+</tr>
+
+
+<!-- HEADER -->
+<tr bgcolor="ccccc0">
+    
+   <th nowrap><a href="{{cgi}}?action=get_expire_domains&page={{PAGE}}&type={{TYPE}}&limit={{limit}}&domain={{domain}}&auto_renew={{auto_renew}}&domain_search={{domain_search}}&expiry_date={{expiry_date}}&orderby=name&sort_by={{new_sort}}">Domain Name </a></th> 
+    {{header}}
+   <th nowrap>Renew</th>
+   <th nowrap>Renewal Term <font color="red">*</font></th>
+
+</tr>
+<!-- END HEADER -->
+
+{{DOMAINS}}
+{{diff_rsp_msg}}
+
+</table>
+
+<br><font size=-1 color="red">* <i>(2 years only for ".uk" and 1 year for ".de", ".be"<!-- and ".eu"--> domains)</i></font>
+
+</form>

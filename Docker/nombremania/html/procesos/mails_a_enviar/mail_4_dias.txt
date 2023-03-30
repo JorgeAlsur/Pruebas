@@ -1,0 +1,40 @@
+#############################################################################################
+#Aviso para los usuarios que no han terminado el proceso de registro (que no han pagado)
+#
+#las variables son :
+#nombre  = nombre del cliente
+#destino = enlace a la pagina
+#email_cliente  = obvio !!
+#############################################################################################
+From=registros@nombremania.com
+To={email_cliente}
+Subject=Nombremania - Recordatorio de solicitud
+
+Estimado cliente: {nombre} 
+
+Te recordamos que hemos gestionado tu solicitud de registro de dominios
+pero que no hemos recibido el pago correspondiente para proceder con el
+registro. Puedes ver las opciones de pago en:
+
+{destino}
+
+Si realizaste el pago por transferencia bancaria te rogamos nos informes de
+las misma enviando una copia por fax o rellenado el formuario que
+encontraras en:
+
+http://www.nombremania.com/pago_transferencia.php
+
+Una vez realizado el pago se te comunicara por mail la aceptacion del mismo
+y se habilitaran los registros para su uso.
+
+Si por otro lado no deseas continuar con esta solicitud, esta quedara
+automaticamente anulada pasados 15 dias desde el de registro.
+
+Gracias por usar NombreMania.com
+
+Dpto. de Registros 
+registros@nombremania.com 
+{fecha}
+
+Tildes eliminadas intencionadamente de este email.
+

@@ -1,0 +1,4 @@
+<?
+dl("curl.so");
+//phpinfo();
+?>

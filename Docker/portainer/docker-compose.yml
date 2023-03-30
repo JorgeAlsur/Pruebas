@@ -1,0 +1,18 @@
+version: "3"
+
+services:
+  portainer:
+    image: portainer/portainer-ee:${PORTAINER_VERSION}
+    container_name: "${PROJECT_NAME}_portainer"
+    restart: always
+    ports:
+      - ${PORTAINER_PORT}:9000
+    networks:
+      - net
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./portainer.data:/data
+
+networks:
+  net:
+    driver: bridge

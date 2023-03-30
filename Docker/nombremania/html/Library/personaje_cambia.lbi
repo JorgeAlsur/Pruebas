@@ -1,0 +1,10 @@
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+<div align="right">
+  <?
+              //selecciona la imagen que aparecera
+              $imagenes=array("Napoleon.gif","Hippy.gif","Miss.gif","Roquero.gif");
+              srand((double)microtime()*1000000);
+              $imagen="imagenes/".$imagenes[rand(0,3)];
+            ?>
+  <img src=<?=$imagen?> > </div>
+</font>

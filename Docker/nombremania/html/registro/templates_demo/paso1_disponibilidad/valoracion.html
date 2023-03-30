@@ -1,0 +1,306 @@
+<html><!-- #BeginTemplate "/Templates/nm2_demo_clientes.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Suportal.com</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/Templates/nm2_base_registro.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+//-->
+
+</script>
+</head>
+<body bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" width="627" align=center>
+  <tr> 
+    <td><img src="/images/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="611" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="4" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img name="superior" src="/images/superior.gif" width="627" height="41" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/images/izqui1.gif"><img name="izqui1" src="/images/izqui1.gif" width="12" height="5" border="0"></td>
+    <td rowspan="2" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="12" height="100%">
+        <tr>
+          <td align="center"><!-- #BeginEditable "contenido" -->
+      <table border=0 width="520" align="left" cellpadding="2" cellspacing="0">
+        <tr> 
+          <td colspan="3" height="35" class="titu_pags"><b><span class="titu_pags_previo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{{reg_text}} 
+            de Dominio</font></span><br>
+            <font face="Verdana, Arial, Helvetica, sans-serif" size="2">VALORACI&Oacute;N 
+            DE SOLICITUD</font></b> </td>
+        </tr>
+        <tr> 
+          <td colspan="3"><img src="../../../imagenes/shim.gif" width="20" height="4"><br>
+            <font size="2" color="#CC0000">{{mensaje}}</font> {{bad_domains}} 
+            <form name="valoracion" method="post" action="{{CGI}}">
+              <table border="0" cellspacing="1" cellpadding="1" width="100%">
+                <tr> 
+                  <td colspan="2"><b>&nbsp;&nbsp;</b></td>
+                  <td colspan="3" align="center" class="td_form_titulo"><font color="#333333">PRECIOS 
+                    POR A&Ntilde;O -<b> <span class="body_9">(<a href="#" onClick="MM_openBrWindow('/ayuda/nif.html','ayuda','width=300,height=400')"><b>SIN 
+                    IVA</b></a>)</span></b></font></td>
+                  <td align="center">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td colspan="2" class="td_form_titulo" bgcolor="#CCCCCC">DOMINIOS 
+                    SOLICITADOS<b> </b></td>
+                  <td bgcolor="#CCCCCC" class="td_form_titulo" align="center"><b><font color="#333333">1 
+                    a&ntilde;o</font></b></td>
+                  <td bgcolor="#CCCCCC" class="td_form_titulo" align="center"><b><font color="#333333">2 
+                    a 4 a&ntilde;os</font></b></td>
+                  <td bgcolor="#CCCCCC" class="td_form_titulo" align="center"><b><font color="#333333">+5 
+                    a&ntilde;os</font></b></td>
+                  <td bgcolor="#CCCCCC" align="center" class="td_form_titulo"><b><font color="#333333">IMPORTE</font></b></td>
+                </tr>
+                <tr align="center"> 
+                  <td align="left" colspan="6"><img src="../../../imagenes/shim.gif" width="8" height="4"></td>
+                </tr>
+                <!-- BEGIN DOM -->
+                <tr valign="middle"> 
+                  <td align="left" colspan="2" height="16"><b><font color="#CC0000" class="matches">{{dom}}</font></b></td>
+                  <td align="center" class="body_9" width="14%" height="16"> 
+                    <div id="{{pvp_1}}" align="center"> {{div_pvp_1}}</div>
+                    <font face="Verdana, Arial, Helvetica, sans-serif"> 
+                    <input type="hidden" name="{{hpvp_1}}" value="{{hvpvp_1}}">
+                    </font></td>
+                  <td align="center" class="body_9" width="14%" height="16"> <font face="Verdana, Arial, Helvetica, sans-serif" class="body_9"> 
+                    {{div_pvp_2}}</font><font face="Verdana, Arial, Helvetica, sans-serif"> 
+                    <input type="hidden" name="{{hpvp_2}}" value="{{hvpvp_2}}">
+                    </font></td>
+                  <td align="center" class="body_9" width="14%" height="16"> <font face="Verdana, Arial, Helvetica, sans-serif" class="body_9"> 
+                    {{div_pvp_3}}</font><font face="Verdana, Arial, Helvetica, sans-serif"> 
+                    <input type="hidden" name="{{hpvp_3}}" value="{{hvpvp_3}}">
+                    </font></td>
+                  <td align="center" width="14%" class="td_form_valor" height="16"> 
+                    <div id="{{div_domsum}}" align="center"><font face="Verdana, Arial, Helvetica, sans-serif"><b>{{domsum}}</b></font></div>
+                    <font face="Verdana, Arial, Helvetica, sans-serif"> 
+                    <input type="hidden" name="{{hdomsum}}" value="{{hvdomsum}}">
+                    </font></td>
+                </tr>
+                <!-- END DOM -->
+                <tr align="center"> 
+                  <td align="left" colspan="5"><img src="../../../imagenes/shim.gif" width="10" height="4"></td>
+                  <td align="left"><img src="../../../imagenes/shim.gif" width="10" height="4"></td>
+                </tr>
+                <tr align="center" bgcolor="#FFCC00"> 
+                  <td align="right" colspan="5" class="td_form_valor2"><b><font color="#CC0000">Elige 
+                    el NUMERO DE A&Ntilde;OS a registrar</font></b></td>
+                  <td align="left" class="td_form_valor2"> 
+                    <select name="period" class="body_11" onChange="submit()">                                 {{period_list}}
+                                
+                    </select>
+                  </td>
+                </tr>
+                <tr align="center"> 
+                  <td align="left" colspan="5"><img src="../../../imagenes/shim.gif" width="10" height="4"></td>
+                  <td align="left">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td class="td_form_valor2" align="center" valign="top"> 
+                    <input type="radio" name="nm_registro_tipo" value="estandar" class="input_radios" {{check_estandar}} onClick="submit()">
+                  </td>
+                  <td class="td_form_valor2" height="20"> <b><font color="#000099"><a href="#" onClick="MM_openBrWindow('/ayuda/ventana_tipo_registro1.html','ayuda','width=320,height=300')"><img src="/imagenes/help3.gif" width="14" height="14" align="right" border="0"></a>{{reg_text}} 
+                    B&aacute;sico</font></b><br>
+                    <span class="titu_secciones_com"> </span></td>
+                  <td align="center" class="td_form_valor" valign="middle"> 
+                    <div id="div_estandar_1" align="center"> {{estandar_1}} </div>
+                    <input type="hidden" name="{{hestandar_1}}" value="{{hvestandar_1}}">
+                  </td>
+                  <td align="center" class="td_form_valor2" valign="middle"> 
+                    <div id="div_estandar_2" align="center"> {{estandar_2}}</div>
+                    <input type="hidden" name="{{hestandar_2}}" value="{{hvestandar_2}}">
+                  </td>
+                  <td align="center" class="td_form_valor" valign="middle"> 
+                    <div id="estandar_3" align="center"> {{estandar_3}}</div>
+                    <input type="hidden" name="{{hestandar_3}}" value="{{hvestandar_3}}">
+                  </td>
+                  <td align="center" class="titu_secciones" valign="middle"> 
+                    <div id="{{estandarsum}}" align="center"><b><font color="#FFFFFF" class="body_11"> 
+                      {{estandarsum}} </font></b> 
+                      <input type="hidden" name="{{hestandarsum}}" value="{{hvestandarsum}}">
+                    </div>
+                  </td>
+                </tr>
+                <tr> 
+                  <td class="td_form_titulo" align="center" valign="top">&nbsp;</td>
+                  <td class="td_form_titulo" height="30" valign="top" colspan="5"> 
+                    <p><span class="titu_secciones_com">{{reg_text}} de dominio/s<br>
+                      </span><span class="titu_secciones_com">Necesitar&aacute;s 
+                      aportar un juego de DNS validas.</span> </p>
+                  </td>
+                </tr>
+                <!-- BEGIN PRO2 -->
+                <tr align="center"> 
+                  <td align="left" colspan="6"><img src="../../../imagenes/shim.gif" width="10" height="9"></td>
+                </tr>
+                <tr> 
+                  <td class="td_form_valor2" align="center" valign="top"> 
+                    <input type="radio" name="nm_registro_tipo" value="pro2" class="input_radios" {{check_pro2}} onClick="submit()">
+                  </td>
+                  <td class="td_form_valor2" height="20"> <b><font color="#000099"><a href="#" onClick="MM_openBrWindow('/ayuda/ventana_tipo_registro2.html','ayuda','width=320,height=320')"><img src="/imagenes/help3.gif" width="14" height="14" align="right" border="0"></a>PRO</font></b><br>
+                  </td>
+                  <td align="center" class="td_form_valor" valign="middle"> 
+                    <div id="pro2_1" align="center">+ {{pro2_1}} </div>
+                    <input type="hidden" name="{{hpro2_1}}" value="{{hvpro2_1}}">
+                  </td>
+                  <td align="center" class="td_form_valor2" valign="middle"> 
+                    <div id="pro2_2" align="center">+ {{pro2_2}} 
+                      <input type="hidden" name="{{hpro2_2}}" value="{{hvpro2_2}}">
+                    </div>
+                  </td>
+                  <td align="center" class="td_form_valor" valign="middle"> 
+                    <div id="pro2_3" align="center">+ {{pro2_3}}</div>
+                    <input type="hidden" name="{{hpro2_3}}" value="{{hvpro2_3}}">
+                  </td>
+                  <td align="center" class="titu_secciones" valign="middle"> 
+                    <div id="{{pro2sum}}" align="center"><b><font color="#FFFFFF" class="body_11"> 
+                      {{pro2sum}} </font></b><b></b></div>
+                    <input type="hidden" name="{{hpro2sum}}" value="{{hvpro2sum}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td class="td_form_titulo" align="center" valign="top">&nbsp;</td>
+                  <td class="td_form_titulo" height="45" valign="top" colspan="5"><span class="titu_secciones_com">- 
+                    {{reg_text}} de dominio/s<br>
+                    - 5 redirecci&oacute;nes o parking por dominio*<br>
+                    - 5 redirecci&oacute;nes email por dominio*</span></td>
+                </tr>
+                <!-- END PRO2 -->
+                <!-- BEGIN PRO3 -->
+                <tr> 
+                  <td class="td_form_valor2" align="center" valign="top"> 
+                    <input type="radio" name="nm_registro_tipo" value="pro3" class="input_radios" {{check_pro3}} onClick="submit()">
+                  </td>
+                  <td class="td_form_valor2" height="20"> <b><font color="#000099"><a href="#" onClick="MM_openBrWindow('/ayuda/ventana_tipo_registro3.html','ayuda','width=300,height=350')"><img src="/imagenes/help3.gif" width="14" height="14" align="right" border="0"></a>DNS 
+                    Avanzada</font></b><br>
+                  </td>
+                  <td align="center" class="td_form_valor" valign="middle"> 
+                    <div id="pro3_1" align="center">+ {{pro3_1}} 
+                      <input type="hidden" name="{{hpro3_1}}" value="{{hvpro3_1}}">
+                    </div>
+                  </td>
+                  <td align="center" class="td_form_valor2" valign="middle"> 
+                    <div id="pro3_2" align="center">+ {{pro3_2}} 
+                      <input type="hidden" name="{{hpro3_2}}" value="{{hvpro3_2}}">
+                    </div>
+                  </td>
+                  <td align="center" class="td_form_valor" valign="middle"> 
+                    <div id="pro3_3" align="center">+ {{pro3_3}} 
+                      <input type="hidden" name="{{hpro3_3}}" value="{{hvpro3_3}}">
+                    </div>
+                  </td>
+                  <td align="center" class="titu_secciones" valign="middle"> 
+                    <div id="{{pro3sum}}" align="center"><b><font color="#FFFFFF" class="body_11"> 
+                      {{pro3sum}}</font></b><b></b></div>
+                    <input type="hidden" name="{{hpro3sum}}" value="{{hvpro3sum}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td class="td_form_titulo" align="center" valign="top">&nbsp;</td>
+                  <td class="td_form_titulo" height="45" valign="top" colspan="5"><span class="titu_secciones_com">- 
+                    {{reg_text}} de dominio/s<br>
+                    - Gesti&oacute;n integral avanzada de DNS<br>
+                    - Redirecci&oacute;nes web ilimitadas*<br>
+                    - Redirecci&oacute;nes de correo ilimitadas*</span> </td>
+                </tr>
+                <!-- END PRO3 -->
+                <!-- BEGIN OFERTAR_TRANSFER -->
+                <tr> 
+                  <td class="td_form_valor" align="center" valign="top">&nbsp;</td>
+                  <td class="td_form_valor" height="45" valign="top" colspan="5"><span class="titu_secciones_com"><br>
+                    En traslados... debido a que no se pueden cambiar las DNS 
+                    podr&aacute; adquirir otros tipos de registro una vez se haya 
+                    completado integramente el proceso.</span></td>
+                </tr>
+                <!-- END OFERTAR_TRANSFER -->
+                <tr> 
+                  <td colspan="6" height="20" valign="middle">&nbsp;</td>
+                </tr>
+                <tr> 
+                  <td class="td_form_titulo" align="left" valign="middle" colspan="4"><font color="#990000">{{aviso}}&nbsp; 
+                    </font> </td>
+                  <td align="right" class="body_11" bgcolor="#CC0000" valign="middle"> 
+                    <div id="moneda" align="right"> 
+                      <select name="moneda" onChange="submit()">                                  {{list_moneda}}
+                                  
+                      </select>
+                    </div>
+                  </td>
+                  <td align="center" class="body_11" bgcolor="#CC0000" valign="middle"> 
+                    <div id="{{total}}" align="center"><b><font color="#FFFFFF" class="body_11"> 
+                      <font size="4">{{total}} </font></font></b> </div>
+                    <input type="hidden" name="htotal" value="{{hvtotal}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td class="body_10" align="right" colspan="6" height="63" valign="middle"> 
+                    <br>
+                    <input type=hidden name=action value=setup_profile >
+                    <input type=image src="../../../imagenes/recalcular.gif" align="top" name="Recalcular" alt="Recalculo de precios para los dominios seleccionados">
+                    <input type=image src="../../../imagenes/continuar.gif" name="continuar" align="top">
+                  </td>
+                </tr>
+                <tr align="left"> 
+                  <td class="body_10" colspan="6" height="20" valign="middle"><span class="mini">*En 
+                    todos los casos, seg&uacute;n condiciones de tr&aacute;fico 
+                    m&aacute;ximo.</span></td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+      <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td background="/images/dere1.gif"><img name="dere1" src="/images/dere1.gif" width="4" height="5" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="5" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/images/izqui1.gif"><img name="izqui2" src="/images/izqui2.gif" width="12" height="497" border="0"></td>
+    <td background="/images/dere2.gif"><img name="dere2" src="/images/dere2.gif" width="4" height="497" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="497" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img name="inferior" src="/images/inferior.gif" width="627" height="30" border="0" usemap="#inferiorMap"></td>
+    <td><img src="/images/spacer.gif" width="1" height="30" border="0"></td>
+  </tr>
+</table>
+<map name="inferiorMap"> 
+  <area shape="rect" coords="37,6,228,21" href="http://www.nombremania.com/home.php" target="new">
+</map>
+</body>
+<!-- #EndTemplate --></html>

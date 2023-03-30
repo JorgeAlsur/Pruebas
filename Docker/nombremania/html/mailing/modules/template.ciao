@@ -1,0 +1,97 @@
+
+<HTML>
+<HEAD>
+<TITLE>CIAO EmailList</TITLE>
+</HEAD>
+<BODY BGCOLOR="#cccccc" TEXT="#000000" >
+
+<CENTER>
+<#CIAO
+VERIFY_VIA_SENDMAIL=""
+SENDMAIL=""
+VERIFY_VIA_DIG=""
+
+header=""
+footer=""
+
+rgbBackground="#ffffff"
+rgbText="#000000"
+
+fontFace=""
+
+txtTitle="Welcome to the email list."
+txtLink="My Profile"
+txtLogout="Logout"
+txtPrompt="Please enter your e-mail address here:"
+txtPassword="Password:"
+txtCategory="CATEGORIES"
+txtInstructions="(ONLY E-MAIL ADDRESS & PASSWORD ARE NEEDED FOR LOGGING-IN)"
+lblRequired="required"
+lblOptional="optional"
+
+btnAdd=" Subscribe  "
+btnDelete="Unsubscribe"
+btnDeleteCat="Unsubscribe from Category"
+btnFind="  Login  "
+btnUpdate="Update Info"
+btnPassword="Forgot Password"
+
+errRequired="ERROR: Please check that all required fields are filled."
+errVerify="ERROR: Unable to verify.<br>Notify site administrator."
+errFind="ERROR: E-mail address was not found."
+errAddVerify="ERROR: This e-mail address is waiting to be verified.<br>Please check your e-mail."
+errAddList="ERROR: This e-mail address is already subscribed."
+errAddEmail="ERROR: This is an invalid e-mail address."
+
+okVerify="Your e-mail address has been verified and added to the email list."
+okUpdate="Data has been updated."
+okDelete="The e-mail address has been unsubscribed."
+okFind="You have successfully logged-in."
+okAdd="Request received. Please check your e-mail for a verification link code."
+okLogout="You have successfully logged-out."
+okPassword="Your password is being emailed to you."
+
+msgSignup="E-mail Address: #EMAIL#
+
+Request submitted by
+Remote IP: #REMOTE_IP#
+Remote Host: #REMOTE_HOST#
+Browser: #BROWSER#
+
+RE: Request Verification
+
+This is an automated response to verify a request for 
+joining the e-mail list at: #URL#
+If this message has been sent in error, please disregard.
+
+TO JOIN THE E-MAIL LIST, USE THE FOLLOWING LINK.
+#VERIFYURL#"
+msgImport="E-mail Address: #EMAIL#
+
+RE: Request Verification
+
+This is an automated notification.
+#URL#
+is updating to a new e-mail list system.
+If you want to continue being on this e-mail list,
+click on the following link.
+#VERIFYURL#
+
+If you do NOT want to be on this e-mail list,
+disregard message. Be assured that your e-mail
+address will not be transfered to the new list,
+unless you click on the verification link."
+msgPassword="RE: Password Request
+
+Your password has been sent to you by the request of:
+Remote IP: #REMOTE_IP#
+Remote Host: #REMOTE_HOST#
+Browser: #BROWSER#
+
+E-mail Address: #EMAIL#
+Password: #PASSWORD#"
+
+#>
+</CENTER>
+</BODY>
+</HTML>

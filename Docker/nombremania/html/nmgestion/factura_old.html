@@ -1,0 +1,111 @@
+<html>
+<head>
+<title>NombreMania.com  - Factura</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<link rel="stylesheet" href="/Templates/nm2_base_registro.css" type="text/css">
+<style type="text/css">
+<!--
+.factura {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 11px; line-height: 15px}
+-->
+</style>
+</head>
+
+<body bgcolor="#FFFFFF">
+<br>
+<table border="0" cellspacing="3" cellpadding="3" align="center" class="factura">
+  <tr> 
+    <td colspan="3"><font face="Verdana, Arial, Helvetica, sans-serif" size="2"><img src="/imagenes/logochico.gif" width="102" height="20"></font></td>
+    <td align="right" class="body_11"><b></b></td>
+  </tr>
+  <tr> 
+    <td colspan="4" valign="top"> 
+      <hr color=orange>
+    </td>
+  </tr>
+  <tr> 
+    <td class="td_form_valor"><b><font color="#990000">&nbsp;&nbsp;FACTURA&nbsp;&nbsp;</font></b></td>
+    <td colspan="3" align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="factura" color="#666666">Nº: 
+      </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="factura"><font color="#000000">nm-{numero} 
+      </font></font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="factura" color="#666666">Fecha: 
+      </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="factura">{fecha}, 
+      {hora}</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" class="factura"><font size="1"></font><font size="1"><img src="/imagenes/spacer.gif" width="10" height="4"></font></td>
+  </tr>
+  <tr> 
+    <td colspan="4"> <b><span class="factura"><font color="#000000">{nombre}</font></span></b><br>
+      {direccion}<br>
+      {poblacion}<br>
+      {cod_postal}, {provincia}<br>
+      <font color="#666666">N.I.F.: </font>{nif}</td>
+  </tr>
+  <tr> 
+    <td colspan="4" class="factura"><font size="1"></font><font size="1"><img src="/imagenes/spacer.gif" width="10" height="4"></font></td>
+  </tr>
+  <tr bgcolor="#CCCCCC"> 
+    <td width="40"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">CANT</font></b></td>
+    <td width="200"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">CONCEPTO</font></b></td>
+    <td align="right"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">IMPORTE</font></b></td>
+    <td align="right" width="90"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">TOTAL</font></b></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&nbsp;</font></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{concepto}</font></td>
+    <td align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">{precio_sin_iva}</font></td>
+    <td align="right" width="90"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&euro; 
+      {precio_sin_iva}</font></td>
+  </tr>
+  <tr> 
+    <td colspan="4" class="factura"><font size="1"></font><font size="1"><img src="/imagenes/spacer.gif" width="10" height="4"></font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&nbsp;</font></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&nbsp;</font></td>
+    <td align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">SubTotal:</font></td>
+    <td align="right" width="90"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&euro; 
+      {precio_sin_iva}</font></td>
+  </tr>
+  <tr> 
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&nbsp;</font></td>
+    <td><font face="Verdana, Arial, Helvetica, sans-serif" size="1"></font></td>
+    <td align="right"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">IVA 
+      21%</font></td>
+    <td align="right" width="90"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&euro; 
+      {total_iva}</font></td>
+  </tr>
+  <tr> 
+    <td height="31"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&nbsp;</font></td>
+    <td height="31"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&nbsp;</font></td>
+    <td align="right" height="31"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">T 
+      o t a l</font></b></td>
+    <td align="right" height="31" width="90"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1">&euro; 
+      {precio_total}</font></b></td>
+  </tr>
+  <tr valign="bottom"> 
+    <td colspan="4">&nbsp;</td>
+  </tr>
+  <tr valign="bottom"> 
+    <td colspan="4"> 
+      <hr color=orange>
+    </td>
+  </tr>
+  <tr valign="bottom"> 
+    <td colspan="4"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">NombreMania.com 
+        es una firma de<b> El Sur Existe s.l.</b> <br>
+        empresa inscripta en el registro mercantil de M&aacute;laga con NIF <b>B 
+        29722113</b></font></p>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Este documento 
+        carece de valor sin el correspondiente justificante de pago.<br>
+        </font></p>
+    </td>
+  </tr>
+  <tr valign="bottom">
+    <td colspan="4">
+      <hr color=orange>
+    </td>
+  </tr>
+</table>
+</body>
+</html>

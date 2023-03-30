@@ -1,0 +1,57 @@
+<br>
+
+<font face="verdana, arial">
+
+<center>
+
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="set_whois_rsp_info">
+
+<table bgcolor="#e0e0e0" width=40% border=1 cellpadding=3 cellspacing=0>
+
+<tr bgcolor="#90c0ff">
+    <th>
+	Reseller Contact
+    </th>
+</tr>
+
+<tr>
+    <td>
+<PRE>
+ Registration Service Provider:
+{{rsp_info}}</PRE>
+    </td>
+</tr>
+
+</table>
+
+<br>
+
+<table bgcolor="#e0e0e0" width=40% border=1 cellpadding=3 cellspacing=0>
+
+<tr bgcolor="#90c0ff">
+    <th>
+	This setting will enable/disable viewing the above information in public whois.
+    </th>
+</tr>
+
+<tr>
+    <td>
+	<input type=radio name=domain_enabled value="Y" {{domain_enabled_yes}}> Show
+	&nbsp;&nbsp;&nbsp;
+	<input type=radio name=domain_enabled value="N" {{domain_enabled_no}}> Hide
+	&nbsp;&nbsp;&nbsp;
+	{{alldom}}
+    </td>
+</tr>
+
+</table>
+
+<br>
+
+<input type=submit name="btnSubmit" value="    Save    ">
+
+</form>
+
+</center>
+</font>

@@ -1,0 +1,59 @@
+<center>
+
+<BR>
+<table border=0 cellpadding=2 cellspacing=0 width=550>
+<tr><td bgcolor=ffffff>
+<font face="verdana, arial" size=3><strong>
+<center>- Manage Name Servers -
+</strong>
+</font>
+</center>
+
+<br>
+<font face="verdana, arial" size=2>
+<ul>
+<li>To replace a nameserver, simply edit the existing hostname.
+<li>To remove a nameserver, simply cleanup the existing hostname.
+<li>To add a nameserver, simply fill an empty field for hostname.
+</ul>
+</font>
+<ul>
+<li>IP addresses are not displayed by certain registries. This does not affect the operation of the nameserver.<br>
+<li><font color=red><b>** IMPORTANT</b></font>: 
+Before adding additional name servers to your configuration, you should be 
+sure that the name server has {{domain}} setup correctly.  24 - 48 hours 
+after you submit a request for an additional name server, it will be in 
+the rotation for authoritative lookups and if it is not setup correctly, 
+your site will take a long time to resolve when visitors try to find you.
+<li>The order of the nameservers is not relevant
+</ul>
+<table border=0 cellpadding=5 cellspacing=0 bgcolor=fffbec>
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_modify_nameservers">
+
+<tr><td></td>
+<td><font face="verdana, arial" size=2>Server Hostname</font></td>
+<td><font face="verdana, arial" size=2>Server IP Address</font></td>
+</tr>
+
+{{NAMESERVERS}}
+
+<tr><td colspan=3 align=center bgcolor="#ffffff">
+<input type=submit name=submit value="Save Configuration"> 
+<input type=submit name=submit value="Cancel Changes">
+<br><font color="red">{{INACCURATEWHOISLOCK}}</font>
+
+</td>
+</form>
+</tr>
+</table>
+<BR><hr size=1 width=60%>
+
+{{CREATE_NAMESERVERS}}
+
+</font>
+</td></tr></table>
+<BR><BR>
+
+</center>
+

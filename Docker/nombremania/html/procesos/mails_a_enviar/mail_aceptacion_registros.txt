@@ -1,0 +1,50 @@
+#############################################################################################
+#este es el mail que antes enviaba opensrs para comunicar el registro
+#las variables son :
+#nombre  = nombre del cliente
+#dominios = listado de los dominios del cliente.
+#importe =  importe del pago a realizar
+#id_cliente = id del cliente en base de datos
+#saldo = saldo en la cuenta
+#link = enlace de la pagina donde debe realizar el pago
+#############################################################################################
+From=registros@nombremania.com
+To={email_cliente}
+Subject=Nombremania - Registro de dominios
+
+Estimado/a {first_name} {last_name}
+
+Ha sido procesada con exito tu solicitud de registro o 
+transferencia de los dominios:
+
+{domain}
+
+
+{transfer}
+
+ 
+
+En todo los casos los dominios pueden tardar 
+hasta 72 horas en quedar plenamente activos y 
+"propagarse" la informacion de DNS completamente en la red.
+
+Desde ahora puedes administrar tu/s
+dominio/s y realizar cambios desde 
+
+http://admin.nombremania.com 
+
+usando el login y password utilizados en el registro.
+
+Tambien te recomendamos consultar nuestra seccion de ayuda en
+http://www.nombremania.com/ayuda/ si necesitas mas informacion.
+
+Gracias por usar NombreMania.
+
+Dpto. de registros
+NombreMania.com
+registros@nombremania.com
+
+
+
+Tildes eliminadas intencionadamente. 
+

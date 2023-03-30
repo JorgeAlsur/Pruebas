@@ -1,0 +1,327 @@
+<?
+include "login.php";
+//if (session_is_registered("alsur_username")) echo "si registrada";
+include "config.inc.php";
+$CAMPOS=array("LINE1","LINE2","LINE3","LINE4","LINE5","MULTILINE1",
+"MULTILINE2","MULTILINE3","MULTILINE4","MULTILINE5","DATEINS","DATEPUB","PUBLISH","DOMAINUSER");
+
+include "hachelib.php";
+
+function setting(){
+Global $CONF,$PHP_SELF;
+$datos=$CONF;
+$si_no=array("1"=>"YES","0"=>"NO");
+$datos["PUBLIC_CAN_ADD"]= form_select($si_no,"PUBLIC_CAN_ADD", $CONF["PUBLIC_CAN_ADD"]);
+$datos["PUBLISH_DIRECTLY"]= form_select($si_no,"PUBLISH_DIRECTLY", $CONF["PUBLISH_DIRECTLY"]);
+$datos["CGI"]=$PHP_SELF."?op=savesettings";
+print_form("settings_en.htm",$datos);
+    }
+function savesettings(){
+Global $_POST,$conn,$CONF;
+
+$campos=array_keys($conn->MetaColumns("configuration"));
+foreach($campos as $campo){
+                $valores[$campo]=$_POST[$campo];
+    }
+    $valores["DOMAINUSER"]=$CONF["DOMAINUSER"];
+$SQL=updateDB("configuration",$valores," where DOMAINUSER='{$CONF["DOMAINUSER"]}'");
+$rs=$conn->execute($SQL);
+if ($rs===false){
+    mostrar_error("error de base de datos");
+    print mysql_error();
+}
+else {
+     mostrar_error("Configuracion Grabada");
+}
+print mysql_error().$SQL;
+    }
+    
+
+function userdata(){
+Global $_SESSION,$dir_templates;
+$u=new Template("$dir_templates");
+$u->set_file("userdata","userdata.htm");
+//            var_crudas($_SESSION);
+if (isset($_SESSION["alsur_username"]) and  $_SESSION["alsur_username"] !=""){
+
+$u->set_var("USERNAME",$_SESSION["alsur_username"]);
+$u->set_var("LOGOUT_LINK","<a href=$PHP_SELF?op=logout>Salida</a>");
+$u->set_var("LEVEL",$_SESSION["alsur_level"]);
+$AUX=$u->parse("userdata","LOGOUT");
+
+     $u->set_vaR("LOGOUT",$AUX);
+     $userdata=$u->parse("userdata");
+
+}
+else {
+     $u->set_var("LOGIN_LINK","<A HREF=$PHP_SELF?op=login>LOGIN</a>");
+     $AUX=$u->parse("userdata","LOGIN");
+     $u->set_vaR("LOGIN",$AUX);
+     $userdata=$u->parse("userdata");
+    }
+return $userdata;
+
+    }
+
+function print_form($template,$datos){
+Global $PHP_SELF,$_SESSION;
+
+include "class.template.php";
+$datos["USERDATA"]=userdata();
+
+$t = new Template("templates");
+$t->set_file("template", $template);
+
+if (is_array($datos)){
+while (list($k,$v)=each($datos)){
+      $t->set_var("$k", $v);
+}
+}
+$t->pparse("template");
+
+
+
+}
+
+
+function add(){
+Global $PHP_SELF,$CONF;
+$datos=array("CGI"=>"$PHP_SELF?op=saveadd");
+//print $CONF["ADDENTRY"];
+print_form($CONF["ADDENTRY"],$datos);
+
+}
+
+function modify(){
+       Global $CONF,$id,$conn,$PHP_SELF;
+       if ($CONF["user_level"]>2){
+       mostrar_error("Acceso Denegado");
+       exit;
+   }
+   $sql="select * from gb where id=$id";
+//   PRINT $sql;
+   $datos=array();
+   $datos["CGI"]=$PHP_SELF."?op=savemodify&id=$id";
+   $rs=$conn->execute("$sql");
+
+   while (list($k,$v)=each($rs->fields)){
+         if (!is_int($k)) $datos["$k"]=$v;
+       }
+   print_form($CONF["MODIFY"],$datos);
+
+    }
+function savemodify(){
+ Global $id,$_POST,$campos,$conn,$CONF;
+ extract($_POST);
+$DATEINS=str_replace("'","",$conn->DBDate(time()));
+$DOMAINUSER=$domainuser;
+$campos=array_keys($conn->MetaColumns("gb"));
+$valores=array();
+foreach($campos as $campo){
+          if ($_POST["$campo"]){
+                $valores[$campo]=$$campo;
+                }
+    }
+
+
+$sql=updateDB("gb",$valores," where id=$id");
+$rs=$conn->execute("$sql");
+if ($rs ===false){
+        print_form($CONF["DATABASEERROR"],"");
+        PRINT "ERROR".mysql_error();
+        EXIT;
+    }
+    else {
+        print_form($CONF["POSTOK"],"");
+        EXIT;
+
+        }
+}
+    
+
+function saveadd(){
+Global $_POST,$CAMPOS,$conn,$PHP_SELF,$domainuser,$CONF;
+$GRABAR=array();
+foreach($CAMPOS as $k){
+    if (isset($_POST[$k])) $GRABAR[$k]=$_POST[$k];
+    }
+$GRABAR["DATEINS"]=str_replace("'","",$conn->DBDate(time()));
+
+if ($CONF["PUBLISH_DIRECTLY"]) $GRABAR["PUBLISH"]=1;
+
+$sql=insertdb("gb",$GRABAR);
+$rs=$conn->execute($sql);
+if ($rs===false){
+             $datos=array("error"=>$conn->errormsg());
+             print_form($CONF["GENERICERROR"],$datos);
+
+    }
+ else {
+ print_form($CONF["POSTOK"],array("CGI"=>$PHP_SELF."?op=view"));
+}
+
+}
+
+function update(){
+Global $_POST,$conn;
+$sql="";
+extract($_POST);
+$des_publicar=$publicar=array();
+foreach($id as $ids){
+if (isset($publish[$ids])) {
+   $publicar[]=$ids;
+}
+else {
+         $des_publicar[]=$ids;
+}
+}
+
+/*if (isset($un_publish) and is_array($un_publish)){
+        $des_publicar=join(",",array_keys($un_publish));
+}
+  */
+if (isset($delete) and is_array($delete)){
+        $borrar=join(",",array_keys($delete));
+}
+$publicar=join(",",$publicar);
+$des_publicar=join(",",$des_publicar);
+/* var_crudas($publicar);
+var_crudas($des_publicar);
+var_crudas($borrar);
+   */
+$sql_borrar="delete from gb where id in ($borrar)";
+$sql_publicar="update gb set PUBLISH = 1 where id in ($publicar)";
+$sql_despublicar="update gb set PUBLISH = 0 where id in ($des_publicar)";
+//$conn->debug=1;
+if (isset($des_publicar )) $rs=$conn->execute($sql_despublicar);
+if (isset($publicar )) $rs=$conn->execute($sql_publicar);
+if (isset($borrar))$rs=$conn->execute($sql_borrar);
+
+header("Location: ".$_SERVER['HTTP_REFERER']);
+}
+
+function view(){
+Global $CONF,$_GET,$conn,$dir_templates,$templates,$PHP_SELF,$order,$limit,
+       $alsur_username,$tpl,$_POST,$_SESSION;
+
+//              var_crudas($_GET);
+  //            print  session_name();
+    //          if (session_is_registered("alsur_username")) echo "si registrada";
+      //        print session_id();
+      // print "nombre: ".$alsur_username;
+//extract($_GET);
+if (isset($order) and $order<>"") {
+    $sql_final="order by $order";
+    }
+    else  {
+        $sql_final="";
+    }
+if (isset($limit) and $limit<>""){
+   list($from, $cantidad)=explode("-",$limit);
+        if ($from<=$cantidad )
+        $sql_final.=" limit $from,$cantidad ";
+    }
+    
+$sql="select * from gb $sql_final";
+//print $sql;
+
+$rs=$conn->execute($sql);
+//include "adodb/tohtml.inc.php";
+//rs2html($rs);
+
+
+include "class.template.php";
+
+$userdata=userdata();
+
+$t = new Template("$dir_templates");
+if (!isset($tpl) or  $tpl=="") {
+    $tpl=$templates["view"];
+}
+
+$t->set_file("template", $tpl);
+//print $t->o("template");
+//var_crudas($t->blocks["/{registros}/"]);
+//exit;
+
+
+if ($CONF["PUBLIC_CAN_ADD"] or $CONF["user_level"]<=3){
+            $_add="$PHP_SELF?op=add";
+            $t->set_var("_add", $_add);
+            $t->set_var("ADD",$t->parse("ADD"));
+        }
+
+do{
+      $datos=$rs->fields;
+
+
+      while (list($k,$v)=each($datos)){
+            if (!is_int($k)) $t->set_var("$k", $v);
+      }
+      if ($CONF["user_level"]<=2){ //solo superuser y admninistradores
+           $_modify="$PHP_SELF?op=modify&id=".$datos["id"];
+           $_delete="<input type=checkbox name=delete[{$datos["id"]}] > ";
+           $_publish="<input type=checkbox name=publish[{$datos["id"]}] ";
+                if ($datos["PUBLISH"] ) {
+               $_publish.=" checked ";
+          }
+           $_publish.=" >";
+            $t->set_var("_modify", $_modify);
+            $t->set_var("_delete", $_delete);
+            $t->set_var("_publish", $_publish);
+            $t->set_var("CGI", "$PHP_SELF?op=update");
+
+            $t->set_var("admin",$t->parse("admin"));
+            //agrega el bloque de administracion
+
+          }
+
+      $t->set_var("identificador",
+      "<input type=hidden name=id[] value=\"{$datos["id"]}\">");
+      //se puede agregar
+
+
+$t1= $t->parse("template","registros",true);
+
+$rs->movenext();
+}while  (!$rs->EOF);
+
+
+/*if ($alsur_username<>""){
+$t->set_var("LOGOUT","<a href=$PHP_SELF?op=logout>LOGOUT</a>");
+}
+else {
+$t->set_var("LOGOUT","<a href=$PHP_SELF?op=login>LOGIN</a>");
+    }*/
+
+$t->set_var("registros",$t1);
+$t->set_var("USERDATA",$userdata);
+$t->pparse("template");
+//VAR_CRUDAS($t->blocks);
+exit;
+}
+
+
+if (!isset($tareas[$op])){
+
+ mostrar_error("Operacion no definida $op");
+ exit;
+
+} else {
+
+  if ($tareas[$op]<99) { // necesita validacion de usuario
+//  var_crudas($GLOBALS["HTTP_SESSION_VARS"]);
+  if (!validate()){
+        $alsur_volver_a="$REQUEST_URI";
+        header("Location: login.php?do_login=1");
+        exit;
+    }
+}
+
+ if (!isset($alsur_level) or empty($alsur_level)) $alsur_level=99;
+ $CONF["user_level"]=$alsur_level;
+ $op();
+}
+
+?>
+

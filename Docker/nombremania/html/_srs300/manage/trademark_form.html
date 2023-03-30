@@ -1,0 +1,21 @@
+<TABLE BORDER=1 width=550 cellpadding=3 cellspacing=0>
+  <TR>
+    <TD COLSPAN=2 bgcolor="#93D5BE" align=center>
+      <B><FONT face="verdana, arial" size=2>Manage Domain Trademark </FONT></B>
+    </TD>
+  </TR>
+  
+  <TR>
+    <TD ALIGN=left bgcolor="#e0e0e0">
+      <font face="verdana, arial" size=2><B>Domain Trademark</B></font>
+    </TD>
+    
+    <TD>
+      <input type="radio" name="trademark" value="Y" {{trademark_enabled}}> Yes
+      <input type="radio" name="trademark" value="N" {{trademark_disabled}}> No
+    </TD>
+  </TR>
+  
+  <input type=hidden name="old_trademark" value="{{trademark}}">
+</TABLE>
+<BR>

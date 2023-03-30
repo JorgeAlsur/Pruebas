@@ -1,0 +1,119 @@
+<center>
+<BR>
+<table border=0 cellpadding=2 cellspacing=0 width=550>
+<tr><td bgcolor=ffffff>
+<font face="verdana, arial" size=3><strong>
+<center>- Manage Sub-User -
+</strong>
+</font>
+</center>
+<BR>
+<font face="verdana, arial" size=2>
+Use this area to manage an additional user who you can give permission 
+to edit all or part of your domain information.  This is typically setup 
+in order to allow an ISP to come in and modify your Name Servers 
+while not having access to change your other records.  You can of course, 
+allow full access to another person, or simply partial access as outlined 
+below.
+<BR><BR>
+<font color="red">Note: </font>
+Only one sub-user can be created for each domain.  Modifying the sub-user
+profile will result in the old data being overwritten.
+<BR><BR>
+<center>
+<table border=1 cellpadding=3 cellspacing=0 bgcolor="#d0d0d0">
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_manage_subuser">
+<input type=hidden name=sub_id value="{{sub_id}}">
+<tr><td align=right>
+<font face="verdana, arial" size=2><strong>Username: </strong></font></td>
+<td>
+<input type=text name=sub_username value="{{sub_username}}"></td>
+</tr>
+<tr><td align=right>
+<font face="verdana, arial" size=2><strong>New Password: </strong></font></td>
+<td>
+<input type=password name=sub_password value=""></td>
+</tr>
+<tr><td align=right>
+<font face="verdana, arial" size=2><strong>Re-enter Password: 
+</strong></font></td>
+<td>
+<input type=password name=sub_password2 value="">
+</td>
+</tr>
+<tr><td colspan=2 align=center bgcolor=ffffff>
+<font face="verdana, arial" size=2 color=red>
+* Note: Usernames and passwords are case sensitive</font></td>
+</tr>
+<tr><td colspan=2 align=center>
+<font face="verdana, arial" size=2><strong>
+- Permissions -</td></tr>
+<tr><td colspan=2 align=center>
+
+<table border=1 width=100% cellpadding=3 cellspacing=0>
+
+<tr><td align=center><font face="verdana, arial" size=2>
+<b>Edit Record</b></font></td>
+<td align=center><font face="verdana, arial" size=2><b>YES</b></font></td>
+<td align=center><font face="verdana, arial" size=2><b>No</b></font></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Name Servers</font></td>
+<td align=center><input type=radio name="f_modify_nameservers" value="1" {{f_modify_nameservers_1}}></td>
+<td align=center><input type=radio name="f_modify_nameservers" value="0" {{f_modify_nameservers_0}}></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Organization Contact</font></td>
+<td align=center><input type=radio name="f_modify_owner" value="1" {{f_modify_owner_1}}></td>
+<td align=center><input type=radio name="f_modify_owner" value="0" {{f_modify_owner_0}}></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Admin Contact</font></td>
+<td align=center><input type=radio name="f_modify_admin" value="1" {{f_modify_admin_1}}></td>
+<td align=center><input type=radio name="f_modify_admin" value="0" {{f_modify_admin_0}}></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Billing/Zone Contact</font></td>
+<td align=center><input type=radio name="f_modify_billing" value="1" {{f_modify_billing_1}}></td>
+<td align=center><input type=radio name="f_modify_billing" value="0" {{f_modify_billing_0}}></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Technical Contact</font></td>
+<td align=center><input type=radio name="f_modify_tech" value="1" {{f_modify_tech_1}}></td>
+<td align=center><input type=radio name="f_modify_tech" value="0" {{f_modify_tech_0}}></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Domain Extras</font></td>
+<td align=center><input type=radio name="f_modify_domain_extras" value="1" {{f_modify_domain_extras_1}}></td>
+<td align=center><input type=radio name="f_modify_domain_extras" value="0" {{f_modify_domain_extras_0}}></td>
+</tr>
+
+<tr><td><font face="verdana, arial" size=2>Reseller Contact</font></td>
+<td align=center><input type=radio name="f_modify_whois_rsp_info" value="1" {{f_modify_whois_rsp_info_1}}></td>
+<td align=center><input type=radio name="f_modify_whois_rsp_info" value="0" {{f_modify_whois_rsp_info_0}}></td>
+</tr>
+
+</table>
+<input type=submit value="Save Configuration"> 
+<input type=reset value="Reset Values">
+</form>
+
+</font>
+</td></tr></table>
+
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="delete_subuser">
+<input type=hidden name=sub_id value="{{sub_id}}">
+<table bgcolor="#d0d0d0">
+<tr>
+<td align=center>
+<input type=submit value="   DELETE SUBUSER    " onClick="return confirm('Are you sure?')";>
+</td>
+</tr>
+</table>
+</form>
+
+</table>
+<BR><BR>
+</center>

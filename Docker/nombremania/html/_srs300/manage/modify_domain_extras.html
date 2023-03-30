@@ -1,0 +1,26 @@
+<BR>
+<CENTER>
+
+<B><FONT face="verdana, arial" size=3>
+- Manage Domain Extra Information -
+<font></b><BR><BR>
+
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_modify_domain_extras">
+
+{{domain_auth_code_form}}
+{{forwarding_email_form}}
+{{us_nexus_form}}
+{{asia_ced_form}}
+{{trademark_form}}
+{{dns_error_form}}
+{{uk_whois_opt_form}}
+{{whois_privacy_form}}
+
+<input type=submit name=submit value="Save Configuration"> 
+<input type=submit name=submit value="Cancel Changes">
+
+{{cira_email_pwd}}
+</form>
+{{change_ips_tag_form}}
+<BR><BR><BR>

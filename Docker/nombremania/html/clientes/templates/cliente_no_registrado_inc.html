@@ -1,0 +1,28 @@
+
+<form name='formulario' method='post' action='/clientes/login.php'>
+  <font face="Verdana, Arial, Helvetica, sans-serif" size="1">
+  <table border="0" cellspacing="0" cellpadding="2" width="100%">
+    <tr> 
+      <td class="body_10"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Usuario</font></td>
+      <td class="body_10"><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Clave</font></td>
+    </tr>
+    <tr> 
+      <td class="body_10"> 
+        <input type=hidden name=volver value="{{volver}}">
+        <input type="hidden" name="action" value="login">
+        <input type='text' name='nombre' size='8' maxlength=16 class="input9">
+      </td>
+      <td class="body_10"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+        <input type='password' name='clave' size='8' maxlength=16 class="input9">
+        </font></td>
+    </tr>
+    <tr bgcolor="#FFFFFF"> 
+      <td><a href="/afiliados.php"><img src="/imagenes/cliente_registrado.gif" width="67" height="26" border="0"></a> 
+      </td>
+      <td> 
+        <input type="image" src='/imagenes/entrar.gif' align='middle' border='0' name='buscar2'>
+      </td>
+    </tr>
+  </table>
+  </font> 
+</form>

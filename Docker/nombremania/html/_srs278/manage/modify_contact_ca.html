@@ -1,0 +1,172 @@
+<BR>
+<CENTER>
+
+<B><FONT face="verdana, arial" size=3>
+- Edit {{contact_type}} Contact -
+<font></b><BR><BR>
+
+{{cc_warning}}
+
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_modify_contact">
+<input type=hidden name=type value="{{type}}">
+
+<TABLE BORDER=1 width=550 cellpadding=3 cellspacing=0>
+<TR>
+<TD COLSPAN=2 bgcolor="#d0d0d0" align=center>
+<B><FONT face="verdana, arial" size=2>
+{{contact_type}} Contact Information</FONT></B>
+</TD>
+</TR>
+{{language_type_field}}
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Title:</B></font></TD>
+<TD><input name="title" size=3 value="{{title}}"><br><i>See bottom for valid value</i></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>First Name:</B></font></TD>
+<TD><input name="first_name" size=15 value="{{first_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Middle Name:</B></font></TD>
+<TD><input name="midle_name" size=15 value="{{midle_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Last Name:</B></font></TD>
+<TD><input name="last_name" size=15 value="{{last_name}}"></TD>
+</TR>
+{{nationality_field}}
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Company:</B></font></TD>
+<TD><input name="org_name" size=39 value="{{org_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Job Title:</B></font></TD>
+<TD><input name="job_title" size=15 value="{{job_title}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Additional Delivery Information</B></font></TD>
+<TD><input name="addr_corporative" size=39 value="{{addr_corporative}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Civic Number:</B></font></TD>
+<TD><input name="addr_address_number" size=39 value="{{addr_address_number}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Street Type:</B></font></TD>
+<TD><input name="addr_street_cat" size=2 value="{{addr_street_cat}}"><br><i> See valid values at the bottom</i></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Street Name:</B></font></TD>
+<TD><input name="addr_street_name" size=39 value="{{addr_street_name}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Street Orientation:</B></font></TD>
+<TD><input name="addr_orientation" size=2 value="{{addr_orientation}}"><br><i> See valid values at the bottom</i></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Office Number:</B></font></TD>
+<TD><input name="addr_office" size=39 value="{{addr_office}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>City:</B></font></TD>
+<TD><input name="city" size=15 value="{{city}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>State/Province:</B></font></TD>
+<TD><input name="state" size=15 value="{{state}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Country</B></font></TD>
+<TD>
+<select name=country>
+{{COUNTRY_LIST}}
+</select>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Postal Code:</B></font></TD>
+<TD><input name="postal_code" size=15 value="{{postal_code}}"></TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Phone Number:</B></font></TD>
+<TD><input name="phone" size=40 value="{{phone}}">
+    <font size=-1><br>(eg. 416-555-1122 x333)</font>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0"><font color=red size=-1>
+*optional*</font> <font face="verdana, arial" size=2><B>Fax Number:</B></font>
+</TD>
+<TD><input name="fax" size=40 value="{{fax}}">
+    <font size=-1><br>(eg. 416-555-1122)</font>
+</TD>
+</TR>
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Email:</B></font></TD>
+<TD><input name="email" size=39 value="{{email}}"></TD>
+</TR>
+
+
+</table>
+<BR>
+{{GLOBAL_CHANGE_MENU}}
+
+<BR>
+<input type=submit name=submit value="Save Configuration"> 
+<input type=submit name=submit value="Cancel Changes">
+<BR><BR><BR>
+</center>
+
+<ul>Title:
+<li>MR
+<li>MRS
+<li>MS
+<li>DR
+</ul>
+<br>
+<ul>Street Type:
+<li>AV - Avenue
+<li>BL - Boulevard
+<li>CT - Court
+<li>CR - Crescent
+<li>DR - Drive
+<li>HW - Highway
+<li>PL - Place
+<li>PZ - Plaza
+<li>RD - Road
+<li>SQ - Square
+<li>ST - Street
+<li>WY - Way
+</ul>
+<br>
+<ul>Street Orientation:
+<li>E - East
+<li>N - North
+<li>NE - North-East
+<li>NW - North-West
+<li>S - South
+<li>SE - South-East
+<li>SW - South-West
+<li>W - West
+<br>
+
+

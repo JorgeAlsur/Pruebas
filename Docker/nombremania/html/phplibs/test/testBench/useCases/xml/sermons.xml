@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<XmlDatabase>
+  <Sermons>A
+    <Sermon RecordId="1">
+      <Date>1-Jan-92</Date>
+      <CatalogueNo>BRJ 01</CatalogueNo>
+      <OtherSideCatalogueNo>BRJ 02</OtherSideCatalogueNo>
+      <Speaker>Brian Russell-Jones</Speaker>
+      <Title>Grace</Title>
+      <Series>Gleanings from the Pentateuch</Series>
+	  <a/>
+    </Sermon>B
+    <Sermon RecordId="2">1
+      <Date>1-Jan-92</Date>2
+      <CatalogueNo>BRJ 02</CatalogueNo>3
+      <OtherSideCatalogueNo>BRJ 01</OtherSideCatalogueNo>4
+      <Speaker>Brian Russell-Jones</Speaker>5
+      <Title>A Servant</Title>6
+      <ScriptureRef>Mark 10:42-45</ScriptureRef>7
+      <Series>Gleanings from the Pentateuch</Series>8
+	  <b/>
+    </Sermon>C
+    <Sermon RecordId="3">
+      <Date>1-Jan-92</Date>
+      <CatalogueNo>BRJ 03 </CatalogueNo>
+      <Speaker>Brian Russell-Jones</Speaker>
+      <Title>A right attitude to service</Title>
+      <ScriptureRef>Psalm 50</ScriptureRef>
+      <Series>Gleanings from the Pentateuch</Series>
+	  <c/>
+    </Sermon>D
+    <Sermon RecordId="4">
+      <Date>1-Mar-92</Date>
+      <CatalogueNo>BRJ 04</CatalogueNo>
+      <OtherSideCatalogueNo>BRJ 05</OtherSideCatalogueNo>
+      <Speaker>Brian Russell-Jones</Speaker>
+      <ScriptureRef>Psalm 126</ScriptureRef>
+      <Series>Gleanings from the Pentateuch</Series>
+	  <d/>
+    </Sermon>E
+    <Sermon RecordId="5">
+      <Date>1-Apr-92</Date>
+      <CatalogueNo>BRJ 06</CatalogueNo>
+      <OtherSideCatalogueNo>BRJ 07</OtherSideCatalogueNo>
+      <Speaker>Brian Russell-Jones</Speaker>
+      <Title>The resurrection of Jesus (part 1)</Title>
+      <Series>Gleanings from the Pentateuch</Series>
+	  <e/>
+    </Sermon>F
+  </Sermons>
+</XmlDatabase>

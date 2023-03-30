@@ -1,0 +1,24 @@
+ 
+<table border="0" cellspacing="1" cellpadding="3" bordercolor="#FFCC00" bgcolor="#666666" width="180" background="/imagenes/dega.gif">
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href="/registrar.php" class="body_10">B&uacute;squeda</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font> 
+      <a href="/registrar_avan.php"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_10">B&uacute;squeda 
+      avanzada</font></a></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font> 
+      <a href="/registrar_es.php"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_10">Dominios.es</font></a></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font> 
+      <a href="/registrar_prebiz.php"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_10">Preregistro.BIZ</font></a></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font> 
+      <a href="/registrar_prename.php"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_10">Preregistro.name</font></a></td>
+  </tr>
+</table>

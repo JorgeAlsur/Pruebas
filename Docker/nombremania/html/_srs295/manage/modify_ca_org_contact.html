@@ -1,0 +1,72 @@
+<BR>
+<CENTER>
+
+<B><FONT face="verdana, arial" size=3>
+- Edit {{contact_type}} Contact -
+<font></b><BR><BR>
+
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_modify_contact">
+<input type=hidden name=type value="{{type}}">
+
+<TABLE BORDER=1 width=550 cellpadding=3 cellspacing=0>
+<TR>
+<TD COLSPAN=2 bgcolor="#d0d0d0" align=center>
+<B><FONT face="verdana, arial" size=2>
+{{contact_type}} Contact Information</FONT></B>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Organization Name:</B></font></TD>
+<TD>{{org_name}}&nbsp;</TD>
+<!-- CIRA doesn't support it in a regular way<TD><input name="org_name" size=49 value="{{org_name}}"></TD> -->
+</TR>
+
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Legal Type:</B></font></TD>
+<TD>{{legal_type_field}}</TD>
+</TR>
+
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>CIRA Member:</B></font></TD>
+<TD>{{member_field}}</TD>
+</TR>
+
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>Description:</B></font></TD>
+<TD>
+   <TEXTAREA COLS=49 ROWS=10 name='description'>{{description}}</TEXTAREA>
+</TD>
+</TR>
+
+<TR>
+<TD ALIGN=right bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><B>*CWA Flag:</B></font></TD>
+<TD>{{cwa_field}}</TD>
+</TR>
+
+<TR>
+<TD COLSPAN=2 ALIGN=center bgcolor="#d0d0d0">
+<font face="verdana, arial" size=2><b>
+* Setting the CWA (Change Without Approval) flag will allow your registrar (Tucows) 
+ to modify your email address without submitting the request to the registry 
+ (CIRA) for processing. If you set this flag to yes, you will be required to confirm this change at
+<b>
+<br><br>
+<a href="https://registrants.cira.ca/user">https://registrants.cira.ca/user</a>
+</font>
+</TD>
+</TR>
+
+</table>
+<BR>
+
+<BR>
+<input type=submit name=submit value="Save Configuration"> 
+<input type=submit name=submit value="Cancel Changes">
+<BR><BR><BR>

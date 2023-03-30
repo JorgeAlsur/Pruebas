@@ -1,0 +1,28 @@
+#############################################################################################
+#Email de notificacion de regalo al regalado. (Copia al regalante)
+#
+#############################################################################################
+From=registros@nombremania.com
+To={email_regalado}
+Subject=Nombremania - {dominio} es tuyo desde ahora
+
+Estimado/a {nombre_regalado} 
+
+{regalante} te ha regalado el dominio {dominio}.
+Puedes ver tu pagina de regalo visitando tu nuevo dominio:
+
+{destino}
+
+Desde ahora podras gestionar el dominio desde
+http://admin.nombremania.com. Cuentas con 5 redirecciones web y 5 de
+correo que puedes configurar como desees.
+Para acceder necesitaras una clave de acceso y password que deberas
+solicitar a quien te ha hecho el regalo ({email_regalante}).
+
+Enhorabuena y gracias por usar NombreMania.com
+
+Dpto. de Registros 
+registros@nombremania.com 
+{fecha}
+
+Tildes eliminadas intencionadamente de este email.

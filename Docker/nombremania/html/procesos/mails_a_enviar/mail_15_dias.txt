@@ -1,0 +1,32 @@
+#############################################################################################
+#Aviso para los usuarios que no han terminado el proceso de registro (que no han pagado)
+#
+#las variables son :
+#nombre  = nombre del cliente
+#destino = enlace a la pagina
+#email_cliente  = obvio !!
+#############################################################################################
+From=registros@nombremania.com 
+To={email_cliente} 
+Subject=Nombremania - Cancelacion de solicitud
+
+Estimado cliente: {nombre} 
+
+Tu solicitud de registro para el/los dominios :
+
+{dominios}
+
+ha sido cancelada por no haberse efectuado el pago correspondiente pasados
+15 dias. Si lo deseas podras realizar una nueva solicitud en
+www.nombremania.com
+
+
+Gracias por usar NombreMania.com 
+
+
+Dpto. de registros
+NombreMania.com
+registros@nombremania.com
+{fecha}
+
+Tildes eliminadas intencionadamente. 

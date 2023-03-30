@@ -1,0 +1,28 @@
+
+<script language="JavaScript">
+<!--
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+//-->
+</script>
+<font face="Verdana, Arial, Helvetica, sans-serif" size="1"> </font> 
+<table border="0" cellspacing="1" cellpadding="3" bordercolor="#FFCC00" bgcolor="#666666" background="/imagenes/dega.gif" width="180">
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"> <font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+      </font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href="/demos/index.html" class="body_10">Administraci&oacute;n</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font> 
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href="#" class="body_10" onClick="MM_popupMsg('Lo sentimos, esta secci&oacute;n aun se esta construyendo.')">Registro</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="middle" height="10"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font> 
+      <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><a href="/demos/parking/index.html" class="body_10">Parking</a></font></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/dega2.gif" valign="top"><font face="Verdana, Arial, Helvetica, sans-serif" size="2" color="#FF9900" class="body_11">&#149;</font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+      <a href="/ayuda/pregun_webforward.html" class="body_10">Redirecci&oacute;n 
+      (WebForward)</a></font></td>
+  </tr>
+</table>

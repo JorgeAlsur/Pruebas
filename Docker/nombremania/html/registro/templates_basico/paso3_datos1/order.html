@@ -1,0 +1,330 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<HEAD>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<!-- #BeginEditable "doctitle" --> 
+<TITLE>NombreMania - Registro y traslado de dominios. Registro de dominios al 
+mejor precio. </TITLE>
+<!-- #EndEditable --> 
+<SCRIPT language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<meta name="title" content="Registro y traslado de dominios en NombreMania - en tus dominios solo mandas tu">
+<meta name="description" content="Nunca fue tan facil registrar y trasladar dominios. En NombreMania ofrecemos registro de dominios al mejor precio, en castellano y con las herramientas mas potentes de administraciÛn.">
+<meta name="keywords" content="registro de dominios, registrar dominios, dominios, traslado, renovar, registro dominios espaÒol">
+<meta name="language" content="Spanish">
+<meta http-equiv="undefined" content="El Sur Existe s.l.">
+<meta name="copyright" content="El Sur Existe s.l.">
+<meta name="revisit-after" content="30 days">
+<meta name="document-classification" content="Internet Services">
+<meta name="document-rights" content="Copyrighted Work">
+<meta name="document-type" content="Public">
+<meta name="document-rating" content="General">
+<meta name="Abstract" content="Nunca fue tan facil registrar y trasladar dominios. En NombreMania ofrecemos registro de dominios al mejor precio, en espaÒol y con las herramientas m·s potentes de administraciÛn.">
+<meta name="Target" content="registro de dominios, registrar dominios, dominios, traslado, renovar, registro dominios espaÒol">
+<meta http-equiv="Content-Language" content="ES">
+<link rel="stylesheet" href="/Templates/nm2_base_registro.css" type="text/css">
+</HEAD>
+
+
+<body bgcolor="#ffcc00" onLoad="MM_preloadImages('/imagenes/base3/simbolo_f2.gif','/imagenes/base3/logo_f2.gif','/imagenes/base3/registrar_f2.gif','/imagenes/base3/trasladar_f2.gif','/imagenes/base3/administrar_f2.gif','/imagenes/base3/comprar_f2.gif','/imagenes/base3/alquiler_f2.gif','/imagenes/base3/demo_f2.gif','/imagenes/base3/precios_f2.gif','/imagenes/base3/afiliados_f2.gif','/imagenes/base3/ayuda_f2.gif','/imagenes/base3/whois_f2.gif')">
+
+            <table width="520" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff" align="Center">
+              <tr> 
+                <td width="520"> 
+                  <table border=0 width="520" align="left" cellpadding="2" cellspacing="0">
+                    <tr> 
+                      <td colspan="3" height="20" class="titu_pags"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b><span class="titu_pags_previo">{{reg_text}} 
+                        de Dominio</span><br>
+                        <font size="2">FORMULARIO DE SOLICITUD</font></b> </font></td>
+                    </tr>
+                    <tr> 
+                      <td colspan="3"> 
+                        <form method=post action="{{CGI}}" name="form1" >
+                          <center>
+                            <table border=0>
+                              <tr> 
+                                <td> 
+                                  <table border=0 width=100% cellpadding="2" cellspacing="1">
+								  <tbody face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                    <tr> 
+                                      <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Servicio 
+                                        contratado:</b></td>
+                                      <td align=left class="td_form_valor"><span class="body_9">{{nm_registro_tipo_text}}</span></td>
+                                    </tr>
+                                    <tr> 
+                                      <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Dominios:</b></td>
+                                      <td align=left class="td_form_valor"><b class="matches">{{domains}}</b></td>
+                                    </tr>
+                                    <tr> 
+                                      <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Importe:</b></td>
+                                      <td align=left class="td_form_valor"><span class="body_9">{{nm_preciototal}} 
+                                        (<a href="#" onClick="MM_openBrWindow('/ayuda/nif.html','ayuda','width=300,height=400')">IVA NO INCLUIDO</a>)</span></td>
+                                    </tr>
+                                    <tr> 
+                                      <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Periodo 
+                                        del registro:</b></td>
+                                      <td align=left class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_9"> 
+                                        {{period_text}} </font></td>
+                                    </tr>
+                                    <tr> 
+                                      <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Basado 
+                                        en Perfi:</b></td>
+                                      <td align=left class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_9"> 
+                                        {{reg_profile}} </font></td>
+                                    </tr>
+                                    <tr> 
+                                      <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Tipo</b>:</td>
+                                      <td align=left class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="body_9"> 
+                                        {{reg_type_text}} </font></td>
+                                    </tr></tbody>
+                                  </table>
+                                  <center>
+                                    <table border=0 width=518 cellpadding="2" cellspacing="1">
+                                      <tr> 
+                                        <td colspan=2 align=center>&nbsp;</td>
+                                      </tr>
+                                      <tr align="left"> 
+                                        <td colspan=2 bgcolor="#003366" class="titu_secciones"> 
+                                          <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b>Datos 
+                                          del Titular</b>&nbsp; <a href="#" onClick="MM_openBrWindow('/ayuda/ventana_datos_reg.html#titular','ayuda','scrollbars=yes,width=300,height=400')"><img src="/imagenes/ico_ayuda2.gif" width="16" height="16" align="absmiddle" border="0" alt="Ayuda"></a> 
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Nombre:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_first_name" size=15 value="{{owner_first_name}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Apellido:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_last_name" size=15 value="{{owner_last_name}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Empresa:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_org_name" size=35 value="{{owner_org_name}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                                          (l&iacute;nea 1):</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_address1" size=35 value="{{owner_address1}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                                          (l&iacute;nea 2):</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_address2" size=35 value="{{owner_address2}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                                          (l&iacute;nea 3):</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_address3" size=35 value="{{owner_address3}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Localidad:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_city" size=15 value="{{owner_city}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Provincia:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_state" size=15 value="{{owner_state}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Pa&iacute;s:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          {{owner_country}} </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>C&oacute;digo 
+                                          Postal :</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_postal_code" size=15 value="{{owner_postal_code}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Tel&eacute;fono:</b></font> 
+                                          <br>
+                                        </td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_phone" size=20 value="{{owner_phone}}">
+                                          <font color="#FF0000">(Formato correcto: 
+                                          +34.987654321)</font></font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"> 
+                                          <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Fax:</b> 
+                                          </font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_fax" size=20 value="{{owner_fax}}">
+                                          </font><font color="red" size="1" face="Verdana, Arial, Helvetica, sans-serif">**opcional</font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Email:</b></font></td>
+                                        <td class="td_form_valor"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="owner_email" size=35 value="{{owner_email}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td colspan=2 align=center><img src="/imagenes/shim.gif" width="4" height="10"></td>
+                                      </tr>
+                                      <tr> 
+                                        <td colspan=2 align=left bgcolor="#003366" class="titu_secciones"> 
+                                          <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FFFFFF"><b>Contacto 
+                                          de Facturaci&oacute;n</b> <a href="#" onClick="MM_openBrWindow('/ayuda/ventana_datos_reg.html#facturacion','ayuda','scrollbars=yes,width=300,height=400')"><img src="/imagenes/ico_ayuda2.gif" width="16" height="16" align="absmiddle" border="0" alt="Ayuda"></a> 
+                                          </font></td>
+                                      </tr>
+                                      <tr align="left"> 
+                                        <td colspan=2 bgcolor="#FFFFCC"> <b><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"> 
+                                          <input type=checkbox name=flag_use_contact_info checked class="input_radios">
+                                          </font></font>Usar los mismos datos 
+                                          anteriores del Titular</b></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Nombre:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_first_name" size=15 value="{{billing_first_name}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Apellido:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_last_name" size=15 value="{{billing_last_name}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Empresa:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_org_name" size=35 value="{{billing_org_name}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                                          (l&iacute;nea 1):</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_address1" size=35 value="{{billing_address1}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                                          (l&iacute;nea 2):</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_address2" size=35 value="{{billing_address2}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                                          (l&iacute;nea 3):</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_address3" size=35 value="{{billing_address3}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Localidad:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_city" size=15 value="{{billing_city}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Provincia:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_state" size=15 value="{{billing_state}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Pa&iacute;s:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          {{billing_country}} </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>C&oacute;digo 
+                                          Postal :</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_postal_code" size=15 value="{{billing_postal_code}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Tel&eacute;fono:</b></font> 
+                                          <br>
+                                        </td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_phone" size=20 value="{{billing_phone}}">
+                                          <font color="#FF0000">(Formato correcto: 
+                                          +34.987654321)</font></font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo" height="32"><font color="red" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                                          </font> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Fax</b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>:</b></font></td>
+                                        <td class="td_form_valor" height="32"> 
+                                          <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_fax" size=20 value="{{billing_fax}}">
+                                          </font><font color="red" size="1" face="Verdana, Arial, Helvetica, sans-serif">**opcional</font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Email:</b></font></td>
+                                        <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"> 
+                                          <input name="billing_email" size=35 value="{{billing_email}}">
+                                          </font></td>
+                                      </tr>
+                                      <tr> 
+                                        <td colspan=2 align=center><img src="/imagenes/shim.gif" width="4" height="10"></td>
+                                      </tr>
+                                    </table>
+                                    <!--End custom table 2-->
+                                    <br>
+                                    <input type="image" border="0" name="imageField" src="/imagenes/continuar.gif" width="85" height="26" align="middle">
+                                  </center>
+                              </tr>
+                              <tr> 
+                                <td> 
+                              </tr>
+                              <tr align="center"> 
+                                <td>&nbsp; 
+                            </table>
+                          </center>
+                          <input type=hidden name=action value=verify_order>
+                        </form>
+                      </td>
+                    </tr>
+                  </table>
+</body></html>

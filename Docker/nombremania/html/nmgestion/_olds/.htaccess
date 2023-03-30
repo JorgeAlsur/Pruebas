@@ -1,0 +1,8 @@
+AuthName "nmgestion"
+AuthType Basic
+order deny,allow
+AuthUserFile /home/webs/ssl.alsur.es/accesos/.users
+require group admin_nm
+AuthGroupFile /home/webs/ssl.alsur.es/accesos/.groups
+ErrorDocument 401 /error.php?error=ERROR+DE+AUTENTIFICACION
+

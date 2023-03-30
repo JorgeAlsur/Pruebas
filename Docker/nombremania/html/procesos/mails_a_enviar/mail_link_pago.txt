@@ -1,0 +1,51 @@
+#############################################################################################
+#este mail se envia al cliente frecuente con el la ruta al webserver para realizar el pago
+# el pago se realiza en forma automatica
+#las variables son :
+#nombre  = nombre del cliente
+#dominios = listado de los dominios del cliente.
+#importe =  importe del pago a realizar
+#id_cliente = id del cliente en base de datos
+#saldo = saldo en la cuenta
+#link = enlace de la pagina donde debe realizar el pago
+#############################################################################################
+From=registros@nombremania.com
+To={email_cliente}
+Subject=Nombremania - Link para realizar pago
+
+Estimado cliente: {nombre}
+
+
+Hemos recibido una solicitud de pago de registros/transferencias de
+dominios con cargo a tu cuenta de cliente registrado. Los detalles de la
+operacion se encuentran a continuacion.
+
+Sigue el link que se adjunta para que la operacion quede validada. Para
+anularla, simplemente ignora este mensaje y la operacion quedara cancelada
+pasados unos dias.
+
+RECUERDA!! Los dominios solicitados NO QUEDARAN REGISTRADOS hasta que
+confirme este paso.
+
+Dominios: {dominios}. Importe en euros: {importe}.
+
+Saldo Actual de su cuenta de cliente {id_cliente}:
+
+{saldo} euros.
+
+Link para la confirmacion del pago:
+
+{link} .
+
+(Si tiene problemas con este enlace, por favor prueba a copiar y pegar la
+direccion en tu navegador)
+
+Gracias por usar NombreMania.com 
+Dpto. de Registros
+registros@nombremania.com 
+{fecha}
+
+
+
+Tildes eliminadas intencionadamente de este email.
+

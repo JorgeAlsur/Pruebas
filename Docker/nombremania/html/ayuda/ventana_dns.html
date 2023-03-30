@@ -1,0 +1,126 @@
+<html>
+<head>
+<title>Nombremania. Ayuda.</title>
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+//-->
+</script>
+<style type="text/css">
+<!--
+.tituloayuda {  font: 900 12px/16px Verdana, Arial, Helvetica, sans-serif; color: #000099; letter-spacing: 0.03em}
+.body_10 { font: 10px/110% Verdana, Arial, Helvetica, sans-serif; color: #333333 }
+-->
+</style>
+</head>
+<body bgcolor="#ffcc00" leftmargin="10" topmargin="10" marginwidth="10" marginheight="10">
+<table border="0" cellpadding="8" cellspacing="1" bordercolor="#CCCCCC">
+  <tr> 
+    <td bgcolor="#FFFFFF" align="right" height="30" valign="bottom" class="tituloayuda"><img src="../imagenes/logochico.gif" width="102" height="16" hspace="4" align="left"> 
+      Ayuda en l&iacute;nea</td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFFCC"> 
+      <p align="left"><font face="Verdana, Arial, Helvetica, sans-serif" size="3"><b><a></a><span class="tituloayuda">&iquest;Qu&eacute; 
+        es una DNS?</span></b></font><br>
+        DNS es la tecnolog&iacute;a que enlaza el texto del nombre de un dominio 
+        y su n&uacute;mero de direcci&oacute;n IP, lo cual es necesario para localizar 
+        el servidor del dominio en la red. Al escribir un dominio en tu navegador 
+        (www.dominio.com) la DNS convierte esta direcci&oacute;n en la IP que 
+        corresponde al servidor de nombre registrado con el dominio (123.123.123.1). 
+        Vea <a href="http://nombremania.com/ayuda/pregun_dns.html" target="nueva">Como 
+        funciona una DNS</a> para m&aacute;s informaci&oacute;n</p>
+    </td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFF99"> 
+      <p><a name="A"></a><span class="tituloayuda">&iquest;Qu&eacute; es un registro 
+        A?</span><br>
+        Un registro A, tambi&eacute;n denominado registro &quot;Address&quot;, 
+        enlaza un nombre de dominio con una direcci&oacute;n IP. Si hay un servidor 
+        final operativo que est&eacute; configurado para conducir el tr&aacute;fico 
+        del dominio en esa direcci&oacute;n, el dominio se resolvera de forma 
+        inmediata al escribir el nombre. Es el tipo de entrada habitual al configurar 
+        un servidor web para hospedar un dominio. Cada entrada de dominio (del 
+        tipo loquequieras.tudominio.com) normalmente solo cuenta con una IP asociada, 
+        salvo en el caso de querer usar &#147;Round Robin&#148; (balanceo de servidores) 
+        y contar con m&aacute;s de un servidor operativo.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFFCC"><font face="Verdana, Arial, Helvetica, sans-serif"> 
+      <span class="tituloayuda"><a name="MX"></a>&iquest;Qu&eacute; es un registro 
+      MX?</span><br>
+      Los registros &quot;MX&quot; (Mail eXchanger) se usan para especificar qu&eacute; 
+      servidor de Internet est&aacute; configurado para conducir los emails a 
+      tu dominio. Al igual que las entradas tipo &#147;A&#148;, si hay un servidor 
+      correctamente configurado en esa IP todo el trafico de correo ser&aacute; 
+      enviado a ese servidor. Si este no estuviera operativo o bien configurado, 
+      TODO el correo ser&iacute;a devuelto a su origen.</font></td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFF99"><font face="Verdana, Arial, Helvetica, sans-serif"><span class="tituloayuda"><a name="MXrank"></a>&iquest;Qu&eacute; 
+      es el &quot;ranking&quot; de servidores MX?</span><br>
+      El servicio PRO de DNS de NombreMania permite incluir m&aacute;s de un servidor 
+      de correo de forma encadenada. Actuando el segundo como servidor &#147;backup&#148; 
+      en caso de estar el primero inoperativo, y as&iacute; sucesivamente.</font></td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFFCC"><font face="Verdana, Arial, Helvetica, sans-serif"><span class="tituloayuda"><a name="CNAME"></a>&iquest;Qu&eacute; 
+      es un registro CNAME?</span><br>
+      <b>NO USES CNAME SI NO ENTIENDES PERFECTAMENTE PARA QUE SIRVE. </b><br>
+      Debes tener mucho cuidado al usar esta opci&oacute;n que se recomienda solo 
+      para usuarios avanzados. Las entradas CNAMEs fueron creadas para redirigir 
+      todo el tr&aacute;fico de una DNS a otro dominio. Por esta raz&oacute;n 
+      supone una violaci&oacute;n al protocolo DNS tener un CNAME y cualquier 
+      otro registro DNS para el mismo dominio. <br>
+      En general lo que buscas puede resolverse con registros (A) y/o uso de WebForward&reg; 
+      o MailForward&reg;. </font></td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFF99"><font face="Verdana, Arial, Helvetica, sans-serif"><span class="tituloayuda"><a name="robin"></a>&iquest;Como 
+      funciona el balanceo de servidores (Round Robin)?</span><br>
+      Round-robin DNS es una t&eacute;cnica que permite que m&uacute;ltiples servers 
+      atiendan un mismo dominio, para que exista un balanceo de carga entre ellos. 
+      Esta t&eacute;cnica sirve especialmente para los servidores web pero puede 
+      ser usada para otro tipo de servidores. <br>
+      Lo &uacute;nico que debe hacer es incluir varias IPs para el mismo dominio. 
+      Nuestros servidores balancear&aacute;n la carga entre estos IPs en forma 
+      autom&aacute;tica.</font></td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFFCC"> 
+      <p><span class="tituloayuda"><a name="multiples"></a>&iquest;Por qu&eacute; 
+        no puedo tener el mismo nombre de dominio en multiples tipos de registros?</span><br>
+        Por qu&eacute; un WebForward&reg; necesita un registro A especial para 
+        funcionar correctamente. Adem&aacute;s, CNAMEs son entre s&iacute; exclusivos 
+        de registros A, por lo que un nombre de dominio no puede ser ambos, una 
+        direcci&oacute;n IP y un alias simult&aacute;neamente.</p>
+    </td>
+  </tr>
+  <tr> 
+    <td class="body_10" bgcolor="#FFFF99"><span class="tituloayuda"><a name="raiz"></a>&iquest;Por 
+      qu&eacute; no puedo borrar el registro A del nombre ra&iacute;z de mi dominio?<br>
+      </span> Todos los dominios deben tener un registro A en la ra&iacute;z del 
+      nombre del dominio. Omitiendo este registro A puedes impedir que alg&uacute;n 
+      servidor de correo env&iacute;e tu correo correctamente. Un Webparking&reg; 
+      o WebForward&reg; en la ra&iacute;z de tu dominio, ser&aacute; suficiente, 
+      por qu&eacute; en ambos casos se crear&aacute; un registro A &#147;oculto&#148; 
+      que apuntar&aacute; a nuestro servidor.<b><br>
+      </b></td>
+  </tr>
+  <tr>
+    <td class="body_10" bgcolor="#FFFFCC"><SPAN class="tituloayuda">&iquest;Cuando 
+      se aplican los cambios?</SPAN><BR>
+      Todos los cambios individuales de DNS se ajustar&aacute;n inmediatamente 
+      y normalmente son aplicables en menos de un minuto. El problema es que los 
+      ISP (proveedores de acceso a internet) en algunos casos tienen guardadas 
+      las configuraciones de dns usadas (cache) y estos cambios pueden demorarse 
+      (en particular a usted si ha accedido antes) hasta una hora. </td>
+  </tr>
+</table>
+<p align="left">&nbsp;</p>
+</body>
+</HTML>

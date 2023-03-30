@@ -1,0 +1,43 @@
+<form method=post action="{{CGI}}">
+<input type=hidden name=action value="do_change_ips_tag">
+<BR><BR>
+<TABLE border="1" width="550" cellpadding="3" cellspacing="0">
+<TR>
+<TD COLSPAN="2" bgcolor="#93D5BE" align="center">
+<B><FONT face="verdana, arial" size=2>Domain Tag change away</FONT></B>
+</TD>
+</TR>
+
+<TR>
+<TD bgcolor="#e0e0e0" align="left">
+    <font face="verdana, arial" size="2">New Domain Tag:</font>
+</TD>
+<TD>
+    <input type="text" name="new_ips_tag" value="" size=20>
+</TD>
+</TR>
+
+<TR>
+<TD bgcolor="#e0e0e0" align="left">
+    <font face="verdana, arial" size="2">Apply tag change to all .uk domains in this profile?</font>
+</TD>
+<TD>
+    <font face="verdana, arial" size="2">
+    	<input type="radio" name="uk_change_tag_all" value="0" checked>No 
+	&nbsp;&nbsp;
+	<input type="radio" name="uk_change_tag_all" value="1"> Yes
+    </font>
+</TD>
+</TR>
+
+<TR>
+<TD align="center" colspan="2" bgcolor="#e0e0e0">
+    <font color="blue" size="2"><i>Please note that changing the Domain Tag will transfer your domain(s) to the new Tag Holder. You will have to contact your new Tag Holder(registrar) for all further support.</i></font>
+</TD>
+</TR>
+</TABLE>
+<BR>
+<input type=submit name=submit value="Save Configuration">
+<input type=submit name=submit value="Cancel Changes">
+</form>
+<BR>

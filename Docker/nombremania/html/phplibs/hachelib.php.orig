@@ -1,0 +1,90 @@
+<?
+function updatedb($t,$f,$where) {
+$sql="update $t set ";
+while (list($k,$v)=each($f)){
+$sql2[]= "$k = \"$v\"  ";
+
+}
+
+return $sql. join(",",$sql2) . " $where";
+}
+
+function insertdb($t,$f) {
+$sql="insert into $t  ";
+$campos= array_keys($f);
+$valores=array_values($f);
+array_walk($valores,"entrecomillas") ;
+$sql.= "(".join(",",$campos).") values (".join(",",$valores).")";
+return $sql;
+}
+
+
+function entrecomillas(&$tabla, $clave) {
+   $tabla = "'$tabla'";
+}
+
+function fecha2mysql($fecha){
+
+//devuelve fecha para ser usada por mysql
+list($d,$m,$y)=split('[/.-]',trim($fecha));
+return "$y-$m-$d";
+}
+
+function encripta($datos){
+ $d=serialize($datos);
+ $d=base64_encode($d);
+ return $d;
+}
+
+function descripta($clave){
+  $d=base64_decode($clave);
+  return unserialize($d);
+ }
+
+function arr2html2($tabla){
+echo "<table border=1>";
+while (list($k,$v)=each($tabla)){
+print "<tr><td>$k</td><td>$v</td></tr>";
+}
+print "</table>";
+
+}
+
+function redirige($donde){
+echo "<META HTTP-EQUIV=\"Refresh\" CONTENT=\"0; URL=$donde\">";
+}
+
+function genera_password($largo=8){
+// Create an array of valid password characters.
+$the_char = array(
+     "a","A","b","B","c","C","d","D","e","E","f","F","g","G","h","H","i","I","j","J",
+     "k","K","l","L","m","M","n","N","o","O","p","P","q","Q","r","R","s","S","t","T",
+     "u","U","v","V","w","W","x","X","y","Y","z","Z","1","2","3","4","5","6","7","8",
+     "9","0"
+);
+
+// Set var to number of elements in the array minus 1, since arrays begin at 0
+// and the count() function returns beginning the count at 1.
+$max_elements = count($the_char) - 1;
+
+// Now we set our random vars using the rand() function with 0 and the
+// array count number as our arguments. Thus returning $the_char[randnum].
+
+srand((double)microtime()*1000000);
+$_password="";
+for ($i=0;$i<$largo;$i++){
+$_password.= $the_char[rand(0,$max_elements)];
+}
+
+// Finally, echo the password.
+return $_password;
+}
+
+function var_crudas($var){
+         print "<pre>";
+         print var_dump($var);
+         print "</pre>";
+}
+
+
+?>

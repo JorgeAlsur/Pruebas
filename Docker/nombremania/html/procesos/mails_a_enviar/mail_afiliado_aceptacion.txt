@@ -1,0 +1,37 @@
+#############################################################################################
+#este es el mail que se enviará al cliente que se registra por primera vez
+#las variables son :
+#nombre  = nombre del cliente
+#dominios = listado de los dominios del cliente.
+#importe =  importe del pago a realizar
+#id_cliente = id del cliente en base de datos
+#saldo = saldo en la cuenta
+#link = enlace de la pagina donde debe realizar el pago
+#############################################################################################
+From=afiliados@nombremania.com
+To={email_cliente}
+Subject=Nombremania - Registro de dominios
+
+Estimado/a {nombre}
+
+Ha sido procesada con exito tu solicitud de registro como 
+cliente/afiliado de NombreMania.
+Recuerda que accediendo a tu panel de control desde la 
+sección de "afiliados" podrás registrar dominios para ti mismo
+o usar algunos de nuestro banners y elementos promocionales
+para incluir en tu pagina y así recibir comisiones por los
+registros que tus visitantes generen.
+Los cuadros de comisiones y condiciones vigentes estarán
+siempre incluidos en esa misma sección.
+
+Tambien te recomendamos consultar nuestra seccion de ayuda en
+http://www.nombremania.com/ayuda/ si necesitas mas informacion.
+
+Gracias por confiar en NombreMania.
+
+Dpto. Afiliados
+NombreMania.com
+afiliados@nombremania.com
+
+Tildes eliminadas intencionadamente. 
+

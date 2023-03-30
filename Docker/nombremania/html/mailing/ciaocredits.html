@@ -1,0 +1,342 @@
+<html>
+<head>
+   <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+   <meta name='Author' content="Ben Drushell">
+   <title>Ciao EmailList Manager - (CREDITS)</title>
+</head>
+<body background="background.gif" text="#000000" bgcolor="#ffffff" link="#0000cc" vlink="#000099" alink="#ff0000">
+
+<center><b><font size=+1>Ciao EmailList Manager (beta version 1.0.11) - (CREDITS)</font></b></center>
+
+<p align="center"><center>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="15" cellspacing="0" width="90%"><tr><td><b>
+Ciao EmailList Manager was written/designed/programmed by Ben Drushell 10/2000.<br>
+It is derived from:
+<ul>
+<li>original work by Ben Drushell
+<li>portions of Ciao Form2Email <i>(C) Ben Drushell</i> in the PHP language
+<li>portions of Bulk E-mailer(C) <small><i>aka.</i></small>
+Small Business E-mail List Manager(C) <small><i>aka.</i></small>
+EmailList Manager(C) written and owned by Ben Drushell in the Miva scripting language
+</ul>
+<font size="-1">
+Special thanks for all the suggestions, requests, bug notices, translations contributed by users of the Miva versions.<br>
+Special thanks to Jaques Desforges and Luskey Greene for the donated Miva code contributions.
+<br><br>
+<i>
+Miva is a registered trademark of Miva Corp. and a proprietary cgi-scripting/database language.<br>
+PHP (C) by The PHP Development Team is a FREE opensource cgi-scripting language.<br>
+MySQL is a registered trademark of MySQL AB.<br>
+PostgreSQL portion-(C) by PostgreSQL, Inc. and portion-(C) by Regents of the University of California<br>
+MySQL and PostgreSQL are opensource database engines.<br>
+
+GNU General Public License was provided by the Free Software Foundation.<br>
+GNU is a registered trademark of the Free Software Foundation.
+</i>
+</font>
+<br><br>
+<hr widht="100%">
+<table border="0" width="100%">
+<tr><td colspan="4">Other Software Utilized In Ciao EmailList Manager:</td></tr>
+<tr><td>NAME</td><td>DESCRIPTION</td><td>LICENSE</td><td>CREDITS</td></tr>
+<tr><td valign="top"><a href="http://phplib.netuse.de/" target="_blank">phpLib</a></td><td valign="top">SQL Database Abstraction</td><td valign="top">LGPL</td>
+<td valign="top">
+Boris Erdmann,
+Kristian Koehntopp,
+Cameron Taggart,
+Guarneri Carmelo,
+Luis Francisco,
+Gonzalez Hernandez,
+Sascha Schumann,
+Adelino Monteiro,
+Stefan Sels,
+Cameron Just,
+Ben Drushell
+</td>
+</tr>
+<tr><td valign="top"><a href="http://phpmailer.sourceforge.net/" target="_blank">phpMailer</a></td><td valign="top">Sending Mail Tool</td><td valign="top">LGPL</td><td valign="top">Brent R. Matzelle</td></tr>
+<tr><td valign="top"><a href="http://www.greatbridge.org/" target="_blank">phpSMTP</a></td><td valign="top">SMTP Mail Abstraction</td><td valign="top">LGPL</td><td valign="top">Chris Ryan</td></tr>
+<tr><td valign="top"><a href="http://www.technobreeze.com/" target="_blank">Ciao-SQL</a></td><td valign="top">Customized Abstraction to phpLib</td><td valign="top">LGPL</td><td valign="top">Ben Drushell</td></tr>
+<tr><td valign="top"><a href="http://www.technobreeze.com/" target="_blank">Ciao-Tools</a></td><td valign="top">Miscellaneous Functions</td><td valign="top">LGPL</td><td valign="top">Ben Drushell</td></tr>
+</table>
+<br><br>
+<hr widht="100%">
+Ciao EmailList Manager Code Contributors:<br>
+(date - name - description of contribution - optional means of contact)<br>
+<br><br>
+<li>2000.12.19 - Wayne Davis - PHP4 compatability changes: removed empty array [] in "ciao_m04.php" and modified "ciao_t.php" because of mysql_insert_id bug in PHP4
+<br><br>
+<li>2000.12.22 - BD - Pause/Continue bug fix; increased import limit to 30kb files; fixed sending status bar
+<br><br>
+<li>2000.12.23 - Bob Hurt - Perl code for VERIFY_VIA_SENDMAIL and VERIFY_VIA_DIG contributed by Bob Hurt. Ported to PHP by BD - http://www.bobhurt.com/
+<br><br>
+<li>2000.12.23 - BD - added additional email verification rountine; added customizable message & subject inserts based on stored subscriber data
+<br><br>
+<li>2001.01.05 - BD - fixed the VerifyFields bug affecting subscriber updating in alpha 0.17
+<br><br>
+<li>2001.01.19 - Maxim Maletsky - isolated code error; error limited database password to 8 characters
+<br><br>
+<li>2001.01.20 - BD - made quantity of additional subscriber fields customizable; made signup and import verification messages customizable; fixed javascript error in user admin
+<br><br>
+<li>2001.01.21 - BD - fixed the popen error in the SENDMAIL and DIG validation routines
+<br><br>
+<li>2001.01.29 - BD - added html email sending abilities; modified the ciao template parser; modified the ciao template creation tool
+<br><br>
+<li>2001.01.30 - Tom Sokolis - isolated the "magic_quotes" incompatibility and contributed code for compensating
+<br><br>
+<li>2001.01.31 - BD - added code to hinder passing of viruses by html email; added "magic_quotes" detection code
+<br><br>
+<li>2001.03.14 - Juliano Zabeo Pessini - Bug fix on line 153 of ciao_s03.php
+<br><br>
+<li>2001.05.01 - BD - Lots of improvements before release of version 0.65
+<br><br>
+<li>2001.05.07 - BD - replaced quoted-printable with 8bit emails sent (fixes incompatibility with Outlook)
+<br><br>
+<li>2001.05.08 - BD - fixed link to sending html frame; charset data passing; multi-type send errors
+<br><br>
+<li>2001.05.10 - BD - fixed a bug that would cause signup form not to display when any block data was in database
+This bug only affected 0.65 & 0.67
+<br><br>
+<li>2001.05.11 - Gerbrand van Dieijen - added MIME-Version 1.0 to html email header for improved compatibility with several email client software
+<br><br>
+<li>2001.05.18 - BD - fixed the admin link/ data update problem
+<br><br>
+<li>2001.05.19 - BD - delete (unsubscribe) now requires password, if passwords are being used
+<br><br>
+<li>2001.05.19 - BD - added "category" variable input, so people can tie a template to a category
+<br><br>
+<li>2001.05.20 - BD - Admin notification now contains categories subscribed info
+<br><br>
+<li>2001.05.22 - BD - Added "return-path" field to email headers sent
+<br><br>
+<li>2001.05.22 - BD - Added php-include header/footer file feature.  In ".ciao" files add the code header="head.html" footer="foot.html".
+<br><br>
+<li>2001.05.22 - BD - DB Update program fixed for categories.
+<br><br>
+<li>2001.05.22 - BD - Fixed stats listing for custom categories.
+<br><br>
+<li>2001.05.24 - Ryan Foster - added MIME-Version 1.0 to multi-part email header for improved compatibility with several email client software - http://www.inonmedia.com
+<br><br>
+<li>2001.05.31 - BD - Removed experimental anti-email-virus code due to over-reactive nature
+<br><br>
+<li>2001.05.31 - BD - Updated general configuration program to include header/footer file and required/optional text
+<br><br>
+<li>2001.05.31 - BD - Updated initial setup program to include option of editing/creating template without creating tables.
+This feature is for those who want to link to an existing Ciao EmailList Manager Database.
+<br><br>
+<li>2001.05.31 - BD - Added some enhancement to custom-categories.
+<br><br>
+<li>2001.06.05 - BD - Added search feature to email list display.
+<br><br>
+<li>2001.06.13 - BD - Added "unsubscribe from category" feature.
+<br><br>
+<li>2001.06.13 - BD - Fixed email address duplication bug.  Email addresses are now forced to lower-case letters when saving.
+<br><br>
+<li>2001.06.13 - BD - Added duplication checks to the import feature.
+<br><br>
+<li>2001.06.13 - BD - Fixed "crypt" bug. (win version does not use crypt)
+<br><br>
+<li>2001.06.15 - BD - Added sort/search feature to pending list.
+<br><br>
+<li>2001.06.15 - BD - Added sort feature to regular list display.
+<br><br>
+<li>2001.06.15 - BD - Created export utility with sort & search features.
+<br><br>
+<li>2001.06.15 - BD - Added multiple form-field types.
+<br><br>
+<li>2001.06.19 - BD - Fixed custom category display bug.
+<br><br>
+<li>2001.06.19 - BD - Replaced buggy get_magic_quotes_runtime.
+(It does not work for PHP4.0.4-5)
+Function was replaced with PHP4 specific code for ".PHP" and ".PHP4" versions.
+If you want to use ".PHP" version on a PHP3 platform, comment out the PHP4 specific
+codes located at line 58 of "ciao.php" and line 40 of "ciaoadm.php"
+Then uncomment the PHP3 code.
+<br><br>
+<li>2001.06.22 - BD - Added feature to import so comma is no longer required after import list of just email addresses.
+<br><br>
+<li>2001.06.24 - BD - Added Error-To email header
+<br><br>
+<li>2001.06.28 - BD - Fixed "custom category" search and sort bug.
+<br><br>
+<li>2001.07.04 - BD - Fixed import bug and some more "custom category" bugs.
+<br><br>
+<li>2001.07.05 - BD - Added category "ALL" that is not seen by user so that custom categories works with all subscribers now.
+<br><br>
+<li>2001.07.09 - Alexey Semenovykh - Fixed a line error in "ciao_m03.php" that would adversely affect custom categories based on email address in certain circumstances.
+<br><br>
+<li>2001.07.15 - Alexey Semenovykh - Fixed search-query-string output so that "date" displays "Date of Sign-up" in "ciao_m05.php" and "ciao_m06.php"
+<br><br>
+<li>2001.07.18 - BD - added code to remove "\r" from email messages for Outlook compatibility
+<br><br>
+<li>2001.08.30 - BD - updated to "beta" version; added phpLib, phpMailer, phpSMTP, Ciao-SQL, and Ciao-Tools
+<br><br>
+<li>2001.08.31 - BD - fixed code so that viewing modules and emails sent have the extra slashes removed. (the extra slashes are a database protection).
+<br><br>
+<li>2001.09.02 - BD - fixed db upgrade bug and changed default SMTP port to 25.
+<br><br>
+<li>2001.09.03 - Michael Mangeng - Changed line 95 of "ciao_s02.php" from "_catlist" to "_category".  This fixed a table locking bug for those updating category information.
+<br><br>
+<li>2001.09.04 - BD - Fixed search bug in pending list.
+<br><br>
+<li>2001.09.09 - BD - Fixed pending list verify link bug.
+<br><br>
+<li>2001.09.09 - BD - Added extra email fields #email#, #date#, and #domain#.
+<br><br>
+<li>2001.09.09 - BD - Email's are no longer sorted by domain before sending. It was brought to my attention that sorting by domain can cause email's to erroneously be blocked.
+<br><br>
+<li>2001.09.09 - BD - List sending batch size is now customizable.  Time-delay feature was added to reduce network/server stress in sending to a list.
+<br><br>
+<li>2001.09.20 - BD - Added trim statements for categories to work better.
+<br><br>
+<li>2001.09.22 - BD - Fixed send all bug that affected categories.  Field cat_id in _catlist was increased to size 4 in database update.
+Combed through all source code changing size reference from 3 to 4.
+<br><br>
+<li>2001.09.29 - BD - Fixed file-import bug (file altered: ciaoadm.php)
+<br><br>
+<li>2001.10.01 - BD - re-located some of the table locking code so that MySQL works correctly
+<br><br>
+<li>2001.10.02 - BD - fixed the fast-upgrade code by adding a value for the email_nid field... also fixed table-locking in MySQL
+<br><br>
+<li>2001.10.16 - BD - replaced "include_once" functions with "include" functions for PHP3 compatability
+<br><br>
+<li>2001.10.16 - BD - modified export slightly so that users are less likely to export blank lists by not defining export datafields
+<br><br>
+<li>2001.10.17 - BD - added $CFG declaration in the function "CreateLink"
+<br><br>
+<li>2001.10.17 - BD - changed $VARS['user_id'] to trim($vRecord['email_id']) in "ciao_il"... fixed bug when verifying with category pre-defined option
+<br><br>
+<hr widht="100%">
+Ciao EmailList Manager Translation Contributors:<br>
+(date - name - description of contribution - optional means of contact)<br>
+<li>...
+<li>...
+<li>...
+<br><br>
+<hr widht="100%">
+Ciao EmailList Manager Bug Notifications:<br>
+(date - name - bug description - optional means of contact)<br>
+<br><br>
+<li>2001.01.05 - Nigel Bouckley - VerifyFields bug affecting subscriber updating in alpha 0.17
+<br><br>
+<li>2001.01.21 - Bret Chrismer - Reported that popen command had not totally been ported from perl in SENDMAIL and DIG validation routines. - streetrodder.net
+<br><br>
+<li>2001.01.29 - Tom Sokolis, Geoff Carter, Taras Tchougai - Helped isolate the "magic_quotes" incompatibility
+<br><br>
+<li>2001.03.14 - Juliano Zabeo Pessini - Isolated and provided bug fix for line 153 of ciao_s03.php
+<br><br>
+<li>2001.05.06 - Jimmy Vo and Gerbrand van Dieijen - Notified of incompatibility with Outlook
+<br><br>
+<li>2001.05.10 - Jorge Catena - Notified of a situation where the signup form would not display - http://www.sursur.com/
+<br><br>
+<li>2001.05.18 - Dave Ashmore - Notified of three bugs.
+1)The category editing admin tool did not work after DB upgrade.
+2)The subscriber password field was not always passed into editing form correctly.
+3)The custom lists stats was not working. - http://www.djash.com/
+<br><br>
+<li>2001.06.12 - Jason Chow - Notified of bug where admin login did not work on some servers.  (BD - On investigation, some servers
+"crypt" passwords larger than database field.) - http://www.jasonchow.com/
+<br><br>
+<li>2001.06.12 - John G. Pedersen - Discovered an email address duplication error. - http://www.mobilsiden.dk/
+<br><br>
+<li>2001.06.19 - John G. Pedersen - Discovered a custom category error causing improper display. - http://www.mobilsiden.dk/
+<br><br>
+<li>2001.06.19 - Werner Fischer - Notified of a get_magic_quotes_runtime bug in PHP4.0.4-5 that adversely affected the software. - http://www.wefi.net/
+<br><br>
+<li>2001.06.28 - Alexey Semenovykh - Found some errors with "custom categories" relating to sorting and searching.
+<br><br>
+<li>2001.07.04 - Tony MacDonnell - Found an import error and some "custom category" errors. - http://macdonnell.co.uk/
+<br><br>
+<li>2001.09.02 - Mike Katz - Found a db upgrade bug that only occured when upgrading to a different mysql database. - http://www.myeloma.org/
+<br><br>
+<li>2001.09.02 - Franky - Found a mail port mixup.  The default SMTP port should be 25.
+<br><br>
+<li>2001.09.03 - Michael Mangeng - Found a table locking bug that affected updating category information using the admin interface.
+<br><br>
+<li>2001.09.04 - Jorge E. Catena - Found a bug that affected searching email addresses in pending list. - http://www.sursur.com/
+<br><br>
+<li>2001.09.07 - Paivi Salonen - Found a bug that affected manually verifying in the pending list display. - http://www.scc-fl.com/
+<br><br>
+<li>2001.09.07 - Hubert Bandurski - Informed of a problem with sorting list by domain before a send.
+Some networks block email received over a certain quantity in a small amount of time from the same location.
+Sorting by domain speeds up sending to the same network.
+<br><br>
+<li>2001.09.12 - Hubert Bandurski, Paivi Salonen, Martin Knops - Informed of a problem with sending emails to specific categories.
+When a category is selected and sent to... all subscribers receive email rather than just those in a category.
+<br><br>
+<li>2001.09.24 - Jorge E. Catena - Informed of a problem with importing files and provided excellent test results which helped in finding a solution.
+<br><br>
+<li>2001.10.01 - John G. Pedersen - Informed of a problem with upgrading db from alpha to beta (MySQL). - http://www.mobilsiden.dk/
+<br><br>
+<li>2001.10.01 - John G. Pedersen - Informed of some additional problems with upgrading db from alpha to beta (MySQL). - http://www.mobilsiden.dk/
+<br><br>
+<li>2001.10.16 - Thomas Hedeboe - Informed of an error occuring with function "include_once"
+<br><br>
+<li>2001.10.16 - Leslie & Kevin - Informed of circumstances where the export feature outputs a blank file.
+<br><br>
+<li>2001.10.17 - Thomas Hedeboe - Informed of a "CFG object" parsing error
+<br><br>
+<li>2001.10.17 - Bart - Informed of a bug with verifying when the pre-defined category option is used.
+<br><br> 
+<hr widht="100%">
+Ciao EmailList Manager Download Sites:<br>
+(download site domain)<br>
+<li>http://www.technobreeze.com/
+<li>...
+<li>...
+<li>...
+<li>...
+<br><br>
+<hr widht="100%">
+Enhancements and notifications are welcome.<br>
+Contact Ben at: http://www.technobreeze.com/
+</b></td></tr></table>
+</center></p>
+
+<p align="center"><center>
+<hr WIDTH="90%">
+<font size=+1><a NAME="LICENSE">Ciao EmailList Manager - (LICENSE)</a></font>
+<hr WIDTH="90%">
+</center></p>
+
+<p align="center"><center>
+<table align="center" border="1" bgcolor="#ffffff" cellpadding="15" cellspacing="0" width="90%"><tr><td>
+Ciao-ELM (EmailList Manager) - a customizable mass e-mail program that is administrator/subscriber friendly.<br>
+Copyright (C) 2000, 2001 Ben Drushell
+<br><br>
+This program is free software; you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation; version 2 of the License.
+<br><br>
+This program is distributed in the hope that it will be useful.
+There is NO WARRANTY.  NO implied warranty of MERCHANTABILITY.
+NO implied warranty of FITNESS FOR A PARTICULAR PURPOSE.
+The entire risk is with you.
+See the
+<a href="gpl.txt" target="_blank">GNU General Public License</a>
+for more details.
+<br><br>
+Some modules and classes that are distributed with Ciao-ELM are licensed under the terms of the Lesser General Public License.
+<br><br>
+Copies of the GNU General Public License and GNU Lesser General Public License are included with this program.
+They are also available for download at: http://www.fsf.org/ and http://www.technobreeze.com/license/
+</td></tr></table>
+</center></p>
+
+<p align="center">
+<table bgcolor="#ffffff" align="center" cellpadding="15" cellspacing="0" border="1"><tr><td>
+<small><i>
+Last update to ciaocredits.html was on October 02, 2001
+<br>Ciao EmailList Manager (C) 2000,2001 Ben Drushell - http://www.technobreeze.com/
+<br>PHP (C) 1998 PHP Development Team - http://www.php.net/
+<br>MySQL is a registered trademark of MySQL AB - http://www.mysql.com/
+<br>PostgreSQL portion-(C) by PostgreSQL, Inc. and
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; portion-(C) by Regents of the University of California
+<br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; http://www.postgresql.org/
+<br>GNU is a registered trademark of the Free Software Foundation - http://www.gnu.org/
+</i></small>
+</td></tr></table>
+</p>
+
+</body>
+</html>

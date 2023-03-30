@@ -1,0 +1,29 @@
+#############################################################################################
+#este es el mail que antes enviaba opensrs para comunicar el registro
+#las variables son :
+#nombre  = nombre del cliente
+#dominios = listado de los dominios del cliente.
+#importe =  importe del pago a realizar
+#id_cliente = id del cliente en base de datos
+#saldo = saldo en la cuenta
+#link = enlace de la pagina donde debe realizar el pago
+#############################################################################################
+From=administracion@nombremania.com 
+To={email_cliente} 
+Subject=NombreMania - Factura
+
+Estimado/a {first_name} {last_name}
+
+Este es el enlace a su factura por una nueva operacion realizada 
+en NombreMania.com:
+
+  {link_factura}
+
+Gracias por usar NombreMania. 
+Administracion NombreMania.com
+registros@nombremania.com
+
+Tildes eliminadas intencionadamente.
+
+
+

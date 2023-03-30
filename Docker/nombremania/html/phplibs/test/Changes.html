@@ -1,0 +1,236 @@
+<HTML>
+<HEAD>
+<META NAME="GENERATOR" Content="Microsoft Developer Studio">
+<META HTTP-EQUIV="Content-Type" content="text/html; charset=iso-8859-1">
+<TITLE>Php.XPath Change Log</TITLE>
+  <link href="doc/XPath.css" rel="STYLESHEET" type="text/css">
+</HEAD>
+<BODY>
+
+<table border="0" width="100%">
+	<tr bgcolor="#000000">
+		 <th><FONT size=5><FONT color=#ffffff 
+      face=Arial>Php.XPath Change Log</FONT></FONT>
+		</th>
+	</tr>
+</table>
+
+<h2>Introduction</h2>
+
+<p>Discussion for this module occurs on the 
+<A HREF="mailto:php-xpath-users@lists.sourceforge.net">php-xpath-users@lists.sourceforge.net</a> maillist.  The
+latest version of the source is available at sourceforge at
+<A HREF="http://www.sourceforge.net/projects/phpxpath">http://www.sourceforge.net/projects/phpxpath</A>.
+The module is maintained by Nigel Swinson <A 
+  href="mailto:nigelswinson@users.sourceforge.net">nigelswinson@users.sourceforge.net</A> and Sam Blum <A 
+  href="mailto:bs_php@users.sourceforge.net">bs_php@users.sourceforge.net</A></p>
+
+<P>  Known Bugs Outstanding:</P>
+<UL>
+  <LI><STRONG>Remove Child:</STRONG> a couple of bugs have been found that show that
+  the class is left in a stable but inconsistent state after a remove.  This means
+  further appendChild() calls will possibly fail.</LI>
+  <LI><STRONG>Export error when printing xml header:</STRONG> Needs to force a newline
+  after the &lt?php?&gt line</LI>
+</UL>
+
+<p>Php.XPath Version 2.1 - 8th October</p>
+
+<ul>
+	<li><strong>Project rename to Php.XPath</strong> Previously known as phpxml,
+	it was felt that naming the project Php.XPath would emphasise much better
+	what the project does with XML.</li>	
+</ul>
+
+<p>PhpXml Version 1.6 - 4th October</p>
+
+<p style="margin-left:20">Fixes from this version on are either by Sam or Nigel unless otherwise specified</p>
+
+<ul>
+	<li><strong>Dropped the 'N' from the version number</strong> Michael Mehl has
+	"authorised" 1.N.X as the main branch for this class so we need no longer
+	consider this a branch but the main trunk.  Phew!</li>
+	<li><strong>XML errors are handled better</strong> It'll give you some more
+	help if you have bugs in your XML file now</li>
+	<li><strong>Improve the depreciation code</strong> Allowing a two step upgrade
+	to the new DOM interface</li>
+	<li><strong>Changed the class to use the new DOM interface</strong> 
+	Randomly the class itself was still using the old interface!!!</li>
+	<li><strong>Small but picky bugs:</strong> all over the place really!  Thanks
+	go specifically to Dan <A 
+  href="mailto:bigredlinux@yahoo.com">bigredlinux@yahoo.com</A> For many of these.</li>
+	<li><strong>Improved error handling</strong> The class is now more likely to 
+	tell you why your call failed.  And when it tells you it will be prettier</li>
+	<li><strong>Major re-write of the removeChild() function</strong>. It is 
+	much faster now.  Somewhere along the way it had developed some fairly major 
+	bugs, ie when called it would delete the entire $nodes array.  oops!</li>
+	<li><strong>export bugs</strong> mainly fairly small things.</li>
+	<li><strong>Fixed $this-&gt; errors:</strong> a huge number of embarrisingly minor errors like "$this->" ommisions.</li>
+</ul>
+
+<p>PhpXml Version 1.N.5 - 25th September</p>
+<ul>
+	<li><strong>Text content is output in correct order</strong>: </li>
+	If you have "&lt;P&gt; A &lt;B&gt; B &lt;/B&gt; C 
+  &lt;/P&gt;" this will be output as "&lt;P&gt; A &lt;B&gt; B &lt;/B&gt; C
+  &lt;/P&gt;" not "&lt;P&gt; A C &lt;B&gt; B &lt;/B&gt; &lt;/P&gt;" as it used to
+  be before this version.  Our huge thanks go to Sam Blum <A 
+  href="mailto:bs_php@users.sourceforge.net">bs_php@users.sourceforge.net</A> for this fix.</li>
+	<li><strong>50% speed enhancements on reading and searching</strong>:
+	The add_content function got a serious look over by Sam and has managed to 
+	make seriously visible speed increases. Sam Blum <A 
+  href="mailto:bs_php@users.sourceforge.net">bs_php@users.sourceforge.net</A></li>
+	<li><strong>New DOM style user interface</strong> The public interface was
+	renamed to use DOM style function names.  This should make the learning curve
+	easier for newcommers to the class.  The old style interface is still supported,
+	but is unlikely to be in future releases.</li>
+	<li><strong>Class name change to XPath</strong> After some discussion and
+	thought, it seemed that XPath was a much better name than &quot;XML"&quot; for 
+	the class.  XML doesn't really tell you what the class does, whereas XPath 
+	describes that it is a class that will allow you to search using the XPath 
+	standard.  ie exactly what it is.  The modification functions are kinda added
+	'cos the tree is already there, but principly this module is about searching
+	using XPath and retrieving the content.  
+	<li><strong>Filename changed to xpath.class.php</strong>The filename has also 
+	been changed to reflect the change of name for the class</li>
+	<li><strong>Documentation added to the 1.N branch</strong> In the form of a perl script
+	that automatically produces an XML file, that is combined with an XSL to produce
+	the documentation.  This should allow you to quickly update the documentation 
+	when you make your own changes.</li>
+	<li><strong>Stacks of style changes.</strong> Re-grouping of functions,
+	comments change to //, etc, etc.</li>
+</ul>
+
+<P>PhpXml Version 1.N.4 - 23rd July</P>
+<UL>
+  <LI><STRONG>Added debugging to get_file_internal()</STRONG></LI>
+  <LI><STRONG>evaluate_step optimisation: </STRONG>Optimised the evaluate_step 
+  function so that it observed input with an array of only 1 element.&nbsp; This 
+  happens really often as if you search for /Path1[3]/Path2[6] then you will end 
+  up calling evaluate_step with an array with only 1 element both for Path1 and 
+  for Path2.</LI>
+  <LI><STRONG>evaluate_predicate bug:</STRONG> Missing break statements in the 
+  switch statement mean that all operators ended up being evaluated as 
+  mod.&nbsp; ie frequent div/0 errors. :o(</LI>
+  <LI><STRONG>evaluate_predicate optimisation:</STRONG> Given that evaluating 
+  something like contains(Field, 'substring') ends up with about 10 function 
+  calls, it seems like a good idea not to as often as possible, so if you search 
+  using the and operator, it will not needlessly evaluate arg2 if arg1 is 
+  false.</LI>
+  <LI><STRONG>check_predicates optimization:</STRONG> Reduced function call 
+  count by 3 for /Path[position()] XPath searches.</LI></UL>
+
+<P>PhpXml Version 1.N.3 - 19th July</P>
+<UL>
+  <LI><STRONG>get_names() function added</STRONG>: Function to retrieve the 
+  names of a set of nodes.&nbsp; Written by Andrei Zmievski <A 
+  href="mailto:andrei@php.net">andrei@php.net</A>
+  <LI><STRONG>Nested functions now supported:</STRONG> phpxml did look for the next ) after the opening ( and 
+  considered that to be the function.&nbsp; Of course when you have nested calls 
+  this doesn't work.. Andrei Zmievski noticed and fixed this. 
+  <LI><STRONG>XML_OPTION_SKIP_WHITE switched off: 
+  </STRONG>If we want to keep spaces in the CDATA, then we set this to 0. Most 
+  people generally want to keep space, and you can call trim() but there's no 
+  untrim() is there? Francis Fillion investigated this one <A 
+  href="mailto:francisf@videotron.ca">francisf@videotron.ca</A>.
+  <LI><STRONG>load_string ( $content ):</STRONG> Function now allows you to load 
+  the object form a string instead of a file.&nbsp; Very handy :o)&nbsp; Francis 
+  Fillion <A href="mailto:francisf@videotron.ca">francisf@videotron.ca</A>. 
+  wrote this one.
+  <LI><STRONG>Debugging code added:</STRONG> For some functions, you'll find a $b_debug_this_function =       
+    false line at the top of the function.&nbsp; Set this 
+  to true for the functions you are debugging and you'll get a stack trace of 
+  the execution as you go through the function.&nbsp; This method has proved 
+  invaluable to me in worth with other scripts.</LI></UL>
+
+<P>PhpXml Version 1.N.2 - 16th July</P>
+<UL>
+  <LI><STRONG>XPath literal strings:</STRONG> XPath literal strings were being 
+  interpreted as XPath expressions.&nbsp;</LI></UL>
+
+<P>PhpXml Version 1.N.1</P>
+<UL>
+  <LI><STRONG>Undefined index errors:</STRONG> It   
+includes all of
+  the Marko Faldix&nbsp;<A
+  href ='3D"mailto:mf@mrinfo.de"'  mailto:mf@mrinfo.de??? mailto:mf@mrinfo.de??>mf@mrinfo.de</A>&nbsp;undefined index   
+errors, and
+  all of the Tim Strehle <A
+  href='3D"mailto:tim@digicol.de"'  mailto:tim@digicol.de??? mailto:tim@digicol.de??>tim@digicol.de</A> &nbsp;undefined  
+  index errors.&nbsp; Also some I found too which could be duplicates 
+
+             
+just&nbsp;fixed in a
+  different way...
+  <LI><STRONG>&amp;apos</STRONG> has been removed
+  <LI><STRONG>get_file has been renamed to
+  get_file_as_html</STRONG> 
+   as it is a somewhat misleading name for  the    function anyway.&nbsp; get_file_as_html() is implemented by 
+get_file_internal()
+        
+which
+  is mostly a copy of get_file<STRONG>.</STRONG>
+  <LI><STRONG>get_file_as_xml </STRONG>This is a function  that 
+  will return you a buffer that can in it's entirity be dumped to an 
+  output file.&nbsp; it includes the &lt;?xml version... ?&gt; 
+line too.&nbsp;
+               Very
+   useful function.&nbsp; The support for this was added 
+to
+           
+get_file_internal()
+  so that it will quote &lt; &gt; and &amp; only if it is called from
+  get_file_as_html.
+  <LI><STRONG>stripslashes</STRONG> I don't bother  calling 
+  addslashes to all the data that the class holds, as this just gets  really 
+  inconvenient.&nbsp; xmlphp should be able to read in from file and  write 
+  out as xml without altering the logical content of the data 
+and
+               
+addslashes()
+    restricts this.&nbsp; Addslashes is useful for data that you 
+use in
+            php 
+or
+   javascript&nbsp;strings, but xml can handle ' " and \ so 
+why escape
+      them?&nbsp; Consequently all addslahes and stripslashes calls have
+          
+been
+  removed.
+  <LI><STRONG>Output formating</STRONG> I've changed the  rules for output formatting so as to 
+  preserve "content" more effectively.&nbsp; Consequently if an element has only 
+  content, it will be written as  "&lt;Tag&gt;Text&lt;/Tag&gt;" as opposed to    
+           
+            
+ 
+      "&lt;Tag&gt;\n\tText\n&lt;Tag&gt;\n".&nbsp;This makes for a more
+             
+     
+        
+compact
+  output.
+  <LI><STRONG>Whitespace is preserved</STRONG> When space  is read, 
+  it is added to the content of the node.&nbsp; It is only when the end  tag 
+  is read that whitespace is potentially discarded.&nbsp; Even then    
+whitespace is
+                 
+only discardedif
+  the entire text content of the node is 
+ whitespace.&nbsp;
+      This strips "meaningless" whitespace that facilitates formatting 
+of
+          
+the xml
+  file, while preserving whitespace in text.
+  <LI><STRONG>Boolean predicates didn't    
+work&nbsp;</STRONG> The
+  check_predicates function didn't work with <STRONG>and </STRONG>and
+  <STRONG>or</STRONG> because the return value of bool was being     
+                
+interpreted as
+  an integer and being considered to be an index instead of a true or
+  false.&nbsp; This has been fixed.</LI></UL>
+
+</BODY>
+</HTML>

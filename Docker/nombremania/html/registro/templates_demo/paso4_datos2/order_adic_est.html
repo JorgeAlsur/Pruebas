@@ -1,0 +1,240 @@
+<html><!-- #BeginTemplate "/Templates/nm2_demo_clientes.dwt" -->
+<head>
+<!-- #BeginEditable "doctitle" --> 
+<title>Suportal.com</title>
+<!-- #EndEditable --> 
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="/Templates/nm2_base_registro.css" type="text/css">
+<script language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+function MM_popupMsg(msg) { //v1.0
+  alert(msg);
+}
+//-->
+
+</script>
+</head>
+<body bgcolor="#ffffff">
+<table border="0" cellpadding="0" cellspacing="0" width="627">
+  <tr> 
+    <td><img src="/images/spacer.gif" width="12" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="611" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="4" height="1" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="1" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img name="superior" src="/images/superior.gif" width="627" height="41" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="41" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/images/izqui1.gif"><img name="izqui1" src="/images/izqui1.gif" width="12" height="5" border="0"></td>
+    <td rowspan="2" valign="top"> 
+      <table width="100%" border="0" cellspacing="0" cellpadding="12" height="100%">
+        <tr>
+          <td align="center"><!-- #BeginEditable "contenido" --> 
+      <form method=post action="{{CGI}}" >
+        <table border=0 cellpadding=3 cellspacing=0 width="520" bgcolor="#ffffff">
+          <tr> 
+            <td align=left colspan="2" class="titu_pags"><span class="titu_pags_previo">{{reg_text}} 
+              de Dominio</span><br>
+              <b>FORMULARIO DE SOLICITUD (2)</b></td>
+          </tr>
+          <tr> 
+            <td align=left colspan="2"> <br>
+              <table border=0 width=100% cellpadding="2" cellspacing="1">
+                <tr> 
+                  <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Servicio 
+                    contratado:</b></td>
+                  <td align=left class="td_form_valor"><span class="body_9">{{nm_registro_tipo_text}}</span></td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Dominios:</b></td>
+                  <td align=left class="td_form_valor"><b class="matches">{{domains}}</b></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Importe:</b></td>
+                  <td align=left class="td_form_valor"><span class="body_9">{{nm_preciototal}} 
+                    (<a href="#" onClick="MM_openBrWindow('/ayuda/nif.html','ayuda','width=300,height=400')"><b>IVA 
+                    NO INCLUIDO</b></a>) </span></td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Periodo 
+                    del registro:</b></td>
+                  <td align=left class="td_form_valor"> <span class="body_9">{{period_text}} 
+                    </span> </td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Basado 
+                    en Perfi:</b></td>
+                  <td align=left class="td_form_valor"> <span class="body_9">{{reg_profile}}</span> 
+                  </td>
+                </tr>
+                <tr> 
+                  <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Tipo</b>:</td>
+                  <td align=left class="td_form_valor"> <span class="body_9">{{reg_type_text}}</span> 
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <tr> 
+            <td colspan="2"> 
+              <table width="100%">
+                <tr> 
+                  <td colspan=2 align=left bgcolor="#003366" class="titu_secciones"> 
+                    Datos del Contacto T&eacute;cnico <a href="#" onClick="MM_openBrWindow('/ayuda/ventana.html#tecnico','ayuda','scrollbars=yes,width=300,height=400')"><img src="../../../imagenes/ico_ayuda2.gif" width="16" height="16" align="absmiddle" border="0" alt="Ayuda"></a> 
+                  </td>
+                </tr>
+                <tr bgcolor="#FFFFCC" align="left"> 
+                  <td colspan=2> <b><font face="Verdana, Arial, Helvetica, sans-serif"><font size="1"> 
+                    <input type=checkbox name=flag_tech_use_contact_info checked class="input_radios" value=1>
+                    </font></font>Usar los mismos datos anteriores del titular</b></td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Nombre:</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_first_name" size=15 value="{{tech_first_name}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Apellido:</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_last_name" size=15 value="{{tech_last_name}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo" height="29"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Empresa:</b></font></td>
+                  <td class="td_form_valor" height="29"> 
+                    <input name="tech_org_name" size=35 value="{{tech_org_name}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                    (l&iacute;nea 1):</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_address1" size=35 value="{{tech_address1}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                    (l&iacute;nea 2):</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_address2" size=35 value="{{tech_address2}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo" width="145"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Direcci&oacute;n 
+                    (l&iacute;nea 3)</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_address3" size=35 value="{{tech_address3}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Localidad:</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_city" size=15 value="{{tech_city}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Provincia:</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_state" size=15 value="{{tech_state}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Pa&iacute;s 
+                    :</b></font></td>
+                  <td class="td_form_valor"> {{tech_country}} </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>C&oacute;digo 
+                    Postal :</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_postal_code" size=15 value="{{tech_postal_code}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Tel&eacute;fono 
+                    :</b></font></td>
+                  <td class="td_form_valor"> <font face="Verdana, Arial, Helvetica, sans-serif" size="1" color="#FF0000"> 
+                    <input name="tech_phone" size=20 value="{{tech_phone}}">
+                    (Formato correcto: +34.987654321) </font></td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font color="red" size="1" face="Verdana, Arial, Helvetica, sans-serif"> 
+                    </font> <font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Fax</b></font><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b> 
+                    :</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_fax" size=20 value="{{tech_fax}}">
+                    <font color="red" size="1" face="Verdana, Arial, Helvetica, sans-serif">**opcional</font> 
+                  </td>
+                </tr>
+                <tr> 
+                  <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Email 
+                    :</b></font></td>
+                  <td class="td_form_valor"> 
+                    <input name="tech_email" size=35 value="{{tech_email}}">
+                  </td>
+                </tr>
+                <tr> 
+                  <td colspan=2 align=center><img src="../../../imagenes/shim.gif" width="4" height="10"></td>
+                </tr>
+              </table>
+              {{otro_paso}} 
+              <input type=hidden name=action value="otro_paso">
+            </td>
+          </tr>
+          <tr align="center"> 
+            <td colspan="2"> 
+              <center>
+                <input type="image" border="0" name="x_imageField2" src="../../../imagenes/continuar.gif" align="middle">
+                <br>
+              </center>
+            </td>
+          </tr>
+        </table>
+      </form>
+      <!-- #EndEditable --></td>
+        </tr>
+      </table>
+    </td>
+    <td background="/images/dere1.gif"><img name="dere1" src="/images/dere1.gif" width="4" height="5" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="5" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/images/izqui1.gif"><img name="izqui2" src="/images/izqui2.gif" width="12" height="497" border="0"></td>
+    <td background="/images/dere2.gif"><img name="dere2" src="/images/dere2.gif" width="4" height="497" border="0"></td>
+    <td><img src="/images/spacer.gif" width="1" height="497" border="0"></td>
+  </tr>
+  <tr> 
+    <td colspan="3"><img name="inferior" src="/images/inferior.gif" width="627" height="30" border="0" usemap="#inferiorMap"></td>
+    <td><img src="/images/spacer.gif" width="1" height="30" border="0"></td>
+  </tr>
+</table>
+<map name="inferiorMap"> 
+  <area shape="rect" coords="37,6,228,21" href="http://www.nombremania.com/home.php" target="new">
+</map>
+</body>
+<!-- #EndTemplate --></html>

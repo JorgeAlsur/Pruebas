@@ -1,0 +1,1364 @@
+<?xml version="1.0"?>
+<PhpDocumentation>
+	<Function>
+		<FunctionName>XML</FunctionName>
+		<Prototype>function XML($fileName = '')</Prototype>
+		<LineNumber>66</LineNumber>
+		<Deprecate>Use XPath() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>load_file</FunctionName>
+		<Prototype>function load_file($fileName)</Prototype>
+		<LineNumber>76</LineNumber>
+		<Deprecate>Use importFromFile() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>load_string</FunctionName>
+		<Prototype>function load_string($xmlString)</Prototype>
+		<LineNumber>86</LineNumber>
+		<Deprecate>Use importFromString() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>grab</FunctionName>
+		<ShortComment>Given a context this function returns the containing XML</ShortComment>
+		<Prototype>function grab($absoluteXPathArray = '', $index = 0)</Prototype>
+		<LineNumber>108</LineNumber>
+		<Comment>This method takes a context, which is derived from the evaluate 
+function, and it returns the XML that is contained within this
+node</Comment>
+		<Parameters>
+		<Param>array absoluteXPathArray an array of absolute XPath  addresses to nodes.</Param>
+		<Param>int $index which of the results of the absoluteXPathArray  to use.</Param>
+		</Parameters>
+		<Return>string The string returned is valid XML</Return>
+		<See>exportAsXml(), evaluate()</See>
+		<Deprecate>Use exportAsXml() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>get_as_xml_file</FunctionName>
+		<Prototype>function get_as_xml_file()</Prototype>
+		<LineNumber>118</LineNumber>
+		<Deprecate>Use exportAsXml() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>get_as_html_file</FunctionName>
+		<Prototype>function get_as_html_file($highlight = array())</Prototype>
+		<LineNumber>128</LineNumber>
+		<Deprecate>Use exportAsHtml() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>add_node</FunctionName>
+		<Prototype>function add_node($absoluteParentPath, $nodeName)</Prototype>
+		<LineNumber>138</LineNumber>
+		<Deprecate>Use appendChild() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>remove_node</FunctionName>
+		<Prototype>function remove_node($absoluteXPath)</Prototype>
+		<LineNumber>148</LineNumber>
+		<Deprecate>Use removeChild() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>add_content</FunctionName>
+		<Prototype>function add_content($absoluteXPath, $value)</Prototype>
+		<LineNumber>158</LineNumber>
+		<Deprecate>Use appendData() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>set_content</FunctionName>
+		<Prototype>function set_content($absoluteXPath, $value, $append=FALSE)</Prototype>
+		<LineNumber>168</LineNumber>
+		<Deprecate>Use replaceData() and appendData() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>get_content</FunctionName>
+		<Prototype>function get_content($absoluteXPath)</Prototype>
+		<LineNumber>178</LineNumber>
+		<Deprecate>Use substringData() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>add_attributes</FunctionName>
+		<ShortComment>Add attributes to a node.</ShortComment>
+		<Prototype>function add_attributes($absoluteXPath, $attributes, $overwrite = TRUE)</Prototype>
+		<LineNumber>200</LineNumber>
+		<Comment>This method adds attributes to a node. Existing attributes *WILL BE*
+overwritten unless $overwrite is set to FALSE.</Comment>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node, the  attributes should be added to.  *READONLY*</Param>
+		<Param>array $attributes Associative array containing the new attributes for the node.  *READONLY*</Param>
+		<Param>bool $overwrite TRUE (=default): overwite attibutes /  FALSE:  Will not overwite existing attibutes *READONLY*</Param>
+		</Parameters>
+		<See>getAttributes(), setAttributes(), removeAttributes()</See>
+		<Deprecate>Use setAttributes() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>set_attributes</FunctionName>
+		<ShortComment>Sets the attributes of a node.</ShortComment>
+		<Prototype>function set_attributes ($absoluteXPath, $attributes)</Prototype>
+		<LineNumber>231</LineNumber>
+		<Comment>This method sets the attributes of a node and overwrites all existing
+attributes by doing this.</Comment>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node,  the attributes of which should be set. *READONLY*</Param>
+		<Param>array $attributes Associative array containing the new attributes for the node. *READONLY*</Param>
+		</Parameters>
+		<See>getAttributes(), setAttributes(), removeAttributes()</See>
+		<Deprecate>Use setAttributes() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>get_attributes</FunctionName>
+		<Prototype>function get_attributes($absoluteXPath)</Prototype>
+		<LineNumber>246</LineNumber>
+		<Deprecate>Use getAttributes() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>get_name</FunctionName>
+		<Prototype>function get_name($absoluteXPath)</Prototype>
+		<LineNumber>256</LineNumber>
+		<Deprecate>Use nodeName() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>get_names</FunctionName>
+		<Prototype>function get_names($absoluteXPaths)</Prototype>
+		<LineNumber>267</LineNumber>
+		<Deprecate>Use nodeName() instead</Deprecate>
+	</Function>
+	<Function>
+		<FunctionName>XPath</FunctionName>
+		<ShortComment>Constructor of the class</ShortComment>
+		<Prototype>function XPath($fileName='', $userXmlOptions=array())</Prototype>
+		<LineNumber>294</LineNumber>
+		<Comment>This constructor initializes the class and, when a filename is given,
+tries to read and parse the given file.
+You may also set the XML parsing parameters with an array. 
+E.g. $xmlOpt = array(XML_OPTION_CASE_FOLDING =&gt; FALSE);</Comment>
+		<Parameters>
+		<Param>$fileName string  Path and name of the file to read and parsed.</Param>
+		<Param>$userXmlOptions array vector array of (&lt;optionID&gt;=&gt;&lt;value&gt;, &lt;optionID&gt;=&gt;&lt;value&gt;, ...)</Param>
+		</Parameters>
+		<See>importFromFile(), importFromString()</See>
+	</Function>
+	<Function>
+		<FunctionName>setCaseFolding</FunctionName>
+		<ShortComment>Controls whether case-folding is enabled for this XML parser.</ShortComment>
+		<Prototype>function setCaseFolding($onOff=TRUE)</Prototype>
+		<LineNumber>325</LineNumber>
+		<Comment>In other words, when it comes to XML, case-folding simply means uppercasing.
+all tag- and attribute-names (NOT the content) if set to TRUE.</Comment>
+		<Author>Sam Blum </Author>
+		<Parameters>
+		<Param>$onOff bool (default TRUE) </Param>
+		</Parameters>
+	</Function>
+	<Function>
+		<FunctionName>setSkipWhiteSpaces</FunctionName>
+		<ShortComment>Controls whether skip-white-spaces is enabled for this XML parser.</ShortComment>
+		<Prototype>function setSkipWhiteSpaces($onOff=TRUE)</Prototype>
+		<LineNumber>338</LineNumber>
+		<Comment>In other words, when it comes to XML, skip-white-spaces will trim
+the tag content (=the CDATA) </Comment>
+		<Author>Sam Blum </Author>
+		<Parameters>
+		<Param>$onOff bool (default TRUE) </Param>
+		</Parameters>
+	</Function>
+	<Function>
+		<FunctionName>setXmlOption</FunctionName>
+		<ShortComment>xml_parser_set_option -- set options in an XML parser.</ShortComment>
+		<Prototype>function setXmlOption($optionID, $value)</Prototype>
+		<LineNumber>352</LineNumber>
+		<Comment>See 'XML parser functions' in PHP doc</Comment>
+		<Author>Sam Blum </Author>
+		<Parameters>
+		<Param>$optionID int The option ID (e.g. XML_OPTION_SKIP_WHITE)</Param>
+		<Param>$value int The option value.</Param>
+		</Parameters>
+		<See>XML parser functions in PHP doc</See>
+	</Function>
+	<Function>
+		<FunctionName>importFromFile</FunctionName>
+		<ShortComment>Reads a file and parses the XML data.</ShortComment>
+		<Prototype>function importFromFile($fileName)</Prototype>
+		<LineNumber>369</LineNumber>
+		<Comment>This method reads the content of a XML file, tries to parse its
+content and upon success stores the information retrieved from
+the file into an array.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $fileName Path and name of the file to be read and parsed.</Param>
+		</Parameters>
+		<See>_handleStartElement(), _handleEndElement(), _handleCharacterData(), importFromString()</See>
+	</Function>
+	<Function>
+		<FunctionName>importFromString</FunctionName>
+		<ShortComment>Reads a string and parses the XML data.</ShortComment>
+		<Prototype>function importFromString($xmlString)</Prototype>
+		<LineNumber>401</LineNumber>
+		<Comment>This method reads the content of a XML string, tries to parse its
+content and upon success stores the information retrieved from
+the string into an array.</Comment>
+		<Author>Francis Fillion &lt;ffillion@infotopie.com&gt; modified from Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $xmlString name of the string to be read and parsed.</Param>
+		</Parameters>
+		<See>_handleStartElement(), _handleEndElement(), _handleCharacterData(), importFromFile()</See>
+	</Function>
+	<Function>
+		<FunctionName>exportAsHtml</FunctionName>
+		<ShortComment>Given a context this function returns the containing XML as marked up HTML</ShortComment>
+		<Prototype>function exportAsHtml($absoluteXPath = '', $highlight = array())</Prototype>
+		<LineNumber>459</LineNumber>
+		<Comment>This method takes the absolute path to a node in the XML object
+which is derived from the evaluate function, and it returns the 
+XML that is contained within this node as a string as marked up
+html suitable for outputing inline to an HTML file for display or
+debugging reasons.  So &lt;&gt; etc are replaced by &amp;lt; and &amp;gt;</Comment>
+		<Author>Nigel Swinson &lt;nigelswinson@users.sourceforge.net&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteXPath The path to the current node</Param>
+		</Parameters>
+		<Return>string The string returned is valid XML</Return>
+		<See>exportAsXml(), exportToFile(), evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>exportAsXml</FunctionName>
+		<ShortComment>Given a context this function returns the containing XML</ShortComment>
+		<Prototype>function exportAsXml($absoluteXPath = '')</Prototype>
+		<LineNumber>502</LineNumber>
+		<Comment>This method takes the absolute path to a node in the XML object
+which is derived from the evaluate function, and it returns the 
+XML that is contained within this node as a string.</Comment>
+		<Author>Nigel Swinson &lt;nigelswinson@users.sourceforge.net&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteXPath The path to the current node</Param>
+		</Parameters>
+		<Return>string The string returned is valid XML</Return>
+		<See>exportAsHtml(), exportToFile(), evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>exportToFile</FunctionName>
+		<ShortComment>Generates a XML file with the content of the relevant portion of the current document.</ShortComment>
+		<Prototype>function exportToFile($fileName, $absoluteXPath='', $xmlHeader='&lt;?xml version="1.0"?&gt;')</Prototype>
+		<LineNumber>535</LineNumber>
+		<Comment>This method creates a string containing the XML data being read
+and modified by this class before. This string can be used to save
+a modified document back to a file or doing other nice things with
+it.  It encludes a &lt;?xml ...&gt; tag at the start of the data too.</Comment>
+		<Author>Nigel Swinson &lt;nigel@swinson.com&gt;</Author>
+		<Return>string The returned string contains well-formed XML data representing the content of this document suitable for writing out to a file.</Return>
+		<See>importFromFile(), evaluate(), exportAsHtml()</See>
+	</Function>
+	<Function>
+		<FunctionName>match</FunctionName>
+		<ShortComment>Evaluates an XPath expression.</ShortComment>
+		<Prototype>function match($xPathQuery, $baseXPath='')</Prototype>
+		<LineNumber>598</LineNumber>
+		<Comment>This method tries to evaluate an XPath expression by parsing it. A
+XML document has to be read before this method is able to work.</Comment>
+		<Parameters>
+		<Param>string $xPathQuery XPath expression to be evaluated.</Param>
+		<Param>string $context Full path of a document node, starting from which the XPath expression should be evaluated.</Param>
+		</Parameters>
+		<Return>array The returned array contains a list of the full document paths of all nodes that match the evaluated XPath expression.</Return>
+	</Function>
+	<Function>
+		<FunctionName>evaluate</FunctionName>
+		<ShortComment>Alias for the match function</ShortComment>
+		<Prototype>function evaluate($xPathQuery, $baseXPath='')</Prototype>
+		<LineNumber>607</LineNumber>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>nodeName</FunctionName>
+		<ShortComment>Retrieves the names of a group of document nodes.</ShortComment>
+		<Prototype>function nodeName($absoluteXPath)</Prototype>
+		<LineNumber>662</LineNumber>
+		<Comment>This method retrieves the names of a group of document nodes
+specified in the argument.  So if the argument was '/A[1]/B[2]' then it
+would return 'B' if the node did exist in the tree.</Comment>
+		<Parameters>
+		<Param>array or string $absoluteXPath Array or single full document  path(s) of the node(s), from which the names should be  retrieved.</Param>
+		</Parameters>
+		<Return>array or string The returned array contains either an array  of the names of the specified nodes, or just the individual name.</Return>
+	</Function>
+	<Function>
+		<FunctionName>getAttributes</FunctionName>
+		<ShortComment>Retrieves a list of all attributes of a node.</ShortComment>
+		<Prototype>function getAttributes($absoluteXPath, $attribute = '')</Prototype>
+		<LineNumber>725</LineNumber>
+		<Comment>This method retrieves a list of all attributes of the node specified in
+the argument.  If you only want the value of 1 attribute, then you may
+specify that attribute as a parameter</Comment>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node, from  which the list of attributes should be retrieved. *READONLY*</Param>
+		<Param>string $attribute the name of the attribute that you wish to retrieve or empty if you wish to retrive all of the attributes in an associative array. *READONLY*</Param>
+		</Parameters>
+		<Return>array or string The returned associative array contains the all attributes of the specified node, or the individual $attribute if that parameter was specified.</Return>
+		<See>removeAttribute(), setAttribute()</See>
+	</Function>
+	<Function>
+		<FunctionName>setAttribute</FunctionName>
+		<ShortComment>Set attributes to a node.</ShortComment>
+		<Prototype>function setAttribute($absoluteXPath, $name, $value)</Prototype>
+		<LineNumber>764</LineNumber>
+		<Comment>This method sets a number of attributes.  Existing attributes
+overwritten with the new values, but existing attributes will not be
+overwritten.</Comment>
+		<Parameters>
+		<Param>string $xPathQuery Full document path of the node, the attributes should be added to.</Param>
+		<Param>array $attributes Associative array containing the new attributes for the node</Param>
+		</Parameters>
+		<See>getAttribute(), removeAttribute()</See>
+	</Function>
+	<Function>
+		<FunctionName>setAttributes</FunctionName>
+		<ShortComment>Version of setAttribute() that sets multiple attributes.</ShortComment>
+		<Prototype>function setAttributes($absoluteXPath, $attributes)</Prototype>
+		<LineNumber>774</LineNumber>
+		<Parameters>
+		<Param>$attributes associative array of attributes to set.</Param>
+		</Parameters>
+		<See>setAttribute()</See>
+	</Function>
+	<Function>
+		<FunctionName>removeAttribute</FunctionName>
+		<ShortComment>Removes an attribute of a node.</ShortComment>
+		<Prototype>function removeAttribute($absoluteXPath, $attribute = '')</Prototype>
+		<LineNumber>811</LineNumber>
+		<Comment>This method removes either a single, or a group of attributes from a node.</Comment>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node, from  which the list of attributes should be retrieved. *READONLY*</Param>
+		<Param>string or array $attribute the name or names of the attribute(s) that you wish to remove.  If $attribute is empty, then all attributes will be removed for the node. *READONLY*</Param>
+		</Parameters>
+		<See>getAttribute(), setAttribute()</See>
+	</Function>
+	<Function>
+		<FunctionName>getData</FunctionName>
+		<ShortComment>Retrieves the content of a node.</ShortComment>
+		<Prototype>function &amp;getData($absoluteXPath)</Prototype>
+		<LineNumber>858</LineNumber>
+		<Comment>Short cut for substringData().  See it for details</Comment>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node, from  which the content should be retrieved. *READONLY*</Param>
+		</Parameters>
+		<Return>string The returned string contains either the value or the character data of the node.</Return>
+		<See>substringData()</See>
+	</Function>
+	<Function>
+		<FunctionName>getDataParts</FunctionName>
+		<ShortComment>Retrieves the content of a node in sections.</ShortComment>
+		<Prototype>function &amp;getDataParts($absoluteXPath)</Prototype>
+		<LineNumber>875</LineNumber>
+		<Comment>Retrieves the text content of a node as an array, where each element
+of the array was interrupted by a child element.  So if the node
+was &lt;a&gt;1&lt;b&gt;2&lt;/b&gt;3&lt;c/&gt;4&lt;/a&gt; Then getDataParts('a[1]') would return ('1','3','4')</Comment>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node, from  which the content should be retrieved. *READONLY*</Param>
+		</Parameters>
+		<Return>string The returned string contains either the value or the character data of the node.</Return>
+		<See>getData(), substringData()</See>
+	</Function>
+	<Function>
+		<FunctionName>substringData</FunctionName>
+		<ShortComment>Retrieves all or part of the content of a node.</ShortComment>
+		<Prototype>function &amp;substringData($absoluteXPath, $offset = 0, $count = 0)</Prototype>
+		<LineNumber>911</LineNumber>
+		<Comment>This method retrieves the content of a node. If it's an attribute
+node, then the value of the attribute will be retrieved, otherwise
+it'll be the character data of the node.  If the element had child
+elements, then the text parts will be joined together to form the
+result.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node, from  which the content should be retrieved. *READONLY*</Param>
+		<Param>number $offset Return the string starting at this offset.  *READONLY*</Param>
+		<Param>number $count Return a maximum of count characters.  0 means  entire string. *READONLY*</Param>
+		</Parameters>
+		<Return>string The returned string contains either the value or the character data of the node.</Return>
+		<See>getData(), getDataParts()</See>
+	</Function>
+	<Function>
+		<FunctionName>replaceData</FunctionName>
+		<ShortComment>Set the content of a node.</ShortComment>
+		<Prototype>function replaceData($absoluteXPath, $value)</Prototype>
+		<LineNumber>972</LineNumber>
+		<Comment>This method sets the content of a node. If it's an attribute node, then
+the value of the attribute will be set, otherwise the character data of
+the node will be set. Existing content will be overwritten.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteXPath Full document path of the node. *READONLY*</Param>
+		<Param>string $value String containing the content to be set. *READONLY*</Param>
+		</Parameters>
+		<See>appendData(), deleteData()</See>
+	</Function>
+	<Function>
+		<FunctionName>appendData</FunctionName>
+		<ShortComment>Append text content to the end of the text for a node.</ShortComment>
+		<Prototype>function appendData($absoluteXPath, $value)</Prototype>
+		<LineNumber>988</LineNumber>
+		<Comment>This method adds content to a node. If it's an attribute node, then
+the value of the attribute will be set, otherwise the character data of
+the node will be set. The content is appended to existing content,
+so nothing will be overwritten.</Comment>
+		<Parameters>
+		<Param>string $xPathQuery Full document path of the node. *READONLY*</Param>
+		<Param>string $value String containing the content to be added. *READONLY*</Param>
+		</Parameters>
+		<See>replaceData(), deleteData()</See>
+	</Function>
+	<Function>
+		<FunctionName>deleteData</FunctionName>
+		<ShortComment>Delete text content of a node.</ShortComment>
+		<Prototype>function deleteData($absoluteXPath, $offset=0, $count=0)</Prototype>
+		<LineNumber>1005</LineNumber>
+		<Comment>Deletes a max of $count characters starting at $offset from the text content 
+for a node.</Comment>
+		<Parameters>
+		<Param>string $xPathQuery Full document path of the node. *READONLY*</Param>
+		<Param>number $offset Return the string starting at this offset.  *READONLY*</Param>
+		<Param>number $count Return a maximum of count characters.  0 means  entire string. *READONLY*</Param>
+		</Parameters>
+		<Return>string The new text value.</Return>
+	</Function>
+	<Function>
+		<FunctionName>removeChild</FunctionName>
+		<ShortComment>Removes a node from the XML document.</ShortComment>
+		<Prototype>function removeChild($absoluteXPath)</Prototype>
+		<LineNumber>1035</LineNumber>
+		<Comment>This method removes a node from the tree of nodes of the XML document.
+If the node is a document node, all children of the node and its
+character data will be removed. If the node is an attribute node,
+only this attribute will be removed, the node to which the attribute
+belongs as well as its children will remain unmodified.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteXPath Full path of the node to be removed.</Param>
+		</Parameters>
+		<See>appendChild(), hasChildNodes(), evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>appendChild</FunctionName>
+		<ShortComment>Adds a new node to the XML document.</ShortComment>
+		<Prototype>function appendChild($absoluteParentPath, $nodeName)</Prototype>
+		<LineNumber>1340</LineNumber>
+		<Comment>This method adds a new node to the tree of nodes of the XML document
+being handled by this class. The new node is created according to the
+parameters passed to this method.
+
+It it assumed that adding starts with root and new nodes must have a 
+corresponding parent. Otherwise the add will be ignored.
+Node stucture:
+     [&lt;path&gt;]['name']          // &lt;nodeName&gt;
+     [&lt;path&gt;]['doc-pos']       // Path-'depth' starting with 0
+     [&lt;path&gt;]['context-pos']   // child order
+     [&lt;path&gt;]['parent']        // &lt;parent path&gt;
+     [&lt;path&gt;]['children']      // array(&lt;xPathFragment&gt;, ...)         e.g. array(AAA[1],AAA[2],BBB[1])
+     [&lt;path&gt;]['childCount']    // array(&lt;nodeName&gt; =&gt; &lt;child Count&gt;, ...)
+     [&lt;path&gt;]['attributes']    // array(&lt;attrName&gt; =&gt; &lt;attrVal&gt;, ...)
+     [&lt;path&gt;]['text']          // array of text parts: E.g. &lt;A&gt;hello&lt;B/&gt;world&lt;/A&gt; -&gt; array('hello','world')</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteParentPath Full path of the parent, to which the new node should be added as a child. *READONLY*</Param>
+		<Param>string $nodeName Name of the new node. *READONLY*</Param>
+		</Parameters>
+		<Return>string The string returned by this method will contain the full document path of the created node.</Return>
+		<See>removeChild(), hasChildNodes(), evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>hasChildNodes</FunctionName>
+		<ShortComment>Returns TRUE if the given node has child nodes below it</ShortComment>
+		<Prototype>function hasChildNodes($absoluteXPath)</Prototype>
+		<LineNumber>1417</LineNumber>
+		<Author>Dietrich Ayala &lt;dietrich@ganx4.com&gt;</Author>
+		<Parameters>
+		<Param>string $absoluteXPath full path of the potentail parent node *READONLY*</Param>
+		</Parameters>
+		<Return>bool TRUE if this node exists and has a child, FALSE otherwise</Return>
+		<See>removeChild(), appendChild(), evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>reset</FunctionName>
+		<ShortComment>Resets the object so it's able to take a new xml sting/file</ShortComment>
+		<Prototype>function reset()</Prototype>
+		<LineNumber>1429</LineNumber>
+		<Author>Sam Blume bs_php@infeer.com </Author>
+	</Function>
+	<Function>
+		<FunctionName>_export</FunctionName>
+		<ShortComment>Generates a XML file with the content of the current document.</ShortComment>
+		<Prototype>function _export($highlight = array(), $currentXpath = '', $level = 0, $output_as_xml = 0)</Prototype>
+		<LineNumber>1581</LineNumber>
+		<Comment>This method creates a string containing the XML data being read
+and modified by this class before. This string can be used to save
+a modified document back to a file or doing other nice things with
+it.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $highlight Array containing a list of full document paths of nodes to be highlighted by &lt;font&gt;...&lt;/font&gt; tags in the generated XML string.</Param>
+		<Param>string $currentXpath While doing a recursion with this method, this parameter is used for internal purpose.</Param>
+		<Param>int $level While doing a recursion with this method, this parameter is used for internal purpose.</Param>
+		<Param>$output_as_xml specifies whether or not you want to escape &lt;&gt; as &amp;gt; and &amp;lt;  Added by N.S.</Param>
+		</Parameters>
+		<Return>string The returned string contains well-formed XML data representing the content of this document.</Return>
+	</Function>
+	<Function>
+		<FunctionName>_handleStartElement</FunctionName>
+		<ShortComment>Handles opening XML tags while parsing.</ShortComment>
+		<Prototype>function _handleStartElement($parser, $nodeName, $attributes)</Prototype>
+		<LineNumber>1758</LineNumber>
+		<Comment>While parsing a XML document for each opening tag this method is
+called. It'll add the tag found to the tree of document nodes.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>int $parser Handler for accessing the current XML parser.</Param>
+		<Param>string $name Name of the opening tag found in the document.</Param>
+		<Param>array $attributes Associative array containing a list of all attributes of the tag found in the document.</Param>
+		</Parameters>
+		<See>_handleEndElement(), _handleCharacterData(), $nodes, $ids</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleEndElement</FunctionName>
+		<ShortComment>Handles closing XML tags while parsing.</ShortComment>
+		<Prototype>function _handleEndElement ( $parser, $name)</Prototype>
+		<LineNumber>1788</LineNumber>
+		<Comment>While parsing a XML document for each closing tag this method is called.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>int $parser Handler for accessing the current XML parser.</Param>
+		<Param>string $name Name of the closing tag found in the document.</Param>
+		</Parameters>
+		<See>_handleStartElement(), _handleCharacterData(), $nodes, $ids</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleCharacterData</FunctionName>
+		<ShortComment>Handles character data while parsing.</ShortComment>
+		<Prototype>function _handleCharacterData($parser, $text)</Prototype>
+		<LineNumber>1808</LineNumber>
+		<Comment>While parsing a XML document for each character data this method
+is called. It'll add the character data to the document tree.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>int $parser Handler for accessing the current XML parser.</Param>
+		<Param>string $text Character data found in the document.</Param>
+		</Parameters>
+		<See>_handleStartElement(), _handleEndElement(), $nodes, $ids</See>
+	</Function>
+	<Function>
+		<FunctionName>_bracketExplode</FunctionName>
+		<ShortComment>Split a string by a searator-string -- BUT the searator-string must be located *outside* of any brackets.</ShortComment>
+		<Prototype>function &amp;_bracketExplode($separator, &amp;$term)</Prototype>
+		<LineNumber>1840</LineNumber>
+		<Comment>Returns an array of strings, each of which is a substring of string formed 
+by splitting it on boundaries formed by the string separator. </Comment>
+		<Parameters>
+		<Param>string $separator String that should be searched.</Param>
+		<Param>string $term String in which the search shall take place.</Param>
+		</Parameters>
+		<Return>array (see above)</Return>
+	</Function>
+	<Function>
+		<FunctionName>_getAxis</FunctionName>
+		<ShortComment>Retrieves axis information from an XPath expression step.</ShortComment>
+		<Prototype>function _getAxis($step, $nodePath)</Prototype>
+		<LineNumber>1904</LineNumber>
+		<Comment>This method tries to extract the name of the axis and its node-test
+from a given step of an XPath expression at a given node.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $step String containing a step of an XPath expression.</Param>
+		<Param>string $nodePath Full document path of the node on which the step is executed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing information about the axis found in the step.</Return>
+		<See>_evaluateStep()</See>
+	</Function>
+	<Function>
+		<FunctionName>_isFunction</FunctionName>
+		<ShortComment>Checks for a valid function name.</ShortComment>
+		<Prototype>function _isFunction(&amp;$expression)</Prototype>
+		<LineNumber>2026</LineNumber>
+		<Comment>This method check whether an expression contains a valid name of an
+XPath function.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $expression Name of the function to be checked.</Param>
+		</Parameters>
+		<Return>boolean This method returns TRUE if the given name is a valid XPath function name, otherwise FALSE.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_internalEvaluate</FunctionName>
+		<ShortComment>Internal recursive evaluate an-XPath-expression function.</ShortComment>
+		<Prototype>function _internalEvaluate($xPathQuery, $context='')</Prototype>
+		<LineNumber>2052</LineNumber>
+		<Comment>$this-&gt;evaluate() is the entry point and does some inits, while this 
+function is called recursive internaly for every sub-xPath expresion we find.</Comment>
+		<Parameters>
+		<Param>string $xPathQuery XPath expression to be evaluated.</Param>
+		<Param>string or array $context Full path of a document node, starting from which the XPath expression should be evaluated.</Param>
+		</Parameters>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_evaluateStep</FunctionName>
+		<ShortComment>Evaluates a step of an XPath expression.</ShortComment>
+		<Prototype>function _evaluateStep($context, $steps)</Prototype>
+		<LineNumber>2144</LineNumber>
+		<Comment>This method tries to evaluate a step from an XPath expression at a
+specific context.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string or array $context Full document path of the context from which starting the step should be evaluated.  Either a single context, or an array of contexts.</Param>
+		<Param>array $steps Array containing the remaining steps of the current XPath expression.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes that are the result of evaluating the given XPath step.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_evaluateFunction</FunctionName>
+		<ShortComment>Evaluates an XPath function</ShortComment>
+		<Prototype>function _evaluateFunction($function, $arguments, $node)</Prototype>
+		<LineNumber>2270</LineNumber>
+		<Comment>This method evaluates a given XPath function with its arguments on a
+specific node of the document.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $function Name of the function to be evaluated.</Param>
+		<Param>string $arguments String containing the arguments being passed to the function.</Param>
+		<Param>string $node Full path to the document node on which the function should be evaluated.</Param>
+		</Parameters>
+		<Return>mixed This method returns the result of the evaluation of the function. Depending on the function the type of the  return value can be different.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_evaluatePredicate</FunctionName>
+		<ShortComment>Evaluates a predicate on a node.</ShortComment>
+		<Prototype>function _evaluatePredicate($node, $predicate)</Prototype>
+		<LineNumber>2331</LineNumber>
+		<Comment>This method tries to evaluate a predicate on a given node.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the predicate should be evaluated.</Param>
+		<Param>string $predicate String containing the predicate expression to be evaluated.</Param>
+		</Parameters>
+		<Return>mixed This method is called recursively. The first call should return a boolean value, whether the node matches the predicate or not. Any call to the method being made during the recursion may also return other types for further processing.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_checkPredicates</FunctionName>
+		<ShortComment>-- sb:stoped</ShortComment>
+		<Prototype>function _checkPredicates($nodes, $predicates)</Prototype>
+		<LineNumber>2620</LineNumber>
+		<Comment>Checks whether a node matches predicates.
+
+This method checks whether a list of nodes passed to this method match
+a given list of predicates. </Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $nodes Array of full paths of all nodes to be tested.</Param>
+		<Param>array $predicates Array of predicates to use.</Param>
+		</Parameters>
+		<Return>array The array returned by this method contains a list of all nodes matching the given predicates.</Return>
+		<See>_evaluateStep()</See>
+	</Function>
+	<Function>
+		<FunctionName>_checkNodeTest</FunctionName>
+		<ShortComment>Checks whether a node matches a node-test.</ShortComment>
+		<Prototype>function _checkNodeTest($context, $node_test)</Prototype>
+		<LineNumber>2717</LineNumber>
+		<Comment>This method checks whether a node in the document matches a given
+node-test.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $context Full path of the node, which should be tested for matching the node-test.</Param>
+		<Param>string $node_test String containing the node-test for the node.</Param>
+		</Parameters>
+		<Return>boolean This method returns TRUE if the node matches the node-test, otherwise FALSE.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_Child</FunctionName>
+		<ShortComment>Handles the XPath child axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_Child($axis, $context)</Prototype>
+		<LineNumber>2811</LineNumber>
+		<Comment>This method handles the XPath child axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_parent</FunctionName>
+		<ShortComment>Handles the XPath parent axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_parent ( $axis, $context)</Prototype>
+		<LineNumber>2844</LineNumber>
+		<Comment>This method handles the XPath parent axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_attribute</FunctionName>
+		<ShortComment>Handles the XPath attribute axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_attribute ( $axis, $context)</Prototype>
+		<LineNumber>2871</LineNumber>
+		<Comment>This method handles the XPath attribute axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_self</FunctionName>
+		<ShortComment>Handles the XPath self axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_self ( $axis, $context)</Prototype>
+		<LineNumber>2910</LineNumber>
+		<Comment>This method handles the XPath self axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_descendant</FunctionName>
+		<ShortComment>Handles the XPath descendant axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_descendant ( $axis, $context)</Prototype>
+		<LineNumber>2936</LineNumber>
+		<Comment>This method handles the XPath descendant axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_ancestor</FunctionName>
+		<ShortComment>Handles the XPath ancestor axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_ancestor ( $axis, $context)</Prototype>
+		<LineNumber>2970</LineNumber>
+		<Comment>This method handles the XPath ancestor axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_namespace</FunctionName>
+		<ShortComment>Handles the XPath namespace axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_namespace ( $axis, $context)</Prototype>
+		<LineNumber>3006</LineNumber>
+		<Comment>This method handles the XPath namespace axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_following</FunctionName>
+		<ShortComment>Handles the XPath following axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_following ( $axis, $context)</Prototype>
+		<LineNumber>3033</LineNumber>
+		<Comment>This method handles the XPath following axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_preceding</FunctionName>
+		<ShortComment>Handles the XPath preceding axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_preceding ( $axis, $context)</Prototype>
+		<LineNumber>3076</LineNumber>
+		<Comment>This method handles the XPath preceding axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_following_sibling</FunctionName>
+		<ShortComment>Handles the XPath following-sibling axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_following_sibling ( $axis, $context)</Prototype>
+		<LineNumber>3121</LineNumber>
+		<Comment>This method handles the XPath following-sibling axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_preceding_sibling</FunctionName>
+		<ShortComment>Handles the XPath preceding-sibling axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_preceding_sibling ( $axis, $context)</Prototype>
+		<LineNumber>3168</LineNumber>
+		<Comment>This method handles the XPath preceding-sibling axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_descendant_or_self</FunctionName>
+		<ShortComment>Handles the XPath descendant-or-self axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_descendant_or_self ( $axis, $context)</Prototype>
+		<LineNumber>3209</LineNumber>
+		<Comment>This method handles the XPath descendant-or-self axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleAxis_ancestor_or_self</FunctionName>
+		<ShortComment>Handles the XPath ancestor-or-self axis.</ShortComment>
+		<Prototype>function &amp;_handleAxis_ancestor_or_self ( $axis, $context)</Prototype>
+		<LineNumber>3236</LineNumber>
+		<Comment>This method handles the XPath ancestor-or-self axis.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>array $axis Array containing information about the axis.</Param>
+		<Param>string $context Node from which starting the axis should be processed.</Param>
+		</Parameters>
+		<Return>array This method returns an array containing all nodes  that were found during the evaluation of the given axis.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_last</FunctionName>
+		<ShortComment>Handles the XPath function last.</ShortComment>
+		<Prototype>function _handleFunction_last ( $node, $arguments)</Prototype>
+		<LineNumber>3268</LineNumber>
+		<Comment>This method handles the XPath function last.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_position</FunctionName>
+		<ShortComment>Handles the XPath function position.</ShortComment>
+		<Prototype>function _handleFunction_position ( $node, $arguments)</Prototype>
+		<LineNumber>3291</LineNumber>
+		<Comment>This method handles the XPath function position.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_count</FunctionName>
+		<ShortComment>Handles the XPath function count.</ShortComment>
+		<Prototype>function _handleFunction_count ( $node, $arguments)</Prototype>
+		<LineNumber>3310</LineNumber>
+		<Comment>This method handles the XPath function count.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_id</FunctionName>
+		<ShortComment>Handles the XPath function id.</ShortComment>
+		<Prototype>function _handleFunction_id ( $node, $arguments)</Prototype>
+		<LineNumber>3330</LineNumber>
+		<Comment>This method handles the XPath function id.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_name</FunctionName>
+		<ShortComment>Handles the XPath function name.</ShortComment>
+		<Prototype>function _handleFunction_name ( $node, $arguments)</Prototype>
+		<LineNumber>3372</LineNumber>
+		<Comment>This method handles the XPath function name.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_string</FunctionName>
+		<ShortComment>Handles the XPath function string.</ShortComment>
+		<Prototype>function _handleFunction_string ( $node, $arguments)</Prototype>
+		<LineNumber>3391</LineNumber>
+		<Comment>This method handles the XPath function string.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_concat</FunctionName>
+		<ShortComment>Handles the XPath function concat.</ShortComment>
+		<Prototype>function _handleFunction_concat ( $node, $arguments)</Prototype>
+		<LineNumber>3446</LineNumber>
+		<Comment>This method handles the XPath function concat.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_starts_with</FunctionName>
+		<ShortComment>Handles the XPath function starts-with.</ShortComment>
+		<Prototype>function _handleFunction_starts_with ($node, $arguments)</Prototype>
+		<LineNumber>3480</LineNumber>
+		<Comment>This method handles the XPath function starts-with.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_contains</FunctionName>
+		<ShortComment>Handles the XPath function contains.</ShortComment>
+		<Prototype>function _handleFunction_contains ( $node, $arguments)</Prototype>
+		<LineNumber>3513</LineNumber>
+		<Comment>This method handles the XPath function contains.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_substring_before</FunctionName>
+		<ShortComment>Handles the XPath function substring-before.</ShortComment>
+		<Prototype>function _handleFunction_substring_before ( $node, $arguments)</Prototype>
+		<LineNumber>3549</LineNumber>
+		<Comment>This method handles the XPath function substring-before.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_substring_after</FunctionName>
+		<ShortComment>Handles the XPath function substring-after.</ShortComment>
+		<Prototype>function _handleFunction_substring_after ( $node, $arguments)</Prototype>
+		<LineNumber>3576</LineNumber>
+		<Comment>This method handles the XPath function substring-after.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_substring</FunctionName>
+		<ShortComment>Handles the XPath function substring.</ShortComment>
+		<Prototype>function _handleFunction_substring ( $node, $arguments)</Prototype>
+		<LineNumber>3603</LineNumber>
+		<Comment>This method handles the XPath function substring.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_string_length</FunctionName>
+		<ShortComment>Handles the XPath function string-length.</ShortComment>
+		<Prototype>function _handleFunction_string_length ( $node, $arguments)</Prototype>
+		<LineNumber>3641</LineNumber>
+		<Comment>This method handles the XPath function string-length.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_normalize_space</FunctionName>
+		<ShortComment>Handles the XPath function normalize-space.</ShortComment>
+		<Prototype>function _handleFunction_normalize_space ( $node, $arguments)</Prototype>
+		<LineNumber>3666</LineNumber>
+		<Comment>The normalize-space function returns the argument string with whitespace 
+normalized by stripping leading and trailing whitespace and replacing sequences 
+of whitespace characters by a single space.
+If the argument is omitted, it defaults to the context node converted to a string, 
+in other words the string-value of the context node</Comment>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>string trimed string</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_translate</FunctionName>
+		<ShortComment>Handles the XPath function translate.</ShortComment>
+		<Prototype>function _handleFunction_translate ( $node, $arguments)</Prototype>
+		<LineNumber>3692</LineNumber>
+		<Comment>This method handles the XPath function translate.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_boolean</FunctionName>
+		<ShortComment>Handles the XPath function boolean.</ShortComment>
+		<Prototype>function _handleFunction_boolean ( $node, $arguments)</Prototype>
+		<LineNumber>3722</LineNumber>
+		<Comment>This method handles the XPath function boolean.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_not</FunctionName>
+		<ShortComment>Handles the XPath function not.</ShortComment>
+		<Prototype>function _handleFunction_not ( $node, $arguments)</Prototype>
+		<LineNumber>3774</LineNumber>
+		<Comment>This method handles the XPath function not.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_true</FunctionName>
+		<ShortComment>Handles the XPath function TRUE.</ShortComment>
+		<Prototype>function _handleFunction_true ( $node, $arguments)</Prototype>
+		<LineNumber>3796</LineNumber>
+		<Comment>This method handles the XPath function TRUE.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_false</FunctionName>
+		<ShortComment>Handles the XPath function FALSE.</ShortComment>
+		<Prototype>function _handleFunction_false ( $node, $arguments)</Prototype>
+		<LineNumber>3815</LineNumber>
+		<Comment>This method handles the XPath function FALSE.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_lang</FunctionName>
+		<ShortComment>Handles the XPath function lang.</ShortComment>
+		<Prototype>function _handleFunction_lang ( $node, $arguments)</Prototype>
+		<LineNumber>3834</LineNumber>
+		<Comment>This method handles the XPath function lang.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_number</FunctionName>
+		<ShortComment>Handles the XPath function number.</ShortComment>
+		<Prototype>function _handleFunction_number ( $node, $arguments)</Prototype>
+		<LineNumber>3886</LineNumber>
+		<Comment>This method handles the XPath function number.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_sum</FunctionName>
+		<ShortComment>Handles the XPath function sum.</ShortComment>
+		<Prototype>function _handleFunction_sum ( $node, $arguments)</Prototype>
+		<LineNumber>3921</LineNumber>
+		<Comment>This method handles the XPath function sum.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_floor</FunctionName>
+		<ShortComment>Handles the XPath function floor.</ShortComment>
+		<Prototype>function _handleFunction_floor ( $node, $arguments)</Prototype>
+		<LineNumber>3957</LineNumber>
+		<Comment>This method handles the XPath function floor.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_ceiling</FunctionName>
+		<ShortComment>Handles the XPath function ceiling.</ShortComment>
+		<Prototype>function _handleFunction_ceiling ( $node, $arguments)</Prototype>
+		<LineNumber>3982</LineNumber>
+		<Comment>This method handles the XPath function ceiling.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_round</FunctionName>
+		<ShortComment>Handles the XPath function round.</ShortComment>
+		<Prototype>function _handleFunction_round ( $node, $arguments)</Prototype>
+		<LineNumber>4008</LineNumber>
+		<Comment>This method handles the XPath function round.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_handleFunction_text</FunctionName>
+		<ShortComment>Handles the XPath function text.</ShortComment>
+		<Prototype>function _handleFunction_text ( $node, $arguments)</Prototype>
+		<LineNumber>4034</LineNumber>
+		<Comment>This method handles the XPath function text.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $node Full path of the node on which the function should be processed.</Param>
+		<Param>string $arguments String containing the arguments that were passed to the function.</Param>
+		</Parameters>
+		<Return>mixed Depending on the type of function being processed this  method returns different types.</Return>
+		<See>evaluate()</See>
+	</Function>
+	<Function>
+		<FunctionName>_setContent</FunctionName>
+		<ShortComment>Set the content of a node.</ShortComment>
+		<Prototype>function _setContent($absoluteXPath, $value, $append=FALSE)</Prototype>
+		<LineNumber>4057</LineNumber>
+		<Comment>This method sets the content of a node. If it's an attribute node, then
+the value of the attribute will be set, otherwise the complete character 
+data of the node will be set. Existing content will be overwritten.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $xPathQuery Full document path of the node. *READONLY*</Param>
+		<Param>string $value String containing the content to be set. *READONLY*</Param>
+		<Param>bool   $append TRUE:append $value / FALSE:overwrite with $value</Param>
+		</Parameters>
+	</Function>
+	<Function>
+		<FunctionName>_bracketsCheck</FunctionName>
+		<ShortComment>This method checks the right ammount and match of brackets</ShortComment>
+		<Prototype>function _bracketsCheck(&amp;$term)</Prototype>
+		<LineNumber>4130</LineNumber>
+		<Author>Sam Blume &lt;bs_php@infeer.com&gt;</Author>
+		<Parameters>
+		<Param>string $term String in which is checked.</Param>
+		</Parameters>
+		<Return>bool TRUE: OK / FALSE: KO  </Return>
+		<See>_evaluateStep()</See>
+	</Function>
+	<Function>
+		<FunctionName>_searchString</FunctionName>
+		<ShortComment>Looks for a string within another string.</ShortComment>
+		<Prototype>function _searchString($term, $expression)</Prototype>
+		<LineNumber>4189</LineNumber>
+		<Comment>This method looks for a string within another string. Brackets in the
+string the method is looking through will be respected, which means that
+only if the string the method is looking for is located outside of
+brackets, the search will be successful.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $term String in which the search shall take place.</Param>
+		<Param>string $expression String that should be searched.</Param>
+		</Parameters>
+		<Return>int This method returns -1 if no string was found, otherwise the offset at which the string was found.</Return>
+		<See>_evaluateStep()</See>
+	</Function>
+	<Function>
+		<FunctionName>_prestr</FunctionName>
+		<ShortComment>Retrieves a substring before a delimiter.</ShortComment>
+		<Prototype>function _prestr(&amp;$string, $delimiter, $offset=0)</Prototype>
+		<LineNumber>4239</LineNumber>
+		<Comment>This method retrieves everything from a string before a given delimiter,
+not including the delimiter.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $string String, from which the substring should be extracted.</Param>
+		<Param>string $delimiter String containing the delimiter to use.</Param>
+		</Parameters>
+		<Return>string Substring from the original string before the delimiter.</Return>
+		<See>_afterstr()</See>
+	</Function>
+	<Function>
+		<FunctionName>_afterstr</FunctionName>
+		<ShortComment>Retrieves a substring after a delimiter.</ShortComment>
+		<Prototype>function _afterstr(&amp;$string, $delimiter, $offset=0)</Prototype>
+		<LineNumber>4265</LineNumber>
+		<Comment>This method retrieves everything from a string after a given delimiter,
+not including the delimiter.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>string $string String, from which the substring should be extracted.</Param>
+		<Param>string $delimiter String containing the delimiter to use.</Param>
+		</Parameters>
+		<Return>string Substring from the original string after the delimiter.</Return>
+		<See>_prestr()</See>
+	</Function>
+	<Function>
+		<FunctionName>_displayError</FunctionName>
+		<ShortComment>Displays an error message.</ShortComment>
+		<Prototype>function _displayError($message, $lineNumber='-', $terminate=TRUE)</Prototype>
+		<LineNumber>4282</LineNumber>
+		<Comment>This method displays an error messages and stops the execution of the
+script.</Comment>
+		<Author>Michael P. Mehl &lt;mpm@phpxml.org&gt;</Author>
+		<Parameters>
+		<Param>$message string Error message to be displayed.</Param>
+		<Param>$lineNumber int line number given by __LINE__</Param>
+		<Param>$terminate bool (default TURE) End the execution of this script.</Param>
+		</Parameters>
+	</Function>
+	<Function>
+		<FunctionName>_objectHasContent</FunctionName>
+		<ShortComment>Determine if the function has any content</ShortComment>
+		<Prototype>function _objectHasContent()</Prototype>
+		<LineNumber>4298</LineNumber>
+		<Comment>Returns TRUE if this object has any xml content.  i.e. after a successfull
+load_XXX() call we will have content, but before we shouldn't.</Comment>
+		<Author>Nigel Swinson &lt;nigelswinson@users.sourceforge.net&gt;</Author>
+		<Return>TRUE if the object holds any content, FALSE otherwise.</Return>
+	</Function>
+	<Function>
+		<FunctionName>_beginDebugFunction</FunctionName>
+		<ShortComment>Called to begin the debug run of a function.</ShortComment>
+		<Prototype>function _beginDebugFunction($function_name)</Prototype>
+		<LineNumber>4318</LineNumber>
+		<Comment>This method starts a &lt;DIV&gt;&lt;PRE&gt; tag so that the entry to this function
+is clear to the debugging user.  Call _closeDebugFunction() at the
+end of the function to create a clean box round the function call.</Comment>
+		<Author>Nigel Swinson &lt;nigelswinson@users.sourceforge.net&gt;</Author>
+		<Parameters>
+		<Param>string $FunctionName the name of the function we are beginning to debug</Param>
+		</Parameters>
+		<Return>array the output from the gettimeofday function.</Return>
+		<See>_closeDebugFunction()</See>
+	</Function>
+	<Function>
+		<FunctionName>_closeDebugFunction</FunctionName>
+		<ShortComment>Called to end the debug run of a function.</ShortComment>
+		<Prototype>function _closeDebugFunction($a_starttime, $return_value = "")</Prototype>
+		<LineNumber>4340</LineNumber>
+		<Comment>This method ends a &lt;DIV&gt;&lt;PRE&gt; block and reports the time since $aStartTime
+is clear to the debugging user.</Comment>
+		<Author>Nigel Swinson &lt;nigelswinson@users.sourceforge.net&gt;</Author>
+		<Parameters>
+		<Param>array $a_starttime the time that the function call was started.</Param>
+		<Param>any $return_value the return value from the function call that  we are debugging</Param>
+		</Parameters>
+	</Function>
+	<Function>
+		<FunctionName>_profileFunction</FunctionName>
+		<ShortComment>Call to return time since start of function for Profiling</ShortComment>
+		<Prototype>function _profileFunction($a_starttime, $alert_string)</Prototype>
+		<LineNumber>4362</LineNumber>
+		<Parameters>
+		<Param>array $a_starttime the time that the function call was started.</Param>
+		<Param>string $alert_string the string to describe what has just finished happening</Param>
+		</Parameters>
+	</Function>
+</PhpDocumentation>

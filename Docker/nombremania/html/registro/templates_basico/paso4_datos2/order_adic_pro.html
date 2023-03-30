@@ -1,0 +1,214 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<html>
+
+<HEAD>
+<meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+<!-- #BeginEditable "doctitle" --> 
+<TITLE>NombreMania - Registro y traslado de dominios. Registro de dominios al 
+mejor precio. </TITLE>
+<!-- #EndEditable --> 
+<SCRIPT language="JavaScript">
+<!--
+function MM_openBrWindow(theURL,winName,features) { //v2.0
+  window.open(theURL,winName,features);
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+//-->
+</SCRIPT>
+<meta name="title" content="Registro y traslado de dominios en NombreMania - en tus dominios solo mandas tu">
+<meta name="description" content="Nunca fue tan facil registrar y trasladar dominios. En NombreMania ofrecemos registro de dominios al mejor precio, en castellano y con las herramientas mas potentes de administraciÛn.">
+<meta name="keywords" content="registro de dominios, registrar dominios, dominios, traslado, renovar, registro dominios espaÒol">
+<meta name="language" content="Spanish">
+<meta http-equiv="undefined" content="El Sur Existe s.l.">
+<meta name="copyright" content="El Sur Existe s.l.">
+<meta name="revisit-after" content="30 days">
+<meta name="document-classification" content="Internet Services">
+<meta name="document-rights" content="Copyrighted Work">
+<meta name="document-type" content="Public">
+<meta name="document-rating" content="General">
+<meta name="Abstract" content="Nunca fue tan facil registrar y trasladar dominios. En NombreMania ofrecemos registro de dominios al mejor precio, en espaÒol y con las herramientas m·s potentes de administraciÛn.">
+<meta name="Target" content="registro de dominios, registrar dominios, dominios, traslado, renovar, registro dominios espaÒol">
+<meta http-equiv="Content-Language" content="ES">
+<link rel="stylesheet" href="/Templates/nm2_base_registro.css" type="text/css">
+</HEAD>
+
+<body bgcolor="#ffcc00" onLoad="MM_preloadImages('/imagenes/base3/simbolo_f2.gif','/imagenes/base3/logo_f2.gif','/imagenes/base3/registrar_f2.gif','/imagenes/base3/trasladar_f2.gif','/imagenes/base3/administrar_f2.gif','/imagenes/base3/comprar_f2.gif','/imagenes/base3/alquiler_f2.gif','/imagenes/base3/demo_f2.gif','/imagenes/base3/precios_f2.gif','/imagenes/base3/afiliados_f2.gif','/imagenes/base3/ayuda_f2.gif','/imagenes/base3/whois_f2.gif')">
+
+<script language="JavaScript" type="text/javascript">
+<!--
+function cambiar_radio(){
+  otro_paso.wp_o_wf[1].checked=true;
+}
+
+//-->
+</script>
+
+
+            <table border=0 width="520" align="center" cellpadding="3" bgcolor="#ffffff" >
+              <tr> 
+                <td colspan="3" height="20" class="titu_pags"><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1" class="titu_pags_previo">{{reg_text}} 
+                  de Dominio</font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><br>
+                  </font></b><b><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><font size="2">REDIRECCIONES</font></font></b></td>
+              </tr>
+              <tr> 
+                <td colspan="3"> 
+                  <form method=post action="{{CGI}}" name=otro_paso >
+                    <input type="hidden" name=action value="otro_paso">
+                    <table border=0 cellpadding=5 cellspacing=0 width="521">
+                      <tr> 
+                        <td colspan="2"> <br>
+                          <table border=0 width=100% cellpadding="2" cellspacing="1">
+                            <tr> 
+                              <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Servicio 
+                                contratado:</b></td>
+                              <td align=left class="td_form_valor"><span class="body_9">{{nm_registro_tipo_text}}</span></td>
+                            </tr>
+                            <tr> 
+                              <td align=right bgcolor="#DEDEDE" class="td_form_titulo" width="150"><b>Dominios:</b></td>
+                              <td align=left class="td_form_valor"><b class="matches">{{domains}}</b></td>
+                            </tr>
+                            <tr> 
+                              <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Importe:</b></td>
+                              <td align=left class="td_form_valor"><span class="body_9">{{nm_preciototal}} 
+                                (<a href="#" onClick="MM_popupMsg('A los titulares de dominios residentes en Espa&ntilde;a se les gravar&aacute; \run 16% de IVA adicional al final del proceso de registro. ')"><b>IVA 
+                                NO INCLUIDO</b></a>)</span></td>
+                            </tr>
+                            <tr> 
+                              <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Periodo 
+                                del registro:</b></td>
+                              <td align=left class="td_form_valor"> <span class="body_9">{{period_text}} </SPAN>
+                              </td>
+                            </tr>
+                            <tr> 
+                              <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Basado 
+                                en Perfi:</b></td>
+                              <td align=left class="td_form_valor">  
+                                <span class="body_9">{{reg_profile}}</span> </td>
+                            </tr>
+                            <tr> 
+                              <td bgcolor="#DEDEDE" align=right class="td_form_titulo" width="150"><b>Tipo</b>:</td>
+                              <td align=left class="td_form_valor"> <span class="body_9">{{reg_type_text}}</span> 
+                              </td>
+                            </tr>
+                          </table>
+                          <br>
+                          <table width="100%">
+                            <tr> 
+                              <td colspan=2 align=left class="titu_secciones" bgcolor="#003366"> 
+                                <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><b><font size="1">Redireccionamiento 
+                                y Parking</font></b></font> <a href="javascript:;" onClick="MM_openBrWindow('','','','640','480','false')"><img src="/imagenes/ico_ayuda2.gif" width="16" height="16" align="absmiddle" border="0" alt="Ayuda"></a> 
+                              </td>
+                            </tr>
+                            <tr> 
+                              <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>Mostrar: 
+                                </b></font></td>
+                              <td class="td_form_valor"><b> 
+                                <input type="radio" name="wp_o_wf" value="parking" {{parking_checked}} class="input_radios" >
+                                Parking</b></td>
+                            </tr>
+                            <tr> 
+                              <td align=right>&nbsp;</td>
+                              <td class="td_form_valor">&nbsp;Modelo de p&aacute;gina: 
+                                <select size="1" name="parking_tipo">
+                                  {{list_parking}}
+                                </select>
+                                <a href="/demos/parking/">[ver muestras]</a></td>
+                            </tr>
+                            <tr> 
+                              <td align=right height="17">&nbsp;</td>
+                              <td height="17">&nbsp;</td>
+                            </tr>
+                            <tr> 
+                              <td align=right bgcolor="#FFCC00" class="td_form_titulo">&nbsp;</td>
+                              <td class="td_form_valor" valign="middle"><b> 
+                                <input type="radio" name="wp_o_wf" value="webforward" {{webforward_checked}} class="td_form_valor">
+                                Redirecci&oacute;n</b> (WebForward)</td>
+                            </tr>
+                            <tr> 
+                              <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>URL 
+                                </b></font></td>
+                              <td class="td_form_valor"> 
+                                <input type=text name="webforward" size=35 value="{{v_webforward}}"  onChange="cambiar_radio()" >
+                                <br>
+                                <span class="body_9">Introduzca una URL completa 
+                                del tipo &quot;http://www.dominio.com/midirectorio/&quot;</span></td>
+                            </tr>
+                            <tr> 
+                              <td colspan=2 align=center height="3"><img src="/imagenes/shim.gif" width="4" height="10"></td>
+                            </tr>
+                            <tr> 
+                              <td colspan=2 align=center height="10">&nbsp;</td>
+                            </tr>
+                          </table>
+                          <!-- BEGIN mailforward -->
+                          <table width="100%">
+                            <tr> 
+                              <td colspan=2 align=left class="titu_secciones" bgcolor="#003366"> 
+                                <font size="2" face="Verdana, Arial, Helvetica, sans-serif" color="#FFFFFF"><b><font size="1">Redirecci&oacute;n 
+                                de correo (MailForward)</font></b></font> <a href="javascript:;" onClick="MM_openBrWindow('','','','640','480','false')"><img src="/imagenes/ico_ayuda2.gif" width="16" height="16" align="absmiddle" border="0" alt="Ayuda"></a> 
+                              </td>
+                            </tr>
+                            <tr> 
+                              <td colspan=2 align=center height="3"><img src="/imagenes/shim.gif" width="4" height="10"></td>
+                            </tr>
+                            <tr> 
+                              <td align=right bgcolor="#FFCC00" class="td_form_titulo" height="44"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>email 
+                                dirigido a:</b></font></td>
+                              <td class="td_form_valor" height="44"> 
+                                <input type="text" name="email_desde" size="18" maxsize="50">
+                                <span class="body_9"><b>@dominio/s solicitados</b></span> 
+                                <br>
+                                <span class="body_9"> &nbsp;introduzca un asterisco 
+                                &quot;*&quot; para reenviar todo</span></td>
+                            </tr>
+                            <tr> 
+                              <td align=right bgcolor="#FFCC00" class="td_form_titulo"><font face="Verdana, Arial, Helvetica, sans-serif" size="1"><b>se 
+                                reenviar&aacute; a</b></font>:</td>
+                              <td class="td_form_valor"> 
+                                <input name="email_hasta" size=30 maxsize="50">
+                              </td>
+                            </tr>
+                            <tr> 
+                              <td colspan=2 align=center height="10"><img src="/imagenes/shim.gif" width="4" height="10"></td>
+                            </tr>
+                          </table>
+                          <!-- END mailforward -->
+                        </td>
+                      </tr>
+                      <tr align="center"> 
+                        <td colspan="2"> 
+                          <center>
+                            <input type="image" border="0" name="x_imageField2" src="/imagenes/continuar.gif" align="middle">
+                          </center>
+                        </td>
+                      </tr>
+                    </table>
+                  </form>
+                </td>
+              </tr>
+            </table>
+</body>
+</HTML>

@@ -1,0 +1,38 @@
+ 
+<table border="0" cellpadding="0" cellspacing="0" align="left">
+  <tr> 
+    <td><img name="izs" src="/imagenes/marco/izs.gif" width="9" height="9" border="0"></td>
+    <td background="/imagenes/marco/mea.gif"><img name="mea" src="/imagenes/marco/mea.gif" width="82" height="9" border="0"></td>
+    <td><img name="des" src="/imagenes/marco/des.gif" width="9" height="9" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/marco/izm.gif"><img name="izm" src="/imagenes/marco/izm.gif" width="9" height="43" border="0"></td>
+    <td valign='middle' align="left" bgcolor="#FFFFFF"> 
+      <form name='formulario' method='post' action='/dominator.php'>
+        <input type="hidden" name="affiliate_id" value="<? echo $affiliate_id?>">
+        <input type="hidden" name="action" value="lookup">
+        <input type='text' name='domain' size='25' maxlength=67>
+        <input type="image" src='/imagenes/buscar.gif' align='middle' border='0' name='buscar'>
+      </form>
+    </td>
+    <td background="/imagenes/marco/dem.gif"><img name="dem" src="/imagenes/marco/dem.gif" width="9" height="43" border="0"></td>
+  </tr>
+  <tr> 
+    <td background="/imagenes/marco/izm.gif"><img name="izm" src="/imagenes/marco/izm.gif" width="9" height="43" border="0"></td>
+    <td class="td_form_titulo"> 
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Introduce 
+        el nombre en min&uacute;sculas sin www. <br>
+        No olvides la extensi&oacute;n <b>.com .net .org .tv .cc .es</b></font></p>
+      <p><font face="Verdana, Arial, Helvetica, sans-serif" size="1">Generador 
+        de nombres con la <a href="/registrar_avan.php">b&uacute;squeda avanzada 
+        </a></font> </p>
+    </td>
+    <td background="/imagenes/marco/dem.gif"><img name="dem" src="/imagenes/marco/dem.gif" width="9" height="43" border="0"></td>
+  </tr>
+  <tr> 
+    <td><img name="izb" src="/imagenes/marco/izb.gif" width="9" height="9" border="0"></td>
+    <td background="/imagenes/marco/meb.gif"><img name="meb" src="/imagenes/marco/meb.gif" width="82" height="9" border="0"></td>
+    <td><img name="deb" src="/imagenes/marco/deb.gif" width="9" height="9" border="0"></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
