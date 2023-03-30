@@ -10,7 +10,7 @@ exit;
 <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
 <!-- #BeginEditable "doctitle" --> 
 <TITLE>Programa de afiliados de NombreMania</TITLE>
-<!-- #EndEditable --> 
+<!-- #EndEditable -->     
 <SCRIPT language="JavaScript">
 <!--
 function MM_openBrWindow(theURL,winName,features) { //v2.0
